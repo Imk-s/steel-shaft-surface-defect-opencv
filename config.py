@@ -5,7 +5,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent
 
 # 输入输出
-IMAGE_PATH = PROJECT_ROOT / "testpicture" / "MVIMG_20260923_183352.jpg"
+IMAGE_PATH = PROJECT_ROOT / "testpicture" / "max.jpg"
 RESULT_PATH = PROJECT_ROOT / "result.jpg"
 MASK_PATH = PROJECT_ROOT / "mask.jpg"
 
@@ -35,6 +35,12 @@ SCRATCH_MIN_ASPECT_RATIO = 2.5
 PIT_MIN_AREA = 32
 PIT_MIN_CIRCULARITY = 0.55
 PIT_MAX_ASPECT_RATIO = 5.0
+
+# 圆柱投影中央有效测量区域：|x - x_c| <= ratio * R_px
+MEASURABLE_RADIUS_RATIO = 0.60
+MIN_DEFECT_SIZE_MM = 0.25
+SCRATCH_PCA_RADIUS_PX = 10.0
+SCRATCH_BOUNDARY_STEP_PX = 0.25
 
 # 像素到毫米的标定比例，未标定时保持 None
 PIXEL_TO_MM_SCALE = None

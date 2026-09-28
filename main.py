@@ -6,7 +6,6 @@ from config import (
     IMAGE_PATH,
     MASK_PATH,
     PIT_COLOR,
-    PIXEL_TO_MM_SCALE,
     RESULT_PATH,
     SCRATCH_COLOR,
     TEXT_COLOR,
@@ -17,6 +16,15 @@ from debug_utils import (
     start_debug_run,
 )
 from detector import detect_pit, detect_scratch, measure_scratch_width
+from measurement import (
+    DEFAULT_SHAFT_MASK_PATH,
+    calibrate_shaft_mask,
+    create_shaft_mask_from_roi,
+    measure_pit_contour,
+    measure_scratch_contour,
+    print_calibration,
+    prompt_diameter_mm,
+)
 from preprocess import preprocess_image
 
 
@@ -38,9 +46,8 @@ def write_image(path, image):
     encoded.tofile(str(path))
 
 
-def draw_detection(result, detection, roi_x, roi_y):
+def draw_detection(result, detection, measurement, roi_x, roi_y):
     defect_type = detection["type"]
-    size_px = detection["size_px"]
     center_x, center_y = detection["center"]
     draw_x = int(center_x + roi_x)
     draw_y = int(center_y + roi_y)
@@ -53,9 +60,11 @@ def draw_detection(result, detection, roi_x, roi_y):
         print(
             "Scratch:",
             "area =", detection["area"],
-            "width =", detection["width_px"],
+            "width_px =", detection["width_px"],
+            "width_mm =", measurement.width_mm,
             "ratio =", detection["aspect_ratio"],
         )
+        size_mm = measurement.width_mm
     else:
         cv2.circle(
             result,
@@ -67,13 +76,12 @@ def draw_detection(result, detection, roi_x, roi_y):
         print(
             "Pit:",
             "area =", detection["area"],
+            "diameter_mm =", measurement.diameter_mm,
             "circularity =", detection["circularity"],
         )
+        size_mm = measurement.diameter_mm
 
-    if PIXEL_TO_MM_SCALE is not None:
-        text = f"{defect_type}: {size_px * PIXEL_TO_MM_SCALE:.2f} mm"
-    else:
-        text = f"{defect_type}: {size_px:.1f} px"
+    text = f"{defect_type}: {size_mm:.2f} mm"
 
     cv2.putText(
         result,
@@ -94,6 +102,7 @@ def main():
         return
 
     result = image.copy()
+    print("请框选钢轴：左右边缘贴紧钢轴两侧，上下覆盖主体即可")
     roi_x, roi_y, roi_w, roi_h = cv2.selectROI(
         "Select ROI",
         image,
@@ -104,6 +113,15 @@ def main():
     if roi_w == 0 or roi_h == 0:
         print("没有选择 ROI")
         return
+
+    shaft_mask = create_shaft_mask_from_roi(
+        image,
+        (roi_x, roi_y, roi_w, roi_h),
+    )
+    write_image(DEFAULT_SHAFT_MASK_PATH, shaft_mask)
+    diameter_mm = prompt_diameter_mm()
+    calibration = calibrate_shaft_mask(shaft_mask, diameter_mm)
+    print_calibration(calibration)
 
     crop = image[roi_y:roi_y + roi_h, roi_x:roi_x + roi_w]
     processed = preprocess_image(crop)
@@ -141,8 +159,47 @@ def main():
                 width_info,
             )
 
-        if detection is not None:
-            draw_detection(result, detection, roi_x, roi_y)
+        if detection is None:
+            continue
+
+        if detection["type"] == "Scratch":
+            physical_measurement = measure_scratch_contour(
+                contour,
+                calibration,
+            )
+            size_name = "width"
+            size_mm = physical_measurement.width_mm
+        else:
+            physical_measurement = measure_pit_contour(
+                contour,
+                calibration,
+            )
+            size_name = "diameter"
+            size_mm = physical_measurement.diameter_mm
+
+        if not physical_measurement.measurable:
+            print(
+                f"[MEASURE C{contour_id}] {detection['type']} "
+                f"不可测: {physical_measurement.reason}"
+            )
+            continue
+
+        print(
+            f"[MEASURE C{contour_id}] {detection['type']} "
+            f"{size_name}={size_mm:.6f} mm "
+            f"valid={physical_measurement.valid}"
+        )
+
+        if not physical_measurement.valid:
+            continue
+
+        draw_detection(
+            result,
+            detection,
+            physical_measurement,
+            roi_x,
+            roi_y,
+        )
 
     if debug_context is not None:
         finish_debug_run(
