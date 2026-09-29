@@ -39,11 +39,21 @@ def save_debug_image(path, image):
     encoded.tofile(str(path))
 
 
-def start_debug_run(mask, crop, raw_contours):
+def start_debug_run(mask, crop, raw_contours, *, output_root=None, save_images=True):
     """创建本轮 Debug 目录，并标记原始 mask 的所有 M 轮廓。"""
     run_name = datetime.now().strftime("run_%Y%m%d_%H%M%S_%f")[:-3]
-    run_dir = DEBUG_OUTPUT_ROOT / run_name
-    run_dir.mkdir(parents=True, exist_ok=False)
+    root = DEBUG_OUTPUT_ROOT if output_root is None else Path(output_root)
+    run_dir = root / run_name
+    if save_images:
+        # 同毫秒重复运行时使用递增后缀，保持已有目录和文件完整。
+        suffix = 0
+        while True:
+            try:
+                run_dir.mkdir(parents=True, exist_ok=False)
+                break
+            except FileExistsError:
+                suffix += 1
+                run_dir = root / f"{run_name}_{suffix}"
 
     mask_contours = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
     mask_color = (0, 165, 255)
@@ -302,19 +312,20 @@ def _pit_rejection_reasons(
     return reasons
 
 
-def finish_debug_run(context, raw_contour_count, clean_contour_count):
-    save_debug_image(
-        context.run_dir / "debug_mask_contours.jpg",
-        context.mask_contours,
-    )
-    save_debug_image(
-        context.run_dir / "debug_clean_contours.jpg",
-        context.clean_contours,
-    )
-    save_debug_image(
-        context.run_dir / "debug_rejected_only.jpg",
-        context.rejected_contours,
-    )
+def finish_debug_run(context, raw_contour_count, clean_contour_count, *, save_images=True):
+    if save_images:
+        save_debug_image(
+            context.run_dir / "debug_mask_contours.jpg",
+            context.mask_contours,
+        )
+        save_debug_image(
+            context.run_dir / "debug_clean_contours.jpg",
+            context.clean_contours,
+        )
+        save_debug_image(
+            context.run_dir / "debug_rejected_only.jpg",
+            context.rejected_contours,
+        )
     print(
         "[DEBUG] 阈值轮廓:",
         raw_contour_count,
@@ -322,4 +333,7 @@ def finish_debug_run(context, raw_contour_count, clean_contour_count):
         clean_contour_count,
     )
     print("[DEBUG] 颜色: 红色=Scratch 绿色=Pit 黄色=Rejected")
-    print("[DEBUG] 调试图片目录:", context.run_dir)
+    if save_images:
+        print("[DEBUG] 调试图片目录:", context.run_dir)
+    else:
+        print("[DEBUG] 本轮仅返回内存调试图片，未写盘")

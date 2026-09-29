@@ -1,0 +1,1895 @@
+[PIPELINE] 原图=966x667 ROI=(198, 128, 607, 421) D_mm=30.12
+[PIPELINE] 当前尺寸门槛=0.25 mm
+=== 钢轴标定结果 ===
+主体 bounding box: x0=0, y0=0, w=607, h=421
+中间测量行: y=[84, 337)
+有效测量行: 253/253
+D_mm = 30.120000 mm
+D_px = 607.000000 px
+x_c  = 303.000000 px
+R_px = 303.500000 px
+R_mm = 15.060000 mm
+k    = 0.049621087 mm/px
+[MASK M0] area=2.5 perimeter=7.4 bbox=(312,419,4,2)
+[MASK M1] area=1.5 perimeter=5.4 bbox=(285,419,3,2)
+[MASK M2] area=1.5 perimeter=5.4 bbox=(267,419,3,2)
+[MASK M3] area=2.5 perimeter=9.4 bbox=(248,419,5,2)
+[MASK M4] area=4.5 perimeter=11.4 bbox=(201,419,6,2)
+[MASK M5] area=1.0 perimeter=4.8 bbox=(194,419,3,2)
+[MASK M6] area=4.0 perimeter=17.7 bbox=(323,418,8,3)
+[MASK M7] area=5.5 perimeter=15.1 bbox=(296,418,7,3)
+[MASK M8] area=13.0 perimeter=23.7 bbox=(211,418,12,3)
+[MASK M9] area=11.0 perimeter=19.7 bbox=(459,417,9,4)
+[MASK M10] area=50.0 perimeter=70.5 bbox=(423,417,35,4)
+[MASK M11] area=0.0 perimeter=2.0 bbox=(354,416,2,1)
+[MASK M12] area=16.5 perimeter=19.9 bbox=(347,415,8,6)
+[MASK M13] area=12.0 perimeter=36.5 bbox=(549,414,18,3)
+[MASK M14] area=0.0 perimeter=0.0 bbox=(497,414,1,1)
+[MASK M15] area=18.0 perimeter=21.7 bbox=(257,414,7,7)
+[MASK M16] area=77.5 perimeter=91.2 bbox=(138,414,43,7)
+[MASK M17] area=0.0 perimeter=2.0 bbox=(68,414,2,1)
+[MASK M18] area=0.0 perimeter=2.0 bbox=(16,414,2,1)
+[MASK M19] area=65.5 perimeter=78.7 bbox=(569,413,38,4)
+[MASK M20] area=0.0 perimeter=0.0 bbox=(58,413,1,1)
+[MASK M21] area=0.0 perimeter=0.0 bbox=(55,413,1,1)
+[MASK M22] area=0.0 perimeter=0.0 bbox=(520,412,1,1)
+[MASK M23] area=2.5 perimeter=9.4 bbox=(511,412,5,2)
+[MASK M24] area=0.0 perimeter=0.0 bbox=(500,412,1,1)
+[MASK M25] area=0.0 perimeter=0.0 bbox=(497,412,1,1)
+[MASK M26] area=5.5 perimeter=14.2 bbox=(309,412,5,4)
+[MASK M27] area=0.0 perimeter=2.8 bbox=(335,411,2,2)
+[MASK M28] area=19.0 perimeter=21.7 bbox=(228,410,4,10)
+[MASK M29] area=151.0 perimeter=137.3 bbox=(83,410,62,11)
+[MASK M30] area=1.5 perimeter=10.2 bbox=(40,410,5,2)
+[MASK M31] area=34.0 perimeter=40.1 bbox=(60,408,18,5)
+[MASK M32] area=1.5 perimeter=7.4 bbox=(501,407,4,2)
+[MASK M33] area=0.0 perimeter=6.0 bbox=(37,407,4,1)
+[MASK M34] area=17.5 perimeter=31.9 bbox=(14,407,15,3)
+[MASK M35] area=12.5 perimeter=22.2 bbox=(0,407,11,3)
+[MASK M36] area=16.5 perimeter=23.1 bbox=(506,406,11,3)
+[MASK M37] area=0.0 perimeter=0.0 bbox=(543,405,1,1)
+[MASK M38] area=8.5 perimeter=28.4 bbox=(535,405,8,8)
+[MASK M39] area=27.5 perimeter=36.7 bbox=(518,405,17,5)
+[MASK M40] area=42.0 perimeter=57.9 bbox=(545,404,22,7)
+[MASK M41] area=1.0 perimeter=4.0 bbox=(314,404,2,2)
+[MASK M42] area=0.0 perimeter=4.0 bbox=(349,403,1,3)
+[MASK M43] area=22.0 perimeter=20.5 bbox=(209,403,5,9)
+[MASK M44] area=2.5 perimeter=6.2 bbox=(203,402,3,3)
+[MASK M45] area=13.0 perimeter=21.7 bbox=(53,402,11,3)
+[MASK M46] area=0.0 perimeter=4.0 bbox=(566,401,3,1)
+[MASK M47] area=0.0 perimeter=14.0 bbox=(579,400,8,1)
+[MASK M48] area=11.0 perimeter=14.5 bbox=(339,400,5,6)
+[MASK M49] area=1.0 perimeter=6.8 bbox=(236,400,3,3)
+[MASK M50] area=0.0 perimeter=8.0 bbox=(548,399,5,1)
+[MASK M51] area=0.0 perimeter=0.0 bbox=(537,399,1,1)
+[MASK M52] area=11.5 perimeter=17.9 bbox=(415,399,8,4)
+[MASK M53] area=0.0 perimeter=6.0 bbox=(12,399,4,1)
+[MASK M54] area=0.0 perimeter=0.0 bbox=(606,398,1,1)
+[MASK M55] area=0.0 perimeter=2.0 bbox=(562,398,2,1)
+[MASK M56] area=0.0 perimeter=4.8 bbox=(383,398,3,2)
+[MASK M57] area=9.0 perimeter=17.7 bbox=(46,397,8,4)
+[MASK M58] area=10.0 perimeter=21.7 bbox=(267,396,3,11)
+[MASK M59] area=29.5 perimeter=23.9 bbox=(227,396,5,11)
+[MASK M60] area=5.5 perimeter=9.4 bbox=(294,395,3,4)
+[MASK M61] area=0.0 perimeter=0.0 bbox=(162,395,1,1)
+[MASK M62] area=10.0 perimeter=11.7 bbox=(309,394,4,5)
+[MASK M63] area=0.0 perimeter=0.0 bbox=(16,394,1,1)
+[MASK M64] area=0.5 perimeter=3.4 bbox=(375,392,2,2)
+[MASK M65] area=0.5 perimeter=3.4 bbox=(117,392,2,2)
+[MASK M66] area=25.0 perimeter=39.7 bbox=(26,392,20,3)
+[MASK M67] area=30.0 perimeter=24.5 bbox=(239,391,11,5)
+[MASK M68] area=9.5 perimeter=16.2 bbox=(328,389,7,4)
+[MASK M69] area=9.0 perimeter=27.7 bbox=(273,389,3,14)
+[MASK M70] area=0.5 perimeter=3.4 bbox=(417,388,2,2)
+[MASK M71] area=108.0 perimeter=129.4 bbox=(536,387,51,9)
+[MASK M72] area=0.0 perimeter=4.0 bbox=(18,387,3,1)
+[MASK M73] area=21.5 perimeter=35.9 bbox=(590,386,17,4)
+[MASK M74] area=0.0 perimeter=0.0 bbox=(388,385,1,1)
+[MASK M75] area=0.0 perimeter=0.0 bbox=(251,385,1,1)
+[MASK M76] area=12.0 perimeter=24.5 bbox=(24,385,12,3)
+[MASK M77] area=1.5 perimeter=6.2 bbox=(504,384,3,3)
+[MASK M78] area=6.5 perimeter=17.9 bbox=(366,384,7,4)
+[MASK M79] area=0.0 perimeter=2.0 bbox=(351,384,2,1)
+[MASK M80] area=0.0 perimeter=0.0 bbox=(331,384,1,1)
+[MASK M81] area=0.0 perimeter=0.0 bbox=(562,383,1,1)
+[MASK M82] area=152.0 perimeter=78.8 bbox=(427,383,17,19)
+[MASK M83] area=27.5 perimeter=19.9 bbox=(310,383,6,8)
+[MASK M84] area=46.0 perimeter=50.3 bbox=(448,382,13,14)
+[MASK M85] area=0.5 perimeter=3.4 bbox=(373,381,2,2)
+[MASK M86] area=0.0 perimeter=8.0 bbox=(12,381,5,1)
+[MASK M87] area=5.5 perimeter=10.2 bbox=(569,380,5,3)
+[MASK M88] area=0.0 perimeter=2.0 bbox=(449,380,1,2)
+[MASK M89] area=13.5 perimeter=15.1 bbox=(200,380,5,6)
+[MASK M90] area=6.0 perimeter=10.8 bbox=(517,379,4,4)
+[MASK M91] area=0.5 perimeter=5.4 bbox=(275,379,2,3)
+[MASK M92] area=6.0 perimeter=11.7 bbox=(288,378,6,3)
+[MASK M93] area=5.5 perimeter=18.2 bbox=(227,378,3,9)
+[MASK M94] area=0.5 perimeter=7.4 bbox=(97,378,4,2)
+[MASK M95] area=2.0 perimeter=6.8 bbox=(410,377,3,3)
+[MASK M96] area=1.0 perimeter=6.8 bbox=(269,377,2,4)
+[MASK M97] area=0.0 perimeter=0.0 bbox=(261,377,1,1)
+[MASK M98] area=24.0 perimeter=28.5 bbox=(18,377,13,5)
+[MASK M99] area=0.5 perimeter=5.4 bbox=(544,376,2,3)
+[MASK M100] area=1.5 perimeter=7.4 bbox=(280,376,4,2)
+[MASK M101] area=19.0 perimeter=26.5 bbox=(0,376,11,5)
+[MASK M102] area=2.5 perimeter=9.4 bbox=(576,375,5,2)
+[MASK M103] area=2.0 perimeter=6.0 bbox=(263,375,2,3)
+[MASK M104] area=0.5 perimeter=3.4 bbox=(380,373,2,2)
+[MASK M105] area=45.5 perimeter=43.6 bbox=(336,373,7,19)
+[MASK M106] area=6.5 perimeter=15.1 bbox=(325,373,3,7)
+[MASK M107] area=6.5 perimeter=10.2 bbox=(243,373,4,4)
+[MASK M108] area=0.0 perimeter=2.0 bbox=(100,373,1,2)
+[MASK M109] area=12.0 perimeter=14.5 bbox=(508,372,5,6)
+[MASK M110] area=0.0 perimeter=0.0 bbox=(349,372,1,1)
+[MASK M111] area=10.0 perimeter=17.3 bbox=(345,372,7,6)
+[MASK M112] area=0.0 perimeter=6.0 bbox=(234,372,1,4)
+[MASK M113] area=0.5 perimeter=3.4 bbox=(222,372,2,2)
+[MASK M114] area=7.0 perimeter=10.8 bbox=(208,372,3,5)
+[MASK M115] area=12.5 perimeter=19.1 bbox=(583,371,7,5)
+[MASK M116] area=3.0 perimeter=7.7 bbox=(391,371,4,3)
+[MASK M117] area=11.5 perimeter=15.9 bbox=(372,371,6,5)
+[MASK M118] area=38.5 perimeter=31.9 bbox=(303,370,6,14)
+[MASK M119] area=12.5 perimeter=15.1 bbox=(271,370,4,7)
+[MASK M120] area=35.0 perimeter=44.1 bbox=(589,369,18,7)
+[MASK M121] area=2.0 perimeter=6.0 bbox=(495,369,2,3)
+[MASK M122] area=9.0 perimeter=13.7 bbox=(471,369,5,5)
+[MASK M123] area=19.5 perimeter=24.7 bbox=(415,369,6,10)
+[MASK M124] area=28.5 perimeter=21.1 bbox=(290,369,8,6)
+[MASK M125] area=7.0 perimeter=10.8 bbox=(16,369,5,3)
+[MASK M126] area=1.5 perimeter=5.4 bbox=(505,368,2,3)
+[MASK M127] area=0.0 perimeter=0.0 bbox=(88,368,1,1)
+[MASK M128] area=5.0 perimeter=8.8 bbox=(522,367,4,3)
+[MASK M129] area=23.5 perimeter=35.2 bbox=(245,367,10,11)
+[MASK M130] area=0.5 perimeter=3.4 bbox=(401,366,2,2)
+[MASK M131] area=0.0 perimeter=2.0 bbox=(177,366,1,2)
+[MASK M132] area=0.5 perimeter=6.2 bbox=(302,365,3,3)
+[MASK M133] area=0.0 perimeter=0.0 bbox=(600,364,1,1)
+[MASK M134] area=0.0 perimeter=2.8 bbox=(594,364,2,2)
+[MASK M135] area=22.5 perimeter=25.9 bbox=(319,364,8,8)
+[MASK M136] area=0.5 perimeter=3.4 bbox=(296,364,2,2)
+[MASK M137] area=4.0 perimeter=9.7 bbox=(236,364,3,5)
+[MASK M138] area=27.5 perimeter=23.9 bbox=(226,364,9,6)
+[MASK M139] area=13.0 perimeter=16.5 bbox=(448,363,6,5)
+[MASK M140] area=5.0 perimeter=15.7 bbox=(349,363,3,8)
+[MASK M141] area=7.0 perimeter=11.7 bbox=(343,363,4,5)
+[MASK M142] area=0.0 perimeter=2.0 bbox=(465,362,1,2)
+[MASK M143] area=125.0 perimeter=98.4 bbox=(425,362,19,21)
+[MASK M144] area=0.0 perimeter=0.0 bbox=(314,361,1,1)
+[MASK M145] area=24.0 perimeter=19.3 bbox=(328,360,8,6)
+[MASK M146] area=43.0 perimeter=25.3 bbox=(252,360,9,8)
+[MASK M147] area=0.0 perimeter=2.0 bbox=(233,360,1,2)
+[MASK M148] area=9.5 perimeter=12.2 bbox=(219,360,5,4)
+[MASK M149] area=0.0 perimeter=2.0 bbox=(52,360,2,1)
+[MASK M150] area=47.5 perimeter=31.6 bbox=(409,359,12,7)
+[MASK M151] area=1.5 perimeter=6.2 bbox=(393,359,3,3)
+[MASK M152] area=35.0 perimeter=32.1 bbox=(279,359,12,9)
+[MASK M153] area=79.0 perimeter=35.3 bbox=(0,359,13,9)
+[MASK M154] area=83.5 perimeter=55.6 bbox=(364,357,23,8)
+[MASK M155] area=0.0 perimeter=2.0 bbox=(581,356,1,2)
+[MASK M156] area=26.0 perimeter=37.0 bbox=(554,356,8,16)
+[MASK M157] area=0.5 perimeter=3.4 bbox=(524,356,2,2)
+[MASK M158] area=0.0 perimeter=2.0 bbox=(239,356,2,1)
+[MASK M159] area=6.5 perimeter=13.1 bbox=(207,356,4,5)
+[MASK M160] area=0.0 perimeter=0.0 bbox=(171,356,1,1)
+[MASK M161] area=10.0 perimeter=26.1 bbox=(15,356,8,6)
+[MASK M162] area=2.5 perimeter=6.2 bbox=(398,355,3,3)
+[MASK M163] area=3.0 perimeter=6.8 bbox=(320,355,3,3)
+[MASK M164] area=20.0 perimeter=27.7 bbox=(267,355,4,13)
+[MASK M165] area=13.5 perimeter=15.1 bbox=(454,354,6,5)
+[MASK M166] area=19.5 perimeter=40.4 bbox=(344,354,15,7)
+[MASK M167] area=797.5 perimeter=546.1 bbox=(356,353,245,68)
+[MASK M168] area=0.0 perimeter=2.0 bbox=(333,353,2,1)
+[MASK M169] area=28.5 perimeter=21.9 bbox=(225,353,7,8)
+[MASK M170] area=5.0 perimeter=11.7 bbox=(201,353,4,5)
+[MASK M171] area=81.0 perimeter=62.3 bbox=(27,353,11,21)
+[MASK M172] area=31.5 perimeter=29.6 bbox=(299,352,7,11)
+[MASK M173] area=0.0 perimeter=0.0 bbox=(88,352,1,1)
+[MASK M174] area=0.0 perimeter=6.0 bbox=(277,351,4,1)
+[MASK M175] area=43.0 perimeter=34.1 bbox=(598,350,9,13)
+[MASK M176] area=0.5 perimeter=3.4 bbox=(199,350,2,2)
+[MASK M177] area=5.5 perimeter=9.4 bbox=(370,349,4,3)
+[MASK M178] area=3.5 perimeter=9.1 bbox=(306,349,4,4)
+[MASK M179] area=14.5 perimeter=20.7 bbox=(292,349,7,8)
+[MASK M180] area=1.5 perimeter=5.4 bbox=(178,349,2,3)
+[MASK M181] area=0.0 perimeter=0.0 bbox=(360,348,1,1)
+[MASK M182] area=2.0 perimeter=6.8 bbox=(353,348,2,4)
+[MASK M183] area=2.0 perimeter=6.8 bbox=(329,348,2,4)
+[MASK M184] area=8.5 perimeter=12.2 bbox=(162,348,6,3)
+[MASK M185] area=0.0 perimeter=4.0 bbox=(552,347,1,3)
+[MASK M186] area=0.5 perimeter=3.4 bbox=(541,346,2,2)
+[MASK M187] area=2.5 perimeter=6.2 bbox=(511,346,3,3)
+[MASK M188] area=43.5 perimeter=36.7 bbox=(254,345,9,13)
+[MASK M189] area=0.0 perimeter=2.0 bbox=(227,345,2,1)
+[MASK M190] area=0.0 perimeter=2.0 bbox=(59,345,2,1)
+[MASK M191] area=5.5 perimeter=10.2 bbox=(292,344,3,5)
+[MASK M192] area=2.5 perimeter=12.2 bbox=(32,344,3,5)
+[MASK M193] area=20.5 perimeter=23.1 bbox=(18,344,10,4)
+[MASK M194] area=4.0 perimeter=13.7 bbox=(300,343,7,2)
+[MASK M195] area=17.5 perimeter=17.9 bbox=(248,343,5,8)
+[MASK M196] area=49.0 perimeter=33.0 bbox=(208,343,11,11)
+[MASK M197] area=0.0 perimeter=0.0 bbox=(98,343,1,1)
+[MASK M198] area=0.0 perimeter=2.0 bbox=(448,342,2,1)
+[MASK M199] area=15.0 perimeter=18.5 bbox=(386,342,7,6)
+[MASK M200] area=19.0 perimeter=19.3 bbox=(340,342,7,7)
+[MASK M201] area=10.5 perimeter=18.2 bbox=(241,342,5,7)
+[MASK M202] area=0.0 perimeter=0.0 bbox=(201,342,1,1)
+[MASK M203] area=5.5 perimeter=10.2 bbox=(561,341,3,5)
+[MASK M204] area=29.5 perimeter=28.7 bbox=(330,341,9,9)
+[MASK M205] area=30.5 perimeter=44.0 bbox=(192,341,8,17)
+[MASK M206] area=11.0 perimeter=17.3 bbox=(588,340,7,6)
+[MASK M207] area=8.5 perimeter=12.2 bbox=(345,339,5,4)
+[MASK M208] area=13.0 perimeter=16.5 bbox=(116,339,4,7)
+[MASK M209] area=9.5 perimeter=17.1 bbox=(466,338,8,3)
+[MASK M210] area=6.0 perimeter=11.7 bbox=(372,338,3,5)
+[MASK M211] area=55.0 perimeter=43.0 bbox=(309,338,13,13)
+[MASK M212] area=6.0 perimeter=14.5 bbox=(34,338,6,5)
+[MASK M213] area=54.5 perimeter=42.0 bbox=(351,337,16,8)
+[MASK M214] area=6.5 perimeter=11.1 bbox=(284,337,4,5)
+[MASK M215] area=17.5 perimeter=35.1 bbox=(270,337,4,17)
+[MASK M216] area=2.0 perimeter=7.7 bbox=(149,337,3,4)
+[MASK M217] area=3.0 perimeter=6.8 bbox=(131,337,3,3)
+[MASK M218] area=0.0 perimeter=2.0 bbox=(536,336,2,1)
+[MASK M219] area=5.5 perimeter=15.9 bbox=(217,336,6,6)
+[MASK M220] area=4.0 perimeter=10.8 bbox=(605,335,2,6)
+[MASK M221] area=0.0 perimeter=2.0 bbox=(593,335,2,1)
+[MASK M222] area=22.0 perimeter=26.5 bbox=(407,335,11,5)
+[MASK M223] area=17.0 perimeter=16.5 bbox=(322,335,6,6)
+[MASK M224] area=2.5 perimeter=8.2 bbox=(93,335,3,4)
+[MASK M225] area=1.5 perimeter=6.2 bbox=(241,334,3,3)
+[MASK M226] area=50.0 perimeter=57.8 bbox=(231,334,9,20)
+[MASK M227] area=0.0 perimeter=0.0 bbox=(227,334,1,1)
+[MASK M228] area=0.0 perimeter=0.0 bbox=(60,334,1,1)
+[MASK M229] area=8.0 perimeter=16.5 bbox=(274,333,4,7)
+[MASK M230] area=1.0 perimeter=4.8 bbox=(220,333,3,2)
+[MASK M231] area=1.0 perimeter=4.8 bbox=(150,333,2,3)
+[MASK M232] area=0.0 perimeter=2.0 bbox=(125,332,1,2)
+[MASK M233] area=1.0 perimeter=4.0 bbox=(418,331,2,2)
+[MASK M234] area=0.0 perimeter=0.0 bbox=(204,331,1,1)
+[MASK M235] area=1.5 perimeter=5.4 bbox=(224,330,2,3)
+[MASK M236] area=3.0 perimeter=11.7 bbox=(556,329,3,6)
+[MASK M237] area=9.5 perimeter=13.1 bbox=(397,329,6,4)
+[MASK M238] area=15.5 perimeter=15.1 bbox=(368,329,5,6)
+[MASK M239] area=0.0 perimeter=2.0 bbox=(244,329,2,1)
+[MASK M240] area=5.5 perimeter=10.2 bbox=(588,328,4,4)
+[MASK M241] area=1.5 perimeter=5.4 bbox=(329,328,3,2)
+[MASK M242] area=62.0 perimeter=53.1 bbox=(288,328,22,8)
+[MASK M243] area=61.5 perimeter=40.4 bbox=(251,328,10,13)
+[MASK M244] area=5.5 perimeter=10.2 bbox=(208,328,4,4)
+[MASK M245] area=3.5 perimeter=9.4 bbox=(197,328,2,5)
+[MASK M246] area=0.0 perimeter=0.0 bbox=(207,327,1,1)
+[MASK M247] area=15.5 perimeter=17.9 bbox=(320,326,7,6)
+[MASK M248] area=1.5 perimeter=5.4 bbox=(119,326,3,2)
+[MASK M249] area=5.0 perimeter=9.7 bbox=(22,326,4,4)
+[MASK M250] area=13.5 perimeter=15.9 bbox=(408,325,5,7)
+[MASK M251] area=34.0 perimeter=27.3 bbox=(379,325,7,11)
+[MASK M252] area=58.5 perimeter=36.4 bbox=(159,325,13,9)
+[MASK M253] area=18.0 perimeter=18.5 bbox=(485,324,7,6)
+[MASK M254] area=26.5 perimeter=28.4 bbox=(271,324,11,7)
+[MASK M255] area=10.0 perimeter=16.5 bbox=(215,324,6,6)
+[MASK M256] area=1.0 perimeter=4.8 bbox=(584,323,2,3)
+[MASK M257] area=0.5 perimeter=3.4 bbox=(545,323,2,2)
+[MASK M258] area=2.5 perimeter=7.4 bbox=(257,323,4,2)
+[MASK M259] area=7.0 perimeter=10.8 bbox=(236,323,3,5)
+[MASK M260] area=18.5 perimeter=19.9 bbox=(228,323,6,8)
+[MASK M261] area=0.0 perimeter=0.0 bbox=(148,323,1,1)
+[MASK M262] area=36.0 perimeter=43.8 bbox=(444,322,8,18)
+[MASK M263] area=35.0 perimeter=27.3 bbox=(354,322,11,7)
+[MASK M264] area=48.5 perimeter=32.7 bbox=(340,321,6,15)
+[MASK M265] area=3.0 perimeter=7.7 bbox=(314,321,4,3)
+[MASK M266] area=3.5 perimeter=15.1 bbox=(452,320,6,4)
+[MASK M267] area=971.0 perimeter=483.8 bbox=(35,319,96,96)
+[MASK M268] area=5.0 perimeter=22.8 bbox=(202,318,2,12)
+[MASK M269] area=5.5 perimeter=11.1 bbox=(194,318,4,4)
+[MASK M270] area=0.5 perimeter=3.4 bbox=(188,318,2,2)
+[MASK M271] area=1.0 perimeter=4.8 bbox=(88,318,2,3)
+[MASK M272] area=37.0 perimeter=32.5 bbox=(385,317,13,7)
+[MASK M273] area=2.5 perimeter=6.2 bbox=(329,317,3,3)
+[MASK M274] area=19.0 perimeter=35.8 bbox=(289,317,13,7)
+[MASK M275] area=4.5 perimeter=8.2 bbox=(564,316,3,4)
+[MASK M276] area=9.5 perimeter=15.1 bbox=(282,316,4,7)
+[MASK M277] area=5.5 perimeter=10.2 bbox=(103,316,5,3)
+[MASK M278] area=0.5 perimeter=3.4 bbox=(46,316,2,2)
+[MASK M279] area=2.0 perimeter=6.8 bbox=(485,315,2,4)
+[MASK M280] area=3.5 perimeter=7.4 bbox=(461,315,3,3)
+[MASK M281] area=420.5 perimeter=136.3 bbox=(422,315,21,44)
+[MASK M282] area=3.0 perimeter=10.8 bbox=(269,315,2,6)
+[MASK M283] area=36.5 perimeter=36.4 bbox=(217,315,13,7)
+[MASK M284] area=6.5 perimeter=12.2 bbox=(137,315,6,3)
+[MASK M285] area=5.0 perimeter=10.8 bbox=(543,314,3,5)
+[MASK M286] area=0.0 perimeter=2.0 bbox=(535,314,1,2)
+[MASK M287] area=1.5 perimeter=5.4 bbox=(90,314,3,2)
+[MASK M288] area=9.0 perimeter=16.5 bbox=(79,314,4,8)
+[MASK M289] area=1.5 perimeter=6.2 bbox=(0,314,3,3)
+[MASK M290] area=6.5 perimeter=10.2 bbox=(582,313,4,4)
+[MASK M291] area=0.0 perimeter=4.0 bbox=(468,313,3,1)
+[MASK M292] area=1.0 perimeter=4.0 bbox=(383,313,2,2)
+[MASK M293] area=8.5 perimeter=15.9 bbox=(236,313,6,5)
+[MASK M294] area=0.0 perimeter=0.0 bbox=(372,312,1,1)
+[MASK M295] area=2.5 perimeter=7.4 bbox=(357,312,3,3)
+[MASK M296] area=13.5 perimeter=15.9 bbox=(274,312,5,7)
+[MASK M297] area=18.5 perimeter=49.1 bbox=(605,310,2,24)
+[MASK M298] area=2.5 perimeter=7.4 bbox=(446,310,2,4)
+[MASK M299] area=8.5 perimeter=12.2 bbox=(414,310,5,4)
+[MASK M300] area=32.5 perimeter=23.9 bbox=(343,310,6,10)
+[MASK M301] area=6.5 perimeter=11.1 bbox=(300,310,5,4)
+[MASK M302] area=29.0 perimeter=20.5 bbox=(250,310,6,8)
+[MASK M303] area=1.0 perimeter=4.8 bbox=(195,309,2,3)
+[MASK M304] area=1.5 perimeter=5.4 bbox=(543,308,2,3)
+[MASK M305] area=3.0 perimeter=10.8 bbox=(37,308,5,3)
+[MASK M306] area=1.0 perimeter=4.8 bbox=(501,307,3,2)
+[MASK M307] area=0.0 perimeter=0.0 bbox=(370,307,1,1)
+[MASK M308] area=17.5 perimeter=19.1 bbox=(281,307,6,6)
+[MASK M309] area=0.0 perimeter=6.0 bbox=(201,307,1,4)
+[MASK M310] area=16.0 perimeter=20.5 bbox=(581,305,8,5)
+[MASK M311] area=0.0 perimeter=2.0 bbox=(322,305,2,1)
+[MASK M312] area=3.5 perimeter=19.9 bbox=(204,305,5,6)
+[MASK M313] area=0.5 perimeter=3.4 bbox=(167,305,2,2)
+[MASK M314] area=10.0 perimeter=11.7 bbox=(78,305,5,4)
+[MASK M315] area=84.0 perimeter=45.0 bbox=(15,305,11,15)
+[MASK M316] area=17.0 perimeter=18.5 bbox=(474,304,8,5)
+[MASK M317] area=7.0 perimeter=10.8 bbox=(173,304,3,5)
+[MASK M318] area=0.5 perimeter=3.4 bbox=(377,303,2,2)
+[MASK M319] area=0.0 perimeter=0.0 bbox=(414,302,1,1)
+[MASK M320] area=1.0 perimeter=6.8 bbox=(243,302,2,4)
+[MASK M321] area=5.0 perimeter=9.7 bbox=(380,301,4,4)
+[MASK M322] area=14.0 perimeter=21.3 bbox=(307,301,9,5)
+[MASK M323] area=4.5 perimeter=9.4 bbox=(270,301,3,4)
+[MASK M324] area=46.0 perimeter=37.8 bbox=(223,301,9,13)
+[MASK M325] area=4.0 perimeter=8.8 bbox=(100,301,4,3)
+[MASK M326] area=0.0 perimeter=2.0 bbox=(580,300,1,2)
+[MASK M327] area=10.5 perimeter=13.1 bbox=(541,300,4,6)
+[MASK M328] area=0.0 perimeter=2.0 bbox=(151,299,2,1)
+[MASK M329] area=0.0 perimeter=2.0 bbox=(524,298,2,1)
+[MASK M330] area=18.5 perimeter=22.7 bbox=(531,297,6,9)
+[MASK M331] area=75.0 perimeter=58.3 bbox=(325,297,19,17)
+[MASK M332] area=7.5 perimeter=13.1 bbox=(274,297,5,5)
+[MASK M333] area=0.5 perimeter=3.4 bbox=(130,297,2,2)
+[MASK M334] area=0.0 perimeter=0.0 bbox=(394,296,1,1)
+[MASK M335] area=0.0 perimeter=2.0 bbox=(225,296,1,2)
+[MASK M336] area=15.5 perimeter=32.7 bbox=(186,296,4,15)
+[MASK M337] area=17.5 perimeter=16.2 bbox=(87,296,5,6)
+[MASK M338] area=5.0 perimeter=14.5 bbox=(45,296,6,5)
+[MASK M339] area=3.0 perimeter=6.8 bbox=(483,295,3,3)
+[MASK M340] area=2.0 perimeter=6.0 bbox=(175,295,2,3)
+[MASK M341] area=0.0 perimeter=2.8 bbox=(168,295,2,2)
+[MASK M342] area=114.5 perimeter=47.2 bbox=(427,294,11,17)
+[MASK M343] area=16.5 perimeter=24.7 bbox=(255,294,9,7)
+[MASK M344] area=37.0 perimeter=25.3 bbox=(443,293,7,10)
+[MASK M345] area=59.0 perimeter=42.6 bbox=(283,293,12,12)
+[MASK M346] area=26.5 perimeter=25.1 bbox=(208,293,5,11)
+[MASK M347] area=1.5 perimeter=5.4 bbox=(135,293,2,3)
+[MASK M348] area=0.0 perimeter=2.0 bbox=(37,293,1,2)
+[MASK M349] area=0.0 perimeter=0.0 bbox=(327,292,1,1)
+[MASK M350] area=3.0 perimeter=10.8 bbox=(42,292,2,6)
+[MASK M351] area=3.5 perimeter=10.2 bbox=(499,291,3,5)
+[MASK M352] area=15.5 perimeter=15.1 bbox=(347,291,5,6)
+[MASK M353] area=42.5 perimeter=29.9 bbox=(299,291,8,11)
+[MASK M354] area=0.0 perimeter=0.0 bbox=(187,291,1,1)
+[MASK M355] area=0.0 perimeter=0.0 bbox=(87,291,1,1)
+[MASK M356] area=48.0 perimeter=44.6 bbox=(564,290,7,18)
+[MASK M357] area=0.0 perimeter=0.0 bbox=(266,290,1,1)
+[MASK M358] area=3.0 perimeter=6.8 bbox=(142,290,3,3)
+[MASK M359] area=28.5 perimeter=36.4 bbox=(401,289,8,13)
+[MASK M360] area=2.0 perimeter=8.8 bbox=(199,289,2,5)
+[MASK M361] area=3.5 perimeter=7.4 bbox=(81,289,3,3)
+[MASK M362] area=1.5 perimeter=5.4 bbox=(588,288,2,3)
+[MASK M363] area=1.0 perimeter=4.8 bbox=(318,288,2,3)
+[MASK M364] area=37.0 perimeter=31.8 bbox=(237,288,7,12)
+[MASK M365] area=0.0 perimeter=0.0 bbox=(187,288,1,1)
+[MASK M366] area=0.0 perimeter=2.8 bbox=(564,287,2,2)
+[MASK M367] area=4.5 perimeter=8.2 bbox=(476,287,3,4)
+[MASK M368] area=2.0 perimeter=6.0 bbox=(376,287,3,2)
+[MASK M369] area=30.5 perimeter=26.7 bbox=(214,287,9,8)
+[MASK M370] area=5.0 perimeter=8.8 bbox=(112,287,4,3)
+[MASK M371] area=6.0 perimeter=10.8 bbox=(51,287,4,4)
+[MASK M372] area=3.0 perimeter=7.7 bbox=(365,286,3,4)
+[MASK M373] area=10.0 perimeter=13.7 bbox=(38,286,5,5)
+[MASK M374] area=29.5 perimeter=24.7 bbox=(464,285,6,10)
+[MASK M375] area=24.5 perimeter=24.7 bbox=(333,285,11,6)
+[MASK M376] area=47.0 perimeter=41.8 bbox=(14,285,8,16)
+[MASK M377] area=1.5 perimeter=5.4 bbox=(294,284,3,2)
+[MASK M378] area=31.5 perimeter=41.6 bbox=(192,284,6,18)
+[MASK M379] area=0.0 perimeter=0.0 bbox=(149,284,1,1)
+[MASK M380] area=2.0 perimeter=6.0 bbox=(90,284,3,2)
+[MASK M381] area=0.0 perimeter=0.0 bbox=(17,284,1,1)
+[MASK M382] area=0.0 perimeter=0.0 bbox=(533,283,1,1)
+[MASK M383] area=32.0 perimeter=36.5 bbox=(249,283,4,17)
+[MASK M384] area=4.0 perimeter=8.8 bbox=(577,282,3,4)
+[MASK M385] area=9.5 perimeter=14.2 bbox=(483,282,5,5)
+[MASK M386] area=8.0 perimeter=12.8 bbox=(316,282,6,3)
+[MASK M387] area=0.0 perimeter=0.0 bbox=(297,282,1,1)
+[MASK M388] area=5.0 perimeter=12.8 bbox=(261,282,5,4)
+[MASK M389] area=7.5 perimeter=17.9 bbox=(224,282,5,6)
+[MASK M390] area=5.5 perimeter=17.1 bbox=(203,282,3,8)
+[MASK M391] area=0.0 perimeter=0.0 bbox=(141,282,1,1)
+[MASK M392] area=34.0 perimeter=41.8 bbox=(556,281,6,17)
+[MASK M393] area=0.0 perimeter=0.0 bbox=(119,281,1,1)
+[MASK M394] area=0.0 perimeter=0.0 bbox=(107,281,1,1)
+[MASK M395] area=0.0 perimeter=0.0 bbox=(101,281,1,1)
+[MASK M396] area=0.0 perimeter=0.0 bbox=(17,281,1,1)
+[MASK M397] area=12.0 perimeter=54.5 bbox=(605,280,2,27)
+[MASK M398] area=0.0 perimeter=0.0 bbox=(520,280,1,1)
+[MASK M399] area=3.5 perimeter=8.2 bbox=(497,280,3,4)
+[MASK M400] area=13.5 perimeter=15.9 bbox=(186,280,6,5)
+[MASK M401] area=2.5 perimeter=6.2 bbox=(152,280,3,3)
+[MASK M402] area=1.5 perimeter=5.4 bbox=(137,280,2,3)
+[MASK M403] area=24.0 perimeter=22.5 bbox=(544,279,6,9)
+[MASK M404] area=0.0 perimeter=4.0 bbox=(344,279,1,3)
+[MASK M405] area=7.0 perimeter=10.8 bbox=(329,279,3,5)
+[MASK M406] area=0.0 perimeter=0.0 bbox=(264,279,1,1)
+[MASK M407] area=0.0 perimeter=4.0 bbox=(200,279,1,3)
+[MASK M408] area=0.0 perimeter=0.0 bbox=(520,278,1,1)
+[MASK M409] area=46.5 perimeter=31.6 bbox=(441,278,9,12)
+[MASK M410] area=5.0 perimeter=11.7 bbox=(277,278,4,5)
+[MASK M411] area=0.0 perimeter=2.0 bbox=(223,278,1,2)
+[MASK M412] area=8.5 perimeter=14.2 bbox=(214,278,3,7)
+[MASK M413] area=0.0 perimeter=2.0 bbox=(183,278,1,2)
+[MASK M414] area=0.0 perimeter=2.0 bbox=(91,278,1,2)
+[MASK M415] area=0.0 perimeter=4.0 bbox=(79,277,1,3)
+[MASK M416] area=3.0 perimeter=6.8 bbox=(339,276,3,3)
+[MASK M417] area=7.0 perimeter=11.7 bbox=(128,276,5,4)
+[MASK M418] area=0.0 perimeter=2.0 bbox=(51,276,1,2)
+[MASK M419] area=23.0 perimeter=22.5 bbox=(386,275,6,9)
+[MASK M420] area=0.0 perimeter=2.0 bbox=(257,275,1,2)
+[MASK M421] area=0.0 perimeter=4.8 bbox=(394,274,2,3)
+[MASK M422] area=14.5 perimeter=17.9 bbox=(285,274,7,6)
+[MASK M423] area=6.5 perimeter=20.7 bbox=(266,274,6,9)
+[MASK M424] area=6.0 perimeter=15.3 bbox=(14,274,5,6)
+[MASK M425] area=4.0 perimeter=10.8 bbox=(605,273,2,6)
+[MASK M426] area=6.5 perimeter=15.9 bbox=(549,273,7,5)
+[MASK M427] area=9.0 perimeter=17.7 bbox=(505,273,7,5)
+[MASK M428] area=0.0 perimeter=2.8 bbox=(455,273,2,2)
+[MASK M429] area=0.0 perimeter=0.0 bbox=(349,272,1,1)
+[MASK M430] area=0.5 perimeter=3.4 bbox=(80,272,2,2)
+[MASK M431] area=0.0 perimeter=2.0 bbox=(53,272,1,2)
+[MASK M432] area=0.5 perimeter=3.4 bbox=(530,271,2,2)
+[MASK M433] area=1.5 perimeter=8.2 bbox=(469,271,4,3)
+[MASK M434] area=24.5 perimeter=26.7 bbox=(304,271,7,11)
+[MASK M435] area=15.5 perimeter=18.7 bbox=(479,270,6,7)
+[MASK M436] area=0.0 perimeter=0.0 bbox=(473,270,1,1)
+[MASK M437] area=33.5 perimeter=36.4 bbox=(363,270,12,8)
+[MASK M438] area=31.5 perimeter=24.7 bbox=(244,270,9,7)
+[MASK M439] area=10.5 perimeter=12.2 bbox=(192,270,4,5)
+[MASK M440] area=7.0 perimeter=11.7 bbox=(228,269,3,6)
+[MASK M441] area=26.0 perimeter=24.1 bbox=(517,268,9,7)
+[MASK M442] area=1.5 perimeter=5.4 bbox=(94,268,2,3)
+[MASK M443] area=43.5 perimeter=37.2 bbox=(29,268,8,15)
+[MASK M444] area=0.0 perimeter=6.0 bbox=(606,267,1,4)
+[MASK M445] area=22.5 perimeter=29.9 bbox=(563,266,5,14)
+[MASK M446] area=0.5 perimeter=3.4 bbox=(317,266,2,2)
+[MASK M447] area=26.0 perimeter=20.5 bbox=(299,266,6,8)
+[MASK M448] area=15.5 perimeter=23.6 bbox=(281,266,8,7)
+[MASK M449] area=1.0 perimeter=4.0 bbox=(579,265,2,2)
+[MASK M450] area=8.0 perimeter=17.3 bbox=(442,265,4,8)
+[MASK M451] area=3.0 perimeter=10.8 bbox=(215,265,2,6)
+[MASK M452] area=10.0 perimeter=24.8 bbox=(199,265,2,13)
+[MASK M453] area=0.0 perimeter=0.0 bbox=(550,264,1,1)
+[MASK M454] area=8.0 perimeter=15.7 bbox=(539,264,8,3)
+[MASK M455] area=216.5 perimeter=90.2 bbox=(418,264,19,27)
+[MASK M456] area=2.0 perimeter=6.8 bbox=(401,264,3,3)
+[MASK M457] area=35.0 perimeter=28.1 bbox=(337,264,10,8)
+[MASK M458] area=0.0 perimeter=4.0 bbox=(263,264,1,3)
+[MASK M459] area=19.5 perimeter=19.1 bbox=(504,263,8,5)
+[MASK M460] area=1.0 perimeter=4.8 bbox=(295,263,2,3)
+[MASK M461] area=0.5 perimeter=3.4 bbox=(500,262,2,2)
+[MASK M462] area=0.0 perimeter=2.0 bbox=(313,261,2,1)
+[MASK M463] area=2.0 perimeter=8.8 bbox=(309,261,2,5)
+[MASK M464] area=15.0 perimeter=18.5 bbox=(103,261,5,8)
+[MASK M465] area=6.0 perimeter=11.7 bbox=(561,260,4,5)
+[MASK M466] area=12.0 perimeter=14.5 bbox=(378,260,5,6)
+[MASK M467] area=0.5 perimeter=5.4 bbox=(262,260,2,3)
+[MASK M468] area=350.0 perimeter=178.0 bbox=(59,260,17,60)
+[MASK M469] area=1.0 perimeter=4.8 bbox=(362,259,3,2)
+[MASK M470] area=51.5 perimeter=32.4 bbox=(353,259,7,13)
+[MASK M471] area=5.0 perimeter=8.8 bbox=(320,259,3,4)
+[MASK M472] area=3.0 perimeter=8.8 bbox=(288,259,4,3)
+[MASK M473] area=12.0 perimeter=14.8 bbox=(436,258,5,5)
+[MASK M474] area=0.5 perimeter=3.4 bbox=(368,258,2,2)
+[MASK M475] area=7.0 perimeter=10.8 bbox=(418,257,3,5)
+[MASK M476] area=0.0 perimeter=0.0 bbox=(396,257,1,1)
+[MASK M477] area=4.0 perimeter=8.8 bbox=(535,256,4,3)
+[MASK M478] area=22.5 perimeter=34.4 bbox=(459,256,9,13)
+[MASK M479] area=21.5 perimeter=19.9 bbox=(185,256,5,9)
+[MASK M480] area=22.0 perimeter=25.7 bbox=(552,255,4,12)
+[MASK M481] area=26.0 perimeter=38.1 bbox=(325,255,7,13)
+[MASK M482] area=9.0 perimeter=12.8 bbox=(298,255,4,5)
+[MASK M483] area=5.5 perimeter=10.2 bbox=(198,255,3,5)
+[MASK M484] area=3.0 perimeter=7.7 bbox=(304,254,4,3)
+[MASK M485] area=0.0 perimeter=0.0 bbox=(296,254,1,1)
+[MASK M486] area=1.0 perimeter=4.8 bbox=(44,254,3,2)
+[MASK M487] area=9.5 perimeter=22.7 bbox=(527,253,6,9)
+[MASK M488] area=0.0 perimeter=0.0 bbox=(505,253,1,1)
+[MASK M489] area=44.0 perimeter=29.3 bbox=(486,253,11,8)
+[MASK M490] area=20.5 perimeter=19.9 bbox=(408,253,6,8)
+[MASK M491] area=5.5 perimeter=9.4 bbox=(315,252,4,3)
+[MASK M492] area=2.0 perimeter=6.8 bbox=(193,252,2,4)
+[MASK M493] area=12.0 perimeter=14.5 bbox=(35,252,6,5)
+[MASK M494] area=15.0 perimeter=34.1 bbox=(566,251,8,13)
+[MASK M495] area=149.0 perimeter=70.6 bbox=(0,251,20,19)
+[MASK M496] area=9.5 perimeter=19.1 bbox=(546,250,4,9)
+[MASK M497] area=2.0 perimeter=6.8 bbox=(520,250,2,4)
+[MASK M498] area=0.0 perimeter=2.0 bbox=(352,250,1,2)
+[MASK M499] area=27.0 perimeter=25.3 bbox=(339,250,7,9)
+[MASK M500] area=3.5 perimeter=8.2 bbox=(249,250,4,3)
+[MASK M501] area=23.5 perimeter=21.1 bbox=(150,250,5,9)
+[MASK M502] area=0.0 perimeter=0.0 bbox=(559,249,1,1)
+[MASK M503] area=5.5 perimeter=10.2 bbox=(499,249,4,4)
+[MASK M504] area=6.5 perimeter=15.1 bbox=(470,249,5,6)
+[MASK M505] area=0.0 perimeter=2.0 bbox=(541,248,1,2)
+[MASK M506] area=0.0 perimeter=4.8 bbox=(464,248,2,3)
+[MASK M507] area=24.5 perimeter=21.1 bbox=(272,248,9,5)
+[MASK M508] area=7.0 perimeter=16.8 bbox=(605,247,2,9)
+[MASK M509] area=0.0 perimeter=0.0 bbox=(551,247,1,1)
+[MASK M510] area=2.5 perimeter=7.4 bbox=(572,246,2,4)
+[MASK M511] area=59.0 perimeter=31.3 bbox=(133,246,9,11)
+[MASK M512] area=0.0 perimeter=2.8 bbox=(538,245,2,2)
+[MASK M513] area=3.0 perimeter=6.8 bbox=(118,245,3,3)
+[MASK M514] area=0.0 perimeter=0.0 bbox=(81,244,1,1)
+[MASK M515] area=7.5 perimeter=10.2 bbox=(510,243,4,4)
+[MASK M516] area=108.5 perimeter=95.7 bbox=(206,243,7,43)
+[MASK M517] area=3.5 perimeter=8.2 bbox=(183,243,4,3)
+[MASK M518] area=10.5 perimeter=17.1 bbox=(555,242,4,8)
+[MASK M519] area=7.0 perimeter=12.5 bbox=(488,242,5,4)
+[MASK M520] area=0.0 perimeter=0.0 bbox=(222,242,1,1)
+[MASK M521] area=27.5 perimeter=25.1 bbox=(579,241,9,7)
+[MASK M522] area=26.5 perimeter=21.9 bbox=(301,241,6,9)
+[MASK M523] area=3.5 perimeter=10.2 bbox=(259,241,3,5)
+[MASK M524] area=2.0 perimeter=6.8 bbox=(563,240,3,3)
+[MASK M525] area=1.5 perimeter=5.4 bbox=(350,240,2,3)
+[MASK M526] area=100.0 perimeter=61.8 bbox=(235,240,8,25)
+[MASK M527] area=1.5 perimeter=5.4 bbox=(111,240,2,3)
+[MASK M528] area=36.0 perimeter=28.1 bbox=(308,239,9,10)
+[MASK M529] area=0.0 perimeter=0.0 bbox=(182,239,1,1)
+[MASK M530] area=4.0 perimeter=8.8 bbox=(574,238,3,4)
+[MASK M531] area=3.5 perimeter=15.1 bbox=(266,238,2,7)
+[MASK M532] area=0.0 perimeter=0.0 bbox=(30,238,1,1)
+[MASK M533] area=1.5 perimeter=5.4 bbox=(570,237,3,2)
+[MASK M534] area=7.5 perimeter=13.1 bbox=(220,237,6,4)
+[MASK M535] area=0.5 perimeter=7.4 bbox=(182,237,3,3)
+[MASK M536] area=10.0 perimeter=11.7 bbox=(578,236,5,4)
+[MASK M537] area=166.0 perimeter=77.5 bbox=(54,236,10,33)
+[MASK M538] area=0.0 perimeter=2.0 bbox=(565,235,1,2)
+[MASK M539] area=0.0 perimeter=2.0 bbox=(545,235,1,2)
+[MASK M540] area=0.0 perimeter=0.0 bbox=(537,235,1,1)
+[MASK M541] area=1.0 perimeter=12.5 bbox=(480,235,6,4)
+[MASK M542] area=2.0 perimeter=9.7 bbox=(442,235,4,3)
+[MASK M543] area=14.5 perimeter=15.1 bbox=(326,235,4,7)
+[MASK M544] area=5.0 perimeter=8.8 bbox=(414,234,4,3)
+[MASK M545] area=0.0 perimeter=2.0 bbox=(119,234,1,2)
+[MASK M546] area=1.0 perimeter=4.0 bbox=(113,234,2,2)
+[MASK M547] area=0.5 perimeter=3.4 bbox=(573,233,2,2)
+[MASK M548] area=0.0 perimeter=0.0 bbox=(566,233,1,1)
+[MASK M549] area=7.5 perimeter=12.2 bbox=(556,233,5,4)
+[MASK M550] area=28.5 perimeter=21.9 bbox=(332,233,8,7)
+[MASK M551] area=10.0 perimeter=12.8 bbox=(203,233,5,4)
+[MASK M552] area=0.0 perimeter=2.0 bbox=(43,233,1,2)
+[MASK M553] area=10.5 perimeter=12.2 bbox=(301,232,4,5)
+[MASK M554] area=0.0 perimeter=2.0 bbox=(260,232,2,1)
+[MASK M555] area=3.0 perimeter=9.7 bbox=(547,231,3,5)
+[MASK M556] area=0.0 perimeter=0.0 bbox=(36,231,1,1)
+[MASK M557] area=0.0 perimeter=0.0 bbox=(525,230,1,1)
+[MASK M558] area=0.0 perimeter=0.0 bbox=(203,230,1,1)
+[MASK M559] area=0.0 perimeter=0.0 bbox=(192,230,1,1)
+[MASK M560] area=1.0 perimeter=4.8 bbox=(161,230,2,3)
+[MASK M561] area=1.5 perimeter=5.4 bbox=(38,230,3,2)
+[MASK M562] area=0.0 perimeter=2.0 bbox=(481,229,1,2)
+[MASK M563] area=57.0 perimeter=58.3 bbox=(420,229,8,22)
+[MASK M564] area=0.0 perimeter=0.0 bbox=(249,228,1,1)
+[MASK M565] area=3.5 perimeter=8.2 bbox=(319,227,3,4)
+[MASK M566] area=8.0 perimeter=11.7 bbox=(290,226,4,5)
+[MASK M567] area=20.0 perimeter=20.5 bbox=(227,226,5,9)
+[MASK M568] area=0.0 perimeter=0.0 bbox=(474,225,1,1)
+[MASK M569] area=9.5 perimeter=13.4 bbox=(243,225,3,6)
+[MASK M570] area=18.5 perimeter=21.9 bbox=(580,224,5,10)
+[MASK M571] area=0.0 perimeter=0.0 bbox=(541,224,1,1)
+[MASK M572] area=21.5 perimeter=19.9 bbox=(192,224,9,5)
+[MASK M573] area=0.0 perimeter=0.0 bbox=(136,224,1,1)
+[MASK M574] area=9.5 perimeter=15.9 bbox=(30,224,6,6)
+[MASK M575] area=1.0 perimeter=6.8 bbox=(476,223,3,3)
+[MASK M576] area=17.0 perimeter=15.7 bbox=(452,223,5,6)
+[MASK M577] area=38.0 perimeter=37.8 bbox=(460,222,14,11)
+[MASK M578] area=0.5 perimeter=5.4 bbox=(577,221,2,3)
+[MASK M579] area=0.5 perimeter=3.4 bbox=(255,221,2,2)
+[MASK M580] area=5.5 perimeter=14.2 bbox=(572,219,3,7)
+[MASK M581] area=3.0 perimeter=8.0 bbox=(431,219,4,2)
+[MASK M582] area=2.0 perimeter=6.8 bbox=(414,219,2,4)
+[MASK M583] area=8.0 perimeter=13.7 bbox=(305,219,4,6)
+[MASK M584] area=0.0 perimeter=5.7 bbox=(229,219,3,2)
+[MASK M585] area=257.5 perimeter=114.8 bbox=(0,219,22,23)
+[MASK M586] area=7.0 perimeter=17.7 bbox=(561,218,3,8)
+[MASK M587] area=0.0 perimeter=2.0 bbox=(550,218,1,2)
+[MASK M588] area=27.5 perimeter=23.9 bbox=(324,218,6,10)
+[MASK M589] area=23.0 perimeter=18.5 bbox=(146,218,6,7)
+[MASK M590] area=10.5 perimeter=14.2 bbox=(460,217,6,4)
+[MASK M591] area=14.0 perimeter=15.7 bbox=(313,217,4,7)
+[MASK M592] area=43.0 perimeter=32.5 bbox=(214,217,7,13)
+[MASK M593] area=7.5 perimeter=11.4 bbox=(169,216,3,5)
+[MASK M594] area=0.5 perimeter=3.4 bbox=(115,216,2,2)
+[MASK M595] area=47.0 perimeter=32.1 bbox=(442,215,11,10)
+[MASK M596] area=0.0 perimeter=2.0 bbox=(421,215,1,2)
+[MASK M597] area=0.5 perimeter=3.4 bbox=(321,215,2,2)
+[MASK M598] area=11.0 perimeter=13.7 bbox=(187,214,5,5)
+[MASK M599] area=2.0 perimeter=6.8 bbox=(24,214,2,4)
+[MASK M600] area=12.5 perimeter=15.1 bbox=(523,213,7,4)
+[MASK M601] area=45.0 perimeter=29.3 bbox=(242,211,8,11)
+[MASK M602] area=9.5 perimeter=12.2 bbox=(179,210,4,5)
+[MASK M603] area=9.0 perimeter=15.7 bbox=(15,210,4,7)
+[MASK M604] area=27.5 perimeter=20.7 bbox=(495,209,6,9)
+[MASK M605] area=15.0 perimeter=14.5 bbox=(282,209,5,6)
+[MASK M606] area=12.0 perimeter=14.5 bbox=(217,209,5,6)
+[MASK M607] area=29.5 perimeter=22.7 bbox=(203,209,8,8)
+[MASK M608] area=1.0 perimeter=4.0 bbox=(25,209,2,2)
+[MASK M609] area=14.5 perimeter=19.1 bbox=(573,208,4,9)
+[MASK M610] area=0.0 perimeter=0.0 bbox=(439,208,1,1)
+[MASK M611] area=1.0 perimeter=6.8 bbox=(313,208,2,4)
+[MASK M612] area=2.0 perimeter=6.0 bbox=(44,208,2,3)
+[MASK M613] area=4.5 perimeter=15.9 bbox=(565,207,4,7)
+[MASK M614] area=4.5 perimeter=8.2 bbox=(319,207,3,4)
+[MASK M615] area=26.0 perimeter=20.1 bbox=(254,207,7,8)
+[MASK M616] area=0.5 perimeter=3.4 bbox=(80,207,2,2)
+[MASK M617] area=0.0 perimeter=0.0 bbox=(507,206,1,1)
+[MASK M618] area=48.5 perimeter=33.6 bbox=(477,206,7,14)
+[MASK M619] area=6.0 perimeter=11.7 bbox=(533,205,4,4)
+[MASK M620] area=7.5 perimeter=13.1 bbox=(468,205,5,4)
+[MASK M621] area=0.0 perimeter=0.0 bbox=(351,205,1,1)
+[MASK M622] area=1.0 perimeter=4.0 bbox=(484,204,2,2)
+[MASK M623] area=4.0 perimeter=9.7 bbox=(416,204,5,3)
+[MASK M624] area=7.0 perimeter=12.8 bbox=(236,204,3,6)
+[MASK M625] area=21.5 perimeter=22.7 bbox=(538,203,8,8)
+[MASK M626] area=13.5 perimeter=24.7 bbox=(427,203,5,10)
+[MASK M627] area=1.0 perimeter=4.8 bbox=(24,202,2,3)
+[MASK M628] area=4.5 perimeter=8.2 bbox=(458,201,3,4)
+[MASK M629] area=21.5 perimeter=19.1 bbox=(303,201,5,8)
+[MASK M630] area=2.5 perimeter=7.4 bbox=(189,201,3,3)
+[MASK M631] area=2.0 perimeter=10.8 bbox=(182,201,4,4)
+[MASK M632] area=17.0 perimeter=17.7 bbox=(146,201,5,7)
+[MASK M633] area=0.0 perimeter=0.0 bbox=(569,200,1,1)
+[MASK M634] area=0.0 perimeter=2.0 bbox=(545,200,2,1)
+[MASK M635] area=17.5 perimeter=16.2 bbox=(196,199,5,6)
+[MASK M636] area=20.0 perimeter=18.8 bbox=(323,198,5,7)
+[MASK M637] area=0.5 perimeter=3.4 bbox=(542,197,2,2)
+[MASK M638] area=24.5 perimeter=20.2 bbox=(293,197,5,8)
+[MASK M639] area=9.5 perimeter=20.7 bbox=(559,196,7,5)
+[MASK M640] area=3.0 perimeter=6.8 bbox=(453,196,3,3)
+[MASK M641] area=8.0 perimeter=10.8 bbox=(280,196,4,4)
+[MASK M642] area=18.5 perimeter=26.7 bbox=(210,195,7,10)
+[MASK M643] area=178.0 perimeter=124.6 bbox=(50,195,14,32)
+[MASK M644] area=1.5 perimeter=5.4 bbox=(290,194,3,2)
+[MASK M645] area=0.0 perimeter=0.0 bbox=(197,194,1,1)
+[MASK M646] area=0.0 perimeter=2.0 bbox=(605,193,2,1)
+[MASK M647] area=5.0 perimeter=9.7 bbox=(538,193,5,3)
+[MASK M648] area=23.5 perimeter=29.6 bbox=(412,192,11,6)
+[MASK M649] area=0.0 perimeter=2.8 bbox=(341,192,2,2)
+[MASK M650] area=0.0 perimeter=2.0 bbox=(518,191,2,1)
+[MASK M651] area=0.0 perimeter=0.0 bbox=(371,191,1,1)
+[MASK M652] area=8.0 perimeter=14.5 bbox=(176,191,6,5)
+[MASK M653] area=6.0 perimeter=10.8 bbox=(31,191,3,5)
+[MASK M654] area=4.0 perimeter=10.0 bbox=(498,190,2,5)
+[MASK M655] area=0.5 perimeter=3.4 bbox=(569,189,2,2)
+[MASK M656] area=0.0 perimeter=0.0 bbox=(82,189,1,1)
+[MASK M657] area=0.0 perimeter=0.0 bbox=(497,188,1,1)
+[MASK M658] area=4.0 perimeter=8.8 bbox=(489,188,4,3)
+[MASK M659] area=0.0 perimeter=0.0 bbox=(164,187,1,1)
+[MASK M660] area=22.0 perimeter=23.3 bbox=(262,186,5,11)
+[MASK M661] area=4.5 perimeter=8.2 bbox=(34,186,3,4)
+[MASK M662] area=5.5 perimeter=11.1 bbox=(209,185,5,4)
+[MASK M663] area=0.0 perimeter=2.0 bbox=(597,184,1,2)
+[MASK M664] area=2.0 perimeter=6.8 bbox=(412,184,3,3)
+[MASK M665] area=0.0 perimeter=2.0 bbox=(36,183,2,1)
+[MASK M666] area=1.0 perimeter=4.8 bbox=(262,182,2,3)
+[MASK M667] area=8.5 perimeter=11.1 bbox=(57,182,4,5)
+[MASK M668] area=21.5 perimeter=22.7 bbox=(300,181,7,9)
+[MASK M669] area=78.5 perimeter=66.9 bbox=(239,181,10,27)
+[MASK M670] area=0.0 perimeter=2.0 bbox=(114,180,2,1)
+[MASK M671] area=43.5 perimeter=35.1 bbox=(321,178,5,16)
+[MASK M672] area=1.0 perimeter=4.8 bbox=(41,176,2,3)
+[MASK M673] area=0.0 perimeter=0.0 bbox=(31,176,1,1)
+[MASK M674] area=1.5 perimeter=5.4 bbox=(450,175,3,2)
+[MASK M675] area=2.0 perimeter=6.8 bbox=(323,173,2,4)
+[MASK M676] area=0.0 perimeter=2.0 bbox=(193,173,1,2)
+[MASK M677] area=26.5 perimeter=27.1 bbox=(184,173,5,12)
+[MASK M678] area=0.0 perimeter=0.0 bbox=(472,172,1,1)
+[MASK M679] area=11.5 perimeter=17.1 bbox=(305,172,4,8)
+[MASK M680] area=0.5 perimeter=3.4 bbox=(280,172,2,2)
+[MASK M681] area=0.0 perimeter=2.0 bbox=(581,171,2,1)
+[MASK M682] area=31.5 perimeter=34.0 bbox=(411,170,10,12)
+[MASK M683] area=26.0 perimeter=20.5 bbox=(197,170,7,7)
+[MASK M684] area=0.5 perimeter=3.4 bbox=(574,169,2,2)
+[MASK M685] area=0.0 perimeter=0.0 bbox=(584,168,1,1)
+[MASK M686] area=11.5 perimeter=15.1 bbox=(479,165,4,7)
+[MASK M687] area=0.0 perimeter=2.0 bbox=(62,165,2,1)
+[MASK M688] area=21.0 perimeter=17.7 bbox=(315,164,6,6)
+[MASK M689] area=48.5 perimeter=32.7 bbox=(224,162,6,15)
+[MASK M690] area=1.0 perimeter=4.8 bbox=(562,160,2,3)
+[MASK M691] area=0.5 perimeter=3.4 bbox=(47,160,2,2)
+[MASK M692] area=3.0 perimeter=8.8 bbox=(605,159,2,5)
+[MASK M693] area=7.0 perimeter=10.8 bbox=(572,158,4,4)
+[MASK M694] area=0.0 perimeter=0.0 bbox=(485,158,1,1)
+[MASK M695] area=2.5 perimeter=7.4 bbox=(260,158,2,4)
+[MASK M696] area=0.5 perimeter=3.4 bbox=(160,158,2,2)
+[MASK M697] area=0.0 perimeter=2.0 bbox=(325,157,1,2)
+[MASK M698] area=51.0 perimeter=39.8 bbox=(24,157,10,16)
+[MASK M699] area=5.5 perimeter=13.4 bbox=(582,156,2,7)
+[MASK M700] area=1.0 perimeter=4.0 bbox=(533,156,2,2)
+[MASK M701] area=48.0 perimeter=39.8 bbox=(299,155,8,15)
+[MASK M702] area=0.0 perimeter=2.8 bbox=(411,153,2,2)
+[MASK M703] area=0.0 perimeter=2.0 bbox=(195,153,1,2)
+[MASK M704] area=20.5 perimeter=34.7 bbox=(189,151,4,16)
+[MASK M705] area=4.0 perimeter=9.7 bbox=(449,150,4,4)
+[MASK M706] area=0.0 perimeter=2.0 bbox=(313,150,1,2)
+[MASK M707] area=11.5 perimeter=17.1 bbox=(298,150,6,6)
+[MASK M708] area=13.5 perimeter=17.1 bbox=(211,149,4,8)
+[MASK M709] area=4.5 perimeter=15.9 bbox=(259,148,4,7)
+[MASK M710] area=8.5 perimeter=18.7 bbox=(159,148,5,6)
+[MASK M711] area=1.5 perimeter=5.4 bbox=(582,147,2,3)
+[MASK M712] area=6.5 perimeter=11.4 bbox=(573,147,3,5)
+[MASK M713] area=0.0 perimeter=2.0 bbox=(106,147,2,1)
+[MASK M714] area=0.0 perimeter=4.0 bbox=(426,144,1,3)
+[MASK M715] area=11.0 perimeter=14.5 bbox=(449,143,6,5)
+[MASK M716] area=0.0 perimeter=2.0 bbox=(308,142,2,1)
+[MASK M717] area=0.0 perimeter=0.0 bbox=(186,142,1,1)
+[MASK M718] area=44.5 perimeter=30.7 bbox=(320,138,6,13)
+[MASK M719] area=16.5 perimeter=23.1 bbox=(192,138,4,11)
+[MASK M720] area=3.5 perimeter=7.4 bbox=(581,137,3,3)
+[MASK M721] area=0.0 perimeter=0.0 bbox=(583,135,1,1)
+[MASK M722] area=0.5 perimeter=7.4 bbox=(160,135,3,3)
+[MASK M723] area=3.5 perimeter=7.4 bbox=(295,134,3,3)
+[MASK M724] area=2.0 perimeter=6.8 bbox=(45,134,3,3)
+[MASK M725] area=0.0 perimeter=2.0 bbox=(199,133,1,2)
+[MASK M726] area=2.0 perimeter=6.8 bbox=(548,132,2,4)
+[MASK M727] area=4.0 perimeter=7.7 bbox=(207,132,3,4)
+[MASK M728] area=126.0 perimeter=79.3 bbox=(16,130,18,26)
+[MASK M729] area=18.0 perimeter=16.5 bbox=(237,129,6,6)
+[MASK M730] area=11.5 perimeter=15.1 bbox=(450,127,4,6)
+[MASK M731] area=16.0 perimeter=18.5 bbox=(188,127,5,8)
+[MASK M732] area=481.5 perimeter=201.6 bbox=(0,127,15,83)
+[MASK M733] area=2.0 perimeter=6.8 bbox=(549,126,3,3)
+[MASK M734] area=1.5 perimeter=5.4 bbox=(582,125,2,3)
+[MASK M735] area=5.0 perimeter=8.8 bbox=(306,125,4,3)
+[MASK M736] area=29.5 perimeter=25.9 bbox=(321,123,7,9)
+[MASK M737] area=0.0 perimeter=0.0 bbox=(413,121,1,1)
+[MASK M738] area=0.0 perimeter=0.0 bbox=(187,121,1,1)
+[MASK M739] area=1.0 perimeter=4.8 bbox=(549,118,2,3)
+[MASK M740] area=9.0 perimeter=13.7 bbox=(229,118,4,6)
+[MASK M741] area=11.0 perimeter=12.8 bbox=(218,116,4,5)
+[MASK M742] area=3.0 perimeter=10.5 bbox=(581,115,3,5)
+[MASK M743] area=0.0 perimeter=4.0 bbox=(191,114,1,3)
+[MASK M744] area=9.5 perimeter=17.9 bbox=(8,114,4,8)
+[MASK M745] area=22.0 perimeter=20.5 bbox=(329,112,5,9)
+[MASK M746] area=0.0 perimeter=2.0 bbox=(230,112,2,1)
+[MASK M747] area=2.5 perimeter=7.4 bbox=(209,112,4,2)
+[MASK M748] area=0.0 perimeter=2.0 bbox=(548,109,1,2)
+[MASK M749] area=0.0 perimeter=2.0 bbox=(10,109,1,2)
+[MASK M750] area=9.0 perimeter=15.7 bbox=(449,107,3,7)
+[MASK M751] area=1.0 perimeter=4.0 bbox=(548,105,2,2)
+[MASK M752] area=6.0 perimeter=9.7 bbox=(217,105,4,4)
+[MASK M753] area=1.5 perimeter=5.4 bbox=(258,104,2,3)
+[MASK M754] area=0.0 perimeter=2.0 bbox=(450,102,2,1)
+[MASK M755] area=7.0 perimeter=14.8 bbox=(186,102,3,7)
+[MASK M756] area=102.0 perimeter=124.6 bbox=(601,101,6,57)
+[MASK M757] area=11.0 perimeter=14.5 bbox=(318,101,5,6)
+[MASK M758] area=12.0 perimeter=14.8 bbox=(202,101,4,6)
+[MASK M759] area=6.0 perimeter=30.5 bbox=(581,98,3,15)
+[MASK M760] area=0.5 perimeter=3.4 bbox=(450,97,2,2)
+[MASK M761] area=20.0 perimeter=19.3 bbox=(234,96,7,7)
+[MASK M762] area=0.0 perimeter=2.0 bbox=(212,96,1,2)
+[MASK M763] area=5.5 perimeter=10.2 bbox=(207,95,3,5)
+[MASK M764] area=6.5 perimeter=10.2 bbox=(547,92,4,4)
+[MASK M765] area=14.0 perimeter=15.7 bbox=(324,91,5,6)
+[MASK M766] area=3.5 perimeter=17.9 bbox=(447,89,6,6)
+[MASK M767] area=5.5 perimeter=10.2 bbox=(256,89,3,5)
+[MASK M768] area=10.0 perimeter=18.8 bbox=(602,88,3,9)
+[MASK M769] area=14.5 perimeter=16.2 bbox=(228,88,4,7)
+[MASK M770] area=5.5 perimeter=14.2 bbox=(581,86,3,7)
+[MASK M771] area=27.0 perimeter=20.5 bbox=(289,86,7,7)
+[MASK M772] area=9.5 perimeter=13.1 bbox=(302,85,5,5)
+[MASK M773] area=3.0 perimeter=6.8 bbox=(447,83,3,3)
+[MASK M774] area=38.0 perimeter=25.3 bbox=(192,83,7,10)
+[MASK M775] area=0.0 perimeter=2.0 bbox=(40,83,1,2)
+[MASK M776] area=6.5 perimeter=10.2 bbox=(547,82,3,5)
+[MASK M777] area=17.5 perimeter=19.9 bbox=(232,82,8,6)
+[MASK M778] area=6.5 perimeter=15.9 bbox=(211,81,4,7)
+[MASK M779] area=3.5 perimeter=7.4 bbox=(604,79,3,3)
+[MASK M780] area=7.0 perimeter=9.7 bbox=(205,76,4,4)
+[MASK M781] area=3.0 perimeter=8.8 bbox=(548,74,3,4)
+[MASK M782] area=0.0 perimeter=12.0 bbox=(582,73,1,7)
+[MASK M783] area=1.5 perimeter=5.4 bbox=(343,73,2,3)
+[MASK M784] area=0.0 perimeter=2.0 bbox=(158,73,1,2)
+[MASK M785] area=1.5 perimeter=5.4 bbox=(320,72,3,2)
+[MASK M786] area=58.0 perimeter=83.7 bbox=(0,72,3,42)
+[MASK M787] area=5.0 perimeter=8.8 bbox=(447,68,4,3)
+[MASK M788] area=32.0 perimeter=25.3 bbox=(289,68,10,7)
+[MASK M789] area=6.0 perimeter=10.8 bbox=(604,66,3,5)
+[MASK M790] area=5.5 perimeter=10.2 bbox=(156,66,4,4)
+[MASK M791] area=0.0 perimeter=2.0 bbox=(549,65,1,2)
+[MASK M792] area=0.0 perimeter=0.0 bbox=(368,64,1,1)
+[MASK M793] area=16.0 perimeter=15.7 bbox=(188,63,5,6)
+[MASK M794] area=4.0 perimeter=8.8 bbox=(294,61,4,3)
+[MASK M795] area=0.0 perimeter=0.0 bbox=(370,60,1,1)
+[MASK M796] area=0.0 perimeter=0.0 bbox=(370,58,1,1)
+[MASK M797] area=0.0 perimeter=0.0 bbox=(36,58,1,1)
+[MASK M798] area=7.5 perimeter=17.4 bbox=(605,55,2,9)
+[MASK M799] area=37.0 perimeter=27.0 bbox=(254,55,11,8)
+[MASK M800] area=0.0 perimeter=0.0 bbox=(78,55,1,1)
+[MASK M801] area=0.0 perimeter=2.8 bbox=(164,53,2,2)
+[MASK M802] area=21.5 perimeter=21.9 bbox=(548,51,8,6)
+[MASK M803] area=0.0 perimeter=0.0 bbox=(449,51,1,1)
+[MASK M804] area=5.0 perimeter=13.7 bbox=(35,51,3,6)
+[MASK M805] area=0.0 perimeter=0.0 bbox=(383,50,1,1)
+[MASK M806] area=24.5 perimeter=21.9 bbox=(186,50,7,8)
+[MASK M807] area=6.0 perimeter=9.7 bbox=(155,50,4,4)
+[MASK M808] area=0.0 perimeter=0.0 bbox=(522,49,1,1)
+[MASK M809] area=6.5 perimeter=10.2 bbox=(330,48,4,4)
+[MASK M810] area=2.5 perimeter=11.4 bbox=(605,44,2,6)
+[MASK M811] area=0.0 perimeter=2.0 bbox=(226,43,1,2)
+[MASK M812] area=2.0 perimeter=6.0 bbox=(222,43,3,2)
+[MASK M813] area=24.5 perimeter=19.1 bbox=(206,43,7,6)
+[MASK M814] area=0.0 perimeter=2.0 bbox=(155,43,1,2)
+[MASK M815] area=0.0 perimeter=4.0 bbox=(133,43,3,1)
+[MASK M816] area=7.5 perimeter=13.1 bbox=(37,43,5,5)
+[MASK M817] area=3.5 perimeter=7.4 bbox=(271,42,3,3)
+[MASK M818] area=38.5 perimeter=25.1 bbox=(186,38,6,10)
+[MASK M819] area=0.0 perimeter=0.0 bbox=(383,37,1,1)
+[MASK M820] area=31.0 perimeter=25.3 bbox=(317,37,7,10)
+[MASK M821] area=3.5 perimeter=7.4 bbox=(304,36,3,3)
+[MASK M822] area=7.5 perimeter=27.9 bbox=(163,36,3,13)
+[MASK M823] area=2.0 perimeter=5.7 bbox=(135,36,3,3)
+[MASK M824] area=0.0 perimeter=0.0 bbox=(383,35,1,1)
+[MASK M825] area=42.5 perimeter=40.0 bbox=(289,35,9,16)
+[MASK M826] area=1.5 perimeter=5.4 bbox=(605,34,2,3)
+[MASK M827] area=0.0 perimeter=0.0 bbox=(383,33,1,1)
+[MASK M828] area=0.0 perimeter=0.0 bbox=(368,33,1,1)
+[MASK M829] area=3.5 perimeter=7.4 bbox=(269,30,3,3)
+[MASK M830] area=4.5 perimeter=13.1 bbox=(442,28,6,3)
+[MASK M831] area=13.5 perimeter=14.2 bbox=(187,27,5,5)
+[MASK M832] area=1.5 perimeter=5.4 bbox=(288,25,2,3)
+[MASK M833] area=10.5 perimeter=13.1 bbox=(279,25,4,6)
+[MASK M834] area=0.5 perimeter=3.4 bbox=(580,24,2,2)
+[MASK M835] area=0.0 perimeter=2.8 bbox=(436,23,2,2)
+[MASK M836] area=21.5 perimeter=26.7 bbox=(151,23,7,9)
+[MASK M837] area=5.0 perimeter=12.0 bbox=(605,22,2,6)
+[MASK M838] area=21.5 perimeter=52.4 bbox=(546,21,4,24)
+[MASK M839] area=0.0 perimeter=0.0 bbox=(434,21,1,1)
+[MASK M840] area=8.5 perimeter=12.2 bbox=(427,21,6,3)
+[MASK M841] area=4.0 perimeter=13.7 bbox=(381,21,4,4)
+[MASK M842] area=0.0 perimeter=0.0 bbox=(58,21,1,1)
+[MASK M843] area=1.5 perimeter=5.4 bbox=(458,20,3,2)
+[MASK M844] area=0.0 perimeter=0.0 bbox=(327,19,1,1)
+[MASK M845] area=3.0 perimeter=8.8 bbox=(376,17,5,2)
+[MASK M846] area=0.0 perimeter=4.0 bbox=(606,16,1,3)
+[MASK M847] area=0.0 perimeter=4.8 bbox=(452,16,2,3)
+[MASK M848] area=0.5 perimeter=5.4 bbox=(414,16,2,3)
+[MASK M849] area=4.0 perimeter=9.7 bbox=(14,16,3,5)
+[MASK M850] area=20.0 perimeter=19.7 bbox=(367,15,8,5)
+[MASK M851] area=236.5 perimeter=146.8 bbox=(224,14,12,60)
+[MASK M852] area=0.0 perimeter=0.0 bbox=(77,14,1,1)
+[MASK M853] area=14.5 perimeter=15.9 bbox=(43,14,7,5)
+[MASK M854] area=0.0 perimeter=0.0 bbox=(0,14,1,1)
+[MASK M855] area=22.5 perimeter=19.1 bbox=(279,13,5,8)
+[MASK M856] area=16.5 perimeter=25.6 bbox=(395,12,8,6)
+[MASK M857] area=18.0 perimeter=18.5 bbox=(306,12,5,7)
+[MASK M858] area=0.0 perimeter=2.8 bbox=(71,11,2,2)
+[MASK M859] area=0.0 perimeter=0.0 bbox=(379,9,1,1)
+[MASK M860] area=32.0 perimeter=21.3 bbox=(184,9,7,8)
+[MASK M861] area=0.0 perimeter=0.0 bbox=(54,9,1,1)
+[MASK M862] area=0.5 perimeter=14.2 bbox=(9,9,4,4)
+[MASK M863] area=50.0 perimeter=28.1 bbox=(543,8,9,10)
+[MASK M864] area=0.0 perimeter=0.0 bbox=(370,8,1,1)
+[MASK M865] area=0.0 perimeter=0.0 bbox=(301,8,1,1)
+[MASK M866] area=13.0 perimeter=18.8 bbox=(162,8,3,9)
+[MASK M867] area=0.0 perimeter=9.7 bbox=(372,7,5,3)
+[MASK M868] area=0.0 perimeter=2.8 bbox=(151,6,2,2)
+[MASK M869] area=5.5 perimeter=17.1 bbox=(73,6,5,6)
+[MASK M870] area=2.0 perimeter=6.8 bbox=(15,5,3,3)
+[MASK M871] area=1.0 perimeter=4.8 bbox=(294,3,2,3)
+[MASK M872] area=3.0 perimeter=14.8 bbox=(605,2,2,8)
+[MASK M873] area=47.0 perimeter=43.8 bbox=(201,2,7,19)
+[MASK M874] area=1.5 perimeter=7.4 bbox=(548,0,2,4)
+[MASK M875] area=23.5 perimeter=21.1 bbox=(464,0,7,6)
+[MASK M876] area=0.0 perimeter=0.0 bbox=(445,0,1,1)
+[MASK M877] area=45.0 perimeter=31.3 bbox=(355,0,11,9)
+[MASK M878] area=13.5 perimeter=20.2 bbox=(330,0,10,3)
+[MASK M879] area=0.5 perimeter=3.4 bbox=(317,0,2,2)
+[MASK M880] area=4.5 perimeter=13.1 bbox=(218,0,6,3)
+[MASK M881] area=4.5 perimeter=11.4 bbox=(189,0,2,6)
+[MASK M882] area=1061.5 perimeter=506.4 bbox=(167,0,20,186)
+[MASK M883] area=4.0 perimeter=8.0 bbox=(159,0,3,3)
+[MASK M884] area=16.0 perimeter=26.1 bbox=(51,0,9,5)
+[MASK M885] area=2.5 perimeter=7.4 bbox=(42,0,4,2)
+[MASK M886] area=164.5 perimeter=80.5 bbox=(27,0,10,34)
+[MASK M887] area=0.5 perimeter=3.4 bbox=(17,0,2,2)
+[MASK M888] area=31.0 perimeter=24.5 bbox=(1,0,10,6)
+[CLEAN C0] type=Rejected area=0.0 perimeter=6.0 bbox=(300,420,4,1) long=3.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.500 circularity=0.000
+[CLEAN C0] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长; skeleton_aspect 1.500 < 2.5
+[CLEAN C0] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C1] type=Rejected area=0.0 perimeter=2.0 bbox=(287,420,2,1) long=1.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.000
+[CLEAN C1] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长; skeleton_aspect 0.500 < 2.5
+[CLEAN C1] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C2] type=Rejected area=0.0 perimeter=2.0 bbox=(269,420,2,1) long=1.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.000
+[CLEAN C2] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长; skeleton_aspect 0.500 < 2.5
+[CLEAN C2] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C3] type=Rejected area=0.0 perimeter=4.0 bbox=(249,420,3,1) long=2.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.000
+[CLEAN C3] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长; skeleton_aspect 1.000 < 2.5
+[CLEAN C3] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C4] type=Rejected area=0.0 perimeter=8.0 bbox=(202,420,5,1) long=4.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=2.000 circularity=0.000
+[CLEAN C4] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长; skeleton_aspect 2.000 < 2.5
+[CLEAN C4] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C5] type=Rejected area=2.0 perimeter=6.0 bbox=(324,419,3,2) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C5] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C5] REJECT Pit: area 2.0 < 32
+[CLEAN C6] type=Rejected area=12.5 perimeter=18.2 bbox=(259,415,6,6) long=5.0 box_short=5.0 box_aspect=1.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.472
+[CLEAN C6] REJECT Scratch: area 12.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C6] REJECT Pit: area 12.5 < 32; circularity 0.472 < 0.55
+[CLEAN C7] type=Scratch area=192.5 perimeter=82.2 bbox=(571,414,36,7) long=35.0 box_short=6.0 box_aspect=5.833 skeleton_width=6.00 skeleton_range=2.00-8.00 skeleton_aspect=5.833 circularity=0.358
+[MEASURE C7] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C8] type=Rejected area=26.0 perimeter=22.8 bbox=(310,413,6,8) long=7.0 box_short=5.0 box_aspect=1.400 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=1.750 circularity=0.627
+[CLEAN C8] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C8] REJECT Pit: area 26.0 < 32
+[CLEAN C9] type=Rejected area=17.5 perimeter=28.2 bbox=(17,408,13,3) long=12.0 box_short=2.0 box_aspect=6.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=6.000 circularity=0.276
+[CLEAN C9] REJECT Scratch: area 17.5 < 20
+[CLEAN C9] REJECT Pit: area 17.5 < 32; circularity 0.276 < 0.55; aspect_ratio 6.000 > 5.0
+[CLEAN C10] type=Rejected area=13.0 perimeter=22.8 bbox=(0,408,11,3) long=10.0 box_short=2.0 box_aspect=5.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=5.000 circularity=0.313
+[CLEAN C10] REJECT Scratch: area 13.0 < 20
+[CLEAN C10] REJECT Pit: area 13.0 < 32; circularity 0.313 < 0.55
+[CLEAN C11] type=Scratch area=130.5 perimeter=61.9 bbox=(548,405,19,16) long=17.7 box_short=14.8 box_aspect=1.200 skeleton_width=4.00 skeleton_range=2.00-10.00 skeleton_aspect=4.427 circularity=0.428
+[MEASURE C11] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C12] type=Rejected area=1.0 perimeter=4.0 bbox=(315,405,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C12] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C12] REJECT Pit: area 1.0 < 32
+[CLEAN C13] type=Scratch area=36.0 perimeter=53.3 bbox=(210,404,13,17) long=19.4 box_short=7.7 box_aspect=2.511 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=9.690 circularity=0.159
+[MEASURE C13] Scratch width=0.272926 mm valid=True
+Scratch: area = 36.0 width_px = 2.0 width_mm = 0.2729256882092039 ratio = 9.68967056274414
+[CLEAN C14] type=Rejected area=1.0 perimeter=4.0 bbox=(204,404,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C14] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C14] REJECT Pit: area 1.0 < 32
+[CLEAN C15] type=Rejected area=1.0 perimeter=4.0 bbox=(237,401,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C15] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C15] REJECT Pit: area 1.0 < 32
+[CLEAN C16] type=Rejected area=9.0 perimeter=12.8 bbox=(268,398,3,6) long=5.0 box_short=2.0 box_aspect=2.500 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.687
+[CLEAN C16] REJECT Scratch: area 9.0 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C16] REJECT Pit: area 9.0 < 32
+[CLEAN C17] type=Rejected area=5.5 perimeter=9.4 bbox=(295,396,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C17] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C17] REJECT Pit: area 5.5 < 32
+[CLEAN C18] type=Rejected area=29.0 perimeter=23.7 bbox=(241,392,10,5) long=9.0 box_short=4.0 box_aspect=2.250 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=2.250 circularity=0.651
+[CLEAN C18] REJECT Scratch: long_side 9.0 < 10; skeleton_aspect 2.250 < 2.5
+[CLEAN C18] REJECT Pit: area 29.0 < 32
+[CLEAN C19] type=Rejected area=8.5 perimeter=13.4 bbox=(330,391,6,3) long=5.0 box_short=2.0 box_aspect=2.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=2.500 circularity=0.594
+[CLEAN C19] REJECT Scratch: area 8.5 < 20; long_side 5.0 < 10
+[CLEAN C19] REJECT Pit: area 8.5 < 32
+[CLEAN C20] type=Rejected area=8.0 perimeter=24.8 bbox=(274,391,3,12) long=11.2 box_short=1.5 box_aspect=7.214 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=5.577 circularity=0.163
+[CLEAN C20] REJECT Scratch: area 8.0 < 20
+[CLEAN C20] REJECT Pit: area 8.0 < 32; circularity 0.163 < 0.55; aspect_ratio 7.214 > 5.0
+[CLEAN C21] type=Scratch area=20.0 perimeter=32.5 bbox=(592,387,15,4) long=14.0 box_short=3.0 box_aspect=4.667 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=7.000 circularity=0.238
+[MEASURE C21] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C22] type=Rejected area=4.0 perimeter=8.8 bbox=(369,385,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.500 circularity=0.645
+[CLEAN C22] REJECT Scratch: area 4.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C22] REJECT Pit: area 4.0 < 32
+[CLEAN C23] type=Scratch area=52.0 perimeter=38.5 bbox=(310,384,7,16) long=15.2 box_short=5.5 box_aspect=2.773 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=3.799 circularity=0.441
+[MEASURE C23] Scratch width=0.161340 mm valid=False
+[CLEAN C24] type=Scratch area=46.5 perimeter=42.7 bbox=(450,383,12,13) long=15.5 box_short=7.4 box_aspect=2.111 skeleton_width=3.40 skeleton_range=2.00-6.00 skeleton_aspect=4.569 circularity=0.320
+[MEASURE C24] Scratch width=0.372918 mm valid=True
+Scratch: area = 46.5 width_px = 3.4000000953674316 width_mm = 0.372918078137005 ratio = 4.569072595229637
+[CLEAN C25] type=Rejected area=12.5 perimeter=14.2 bbox=(201,381,4,6) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.774
+[CLEAN C25] REJECT Scratch: area 12.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C25] REJECT Pit: area 12.5 < 32
+[CLEAN C26] type=Rejected area=1.0 perimeter=4.0 bbox=(411,378,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C26] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C26] REJECT Pit: area 1.0 < 32
+[CLEAN C27] type=Rejected area=2.0 perimeter=6.0 bbox=(264,376,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C27] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C27] REJECT Pit: area 2.0 < 32
+[CLEAN C28] type=Scratch area=60.0 perimeter=71.8 bbox=(337,375,8,32) long=31.5 box_short=5.5 box_aspect=5.773 skeleton_width=2.80 skeleton_range=2.00-6.00 skeleton_aspect=11.252 circularity=0.146
+[MEASURE C28] Scratch width=0.312472 mm valid=True
+Scratch: area = 60.0 width_px = 2.799999952316284 width_mm = 0.31247162310888804 ratio = 11.251722936148694
+[CLEAN C29] type=Rejected area=5.5 perimeter=9.4 bbox=(244,374,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C29] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C29] REJECT Pit: area 5.5 < 32
+[CLEAN C30] type=Rejected area=6.0 perimeter=10.0 bbox=(209,374,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.754
+[CLEAN C30] REJECT Scratch: area 6.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C30] REJECT Pit: area 6.0 < 32
+[CLEAN C31] type=Rejected area=11.0 perimeter=13.7 bbox=(510,373,4,6) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.741
+[CLEAN C31] REJECT Scratch: area 11.0 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C31] REJECT Pit: area 11.0 < 32
+[CLEAN C32] type=Rejected area=1.0 perimeter=4.0 bbox=(393,372,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C32] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C32] REJECT Pit: area 1.0 < 32
+[CLEAN C33] type=Rejected area=8.0 perimeter=10.8 bbox=(472,371,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.071 circularity=0.857
+[CLEAN C33] REJECT Scratch: area 8.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.071 < 2.5
+[CLEAN C33] REJECT Pit: area 8.0 < 32
+[CLEAN C34] type=Rejected area=12.5 perimeter=14.2 bbox=(272,371,4,6) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.774
+[CLEAN C34] REJECT Scratch: area 12.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C34] REJECT Pit: area 12.5 < 32
+[CLEAN C35] type=Rejected area=1.0 perimeter=4.0 bbox=(506,370,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C35] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C35] REJECT Pit: area 1.0 < 32
+[CLEAN C36] type=Rejected area=2.0 perimeter=6.0 bbox=(496,370,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C36] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C36] REJECT Pit: area 2.0 < 32
+[CLEAN C37] type=Scratch area=45.0 perimeter=34.5 bbox=(290,370,9,12) long=11.6 box_short=7.3 box_aspect=1.591 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=2.899 circularity=0.476
+[MEASURE C37] Scratch width=0.384721 mm valid=True
+Scratch: area = 45.0 width_px = 4.0 width_mm = 0.38472084340180157 ratio = 2.8988280296325684
+[CLEAN C38] type=Rejected area=4.0 perimeter=8.0 bbox=(524,368,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.785
+[CLEAN C38] REJECT Scratch: area 4.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C38] REJECT Pit: area 4.0 < 32
+[CLEAN C39] type=Rejected area=11.0 perimeter=12.8 bbox=(449,365,5,4) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=3.40 skeleton_range=2.00-4.00 skeleton_aspect=1.176 circularity=0.840
+[CLEAN C39] REJECT Scratch: area 11.0 < 20; long_side 4.0 < 10; skeleton_aspect 1.176 < 2.5
+[CLEAN C39] REJECT Pit: area 11.0 < 32
+[CLEAN C40] type=Scratch area=94.0 perimeter=54.1 bbox=(410,360,12,20) long=19.0 box_short=11.0 box_aspect=1.727 skeleton_width=5.60 skeleton_range=2.00-8.00 skeleton_aspect=3.393 circularity=0.403
+[MEASURE C40] Scratch width=0.514429 mm valid=True
+Scratch: area = 94.0 width_px = 5.599999904632568 width_mm = 0.5144288008834821 ratio = 3.3928572006371565
+[CLEAN C41] type=Scratch area=52.0 perimeter=50.5 bbox=(281,360,10,19) long=18.0 box_short=9.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-6.00 skeleton_aspect=9.000 circularity=0.256
+[MEASURE C41] Scratch width=0.335483 mm valid=True
+Scratch: area = 52.0 width_px = 2.0 width_mm = 0.3354831695518653 ratio = 9.0
+[CLEAN C42] type=Scratch area=160.0 perimeter=70.1 bbox=(0,360,14,22) long=21.0 box_short=13.0 box_aspect=1.615 skeleton_width=5.60 skeleton_range=2.00-8.79 skeleton_aspect=3.750 circularity=0.409
+[MEASURE C42] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C43] type=Rejected area=1.0 perimeter=4.0 bbox=(400,356,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C43] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C43] REJECT Pit: area 1.0 < 32
+[CLEAN C44] type=Scratch area=26.5 perimeter=28.2 bbox=(268,356,4,13) long=12.0 box_short=3.0 box_aspect=4.000 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=3.000 circularity=0.417
+[MEASURE C44] Scratch width=0.212188 mm valid=False
+[CLEAN C45] type=Rejected area=11.5 perimeter=13.4 bbox=(456,355,4,5) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.803
+[CLEAN C45] REJECT Scratch: area 11.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C45] REJECT Pit: area 11.5 < 32
+[CLEAN C46] type=Rejected area=1.0 perimeter=4.0 bbox=(308,351,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C46] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C46] REJECT Pit: area 1.0 < 32
+[CLEAN C47] type=Rejected area=1.0 perimeter=4.0 bbox=(179,350,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C47] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C47] REJECT Pit: area 1.0 < 32
+[CLEAN C48] type=Rejected area=7.5 perimeter=11.4 bbox=(163,349,5,3) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C48] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C48] REJECT Pit: area 7.5 < 32
+[CLEAN C49] type=Rejected area=1.0 perimeter=4.0 bbox=(512,347,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C49] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C49] REJECT Pit: area 1.0 < 32
+[CLEAN C50] type=Scratch area=58.5 perimeter=76.7 bbox=(16,345,13,28) long=28.7 box_short=8.9 box_aspect=3.239 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=7.174 circularity=0.125
+[MEASURE C50] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C51] type=Scratch area=78.0 perimeter=54.1 bbox=(208,344,12,18) long=17.3 box_short=10.6 box_aspect=1.625 skeleton_width=4.00 skeleton_range=2.00-8.00 skeleton_aspect=4.324 circularity=0.334
+[MEASURE C51] Scratch width=0.530188 mm valid=True
+Scratch: area = 78.0 width_px = 4.0 width_mm = 0.5301878976696056 ratio = 4.323735237121582
+[CLEAN C52] type=Rejected area=5.0 perimeter=8.8 bbox=(562,343,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C52] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C52] REJECT Pit: area 5.0 < 32
+[CLEAN C53] type=Rejected area=15.5 perimeter=19.1 bbox=(387,343,7,6) long=7.2 box_short=3.6 box_aspect=2.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=2.571 circularity=0.536
+[CLEAN C53] REJECT Scratch: area 15.5 < 20; long_side 7.2 < 10
+[CLEAN C53] REJECT Pit: area 15.5 < 32; circularity 0.536 < 0.55
+[CLEAN C54] type=Scratch area=31.5 perimeter=47.9 bbox=(194,343,11,16) long=16.4 box_short=8.2 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=8.220 circularity=0.173
+[MEASURE C54] Scratch width=0.169433 mm valid=False
+[CLEAN C55] type=Scratch area=24.0 perimeter=28.0 bbox=(272,342,3,13) long=12.0 box_short=2.0 box_aspect=6.000 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=3.000 circularity=0.385
+[MEASURE C55] Scratch width=0.137130 mm valid=False
+[CLEAN C56] type=Rejected area=12.0 perimeter=13.7 bbox=(117,340,4,6) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.809
+[CLEAN C56] REJECT Scratch: area 12.0 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C56] REJECT Pit: area 12.0 < 32
+[CLEAN C57] type=Rejected area=7.5 perimeter=11.4 bbox=(468,339,5,3) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C57] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C57] REJECT Pit: area 7.5 < 32
+[CLEAN C58] type=Scratch area=102.5 perimeter=110.4 bbox=(311,339,18,41) long=42.5 box_short=11.2 box_aspect=3.801 skeleton_width=2.00 skeleton_range=2.00-6.00 skeleton_aspect=21.245 circularity=0.106
+[MEASURE C58] Scratch width=0.347629 mm valid=True
+Scratch: area = 102.5 width_px = 2.0 width_mm = 0.3476290829394431 ratio = 21.245332717895508
+[CLEAN C59] type=Rejected area=4.0 perimeter=8.0 bbox=(286,339,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.785
+[CLEAN C59] REJECT Scratch: area 4.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C59] REJECT Pit: area 4.0 < 32
+[CLEAN C60] type=Rejected area=2.0 perimeter=6.0 bbox=(133,338,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C60] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C60] REJECT Pit: area 2.0 < 32
+[CLEAN C61] type=Rejected area=1.0 perimeter=4.0 bbox=(94,337,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C61] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C61] REJECT Pit: area 1.0 < 32
+[CLEAN C62] type=Rejected area=1.0 perimeter=4.0 bbox=(419,332,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C62] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C62] REJECT Pit: area 1.0 < 32
+[CLEAN C63] type=Rejected area=1.0 perimeter=4.0 bbox=(225,332,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C63] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C63] REJECT Pit: area 1.0 < 32
+[CLEAN C64] type=Rejected area=2.0 perimeter=6.0 bbox=(557,331,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C64] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C64] REJECT Pit: area 2.0 < 32
+[CLEAN C65] type=Scratch area=205.5 perimeter=140.0 bbox=(365,331,23,46) long=44.0 box_short=21.1 box_aspect=2.084 skeleton_width=4.00 skeleton_range=2.00-6.39 skeleton_aspect=11.001 circularity=0.132
+[MEASURE C65] Scratch width=0.456206 mm valid=True
+Scratch: area = 205.5 width_px = 4.0 width_mm = 0.4562058817589925 ratio = 11.000703811645508
+[CLEAN C66] type=Scratch area=33.5 perimeter=37.9 bbox=(589,330,6,17) long=16.4 box_short=4.6 box_aspect=3.594 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=4.097 circularity=0.293
+[MEASURE C66] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C67] type=Rejected area=9.5 perimeter=12.2 bbox=(399,330,5,4) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.429 circularity=0.796
+[CLEAN C67] REJECT Scratch: area 9.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.429 < 2.5
+[CLEAN C67] REJECT Pit: area 9.5 < 32
+[CLEAN C68] type=Rejected area=4.0 perimeter=8.0 bbox=(210,329,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.785
+[CLEAN C68] REJECT Scratch: area 4.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C68] REJECT Pit: area 4.0 < 32
+[CLEAN C69] type=Rejected area=3.0 perimeter=8.0 bbox=(198,329,2,4) long=3.0 box_short=1.0 box_aspect=3.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.500 circularity=0.589
+[CLEAN C69] REJECT Scratch: area 3.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C69] REJECT Pit: area 3.0 < 32
+[CLEAN C70] type=Scratch area=53.0 perimeter=38.5 bbox=(321,327,8,15) long=14.5 box_short=5.9 box_aspect=2.467 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=3.628 circularity=0.450
+[MEASURE C70] Scratch width=0.310845 mm valid=True
+Scratch: area = 53.0 width_px = 4.0 width_mm = 0.3108452723905122 ratio = 3.6281485557556152
+[CLEAN C71] type=Rejected area=1.0 perimeter=4.0 bbox=(120,327,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C71] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C71] REJECT Pit: area 1.0 < 32
+[CLEAN C72] type=Scratch area=68.5 perimeter=46.7 bbox=(408,326,11,15) long=14.0 box_short=10.0 box_aspect=1.400 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=3.500 circularity=0.394
+[MEASURE C72] Scratch width=0.301670 mm valid=True
+Scratch: area = 68.5 width_px = 4.0 width_mm = 0.30166989691831003 ratio = 3.5
+[CLEAN C73] type=Pit area=34.5 perimeter=26.2 bbox=(381,326,6,10) long=9.0 box_short=5.0 box_aspect=1.800 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=2.250 circularity=0.630
+[MEASURE C73] Pit diameter=0.515622 mm valid=True
+Pit: area = 34.5 diameter_mm = 0.5156217813491821 circularity = 0.6295263212855418
+[CLEAN C74] type=Pit area=59.5 perimeter=34.7 bbox=(160,326,13,8) long=12.0 box_short=7.0 box_aspect=1.714 skeleton_width=5.60 skeleton_range=2.00-6.39 skeleton_aspect=2.143 circularity=0.620
+[MEASURE C74] Pit diameter=0.704151 mm valid=True
+Pit: area = 59.5 diameter_mm = 0.7041513323783875 circularity = 0.6199679502620395
+[CLEAN C75] type=Rejected area=1.0 perimeter=4.0 bbox=(316,323,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C75] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C75] REJECT Pit: area 1.0 < 32
+[CLEAN C76] type=Rejected area=1.0 perimeter=4.0 bbox=(457,322,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C76] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C76] REJECT Pit: area 1.0 < 32
+[CLEAN C77] type=Rejected area=4.0 perimeter=10.0 bbox=(203,320,2,5) long=4.0 box_short=1.0 box_aspect=4.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=2.000 circularity=0.503
+[CLEAN C77] REJECT Scratch: area 4.0 < 20; long_side 4.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C77] REJECT Pit: area 4.0 < 32; circularity 0.503 < 0.55
+[CLEAN C78] type=Scratch area=37.5 perimeter=28.2 bbox=(388,319,11,6) long=10.0 box_short=5.0 box_aspect=2.000 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=2.500 circularity=0.591
+[MEASURE C78] Scratch width=0.260511 mm valid=True
+Scratch: area = 37.5 width_px = 4.0 width_mm = 0.2605107084019771 ratio = 2.5
+[CLEAN C79] type=Rejected area=3.5 perimeter=7.4 bbox=(195,319,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C79] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C79] REJECT Pit: area 3.5 < 32
+[CLEAN C80] type=Rejected area=3.5 perimeter=7.4 bbox=(565,318,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C80] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C80] REJECT Pit: area 3.5 < 32
+[CLEAN C81] type=Rejected area=3.0 perimeter=26.8 bbox=(330,318,3,13) long=12.1 box_short=1.1 box_aspect=11.167 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=6.066 circularity=0.052
+[CLEAN C81] REJECT Scratch: area 3.0 < 20
+[CLEAN C81] REJECT Pit: area 3.0 < 32; circularity 0.052 < 0.55; aspect_ratio 11.167 > 5.0
+[CLEAN C82] type=Scratch area=31.5 perimeter=34.2 bbox=(486,317,6,14) long=13.0 box_short=5.0 box_aspect=2.600 skeleton_width=2.00 skeleton_range=2.00-6.00 skeleton_aspect=6.500 circularity=0.338
+[MEASURE C82] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C83] type=Rejected area=2.0 perimeter=6.0 bbox=(270,317,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C83] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C83] REJECT Pit: area 2.0 < 32
+[CLEAN C84] type=Rejected area=4.5 perimeter=9.4 bbox=(104,317,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.500 circularity=0.638
+[CLEAN C84] REJECT Scratch: area 4.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C84] REJECT Pit: area 4.5 < 32
+[CLEAN C85] type=Rejected area=3.5 perimeter=7.4 bbox=(462,316,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C85] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C85] REJECT Pit: area 3.5 < 32
+[CLEAN C86] type=Rejected area=5.5 perimeter=9.4 bbox=(139,316,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C86] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C86] REJECT Pit: area 5.5 < 32
+[CLEAN C87] type=Rejected area=1.0 perimeter=4.0 bbox=(0,316,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C87] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C87] REJECT Pit: area 1.0 < 32
+[CLEAN C88] type=Rejected area=1.0 perimeter=4.0 bbox=(92,315,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C88] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C88] REJECT Pit: area 1.0 < 32
+[CLEAN C89] type=Rejected area=1.0 perimeter=4.0 bbox=(384,314,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C89] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C89] REJECT Pit: area 1.0 < 32
+[CLEAN C90] type=Scratch area=98.5 perimeter=59.9 bbox=(274,314,8,26) long=25.0 box_short=7.0 box_aspect=3.583 skeleton_width=4.00 skeleton_range=2.00-6.39 skeleton_aspect=6.249 circularity=0.345
+[MEASURE C90] Scratch width=0.410833 mm valid=True
+Scratch: area = 98.5 width_px = 4.0 width_mm = 0.41083285479181375 ratio = 6.249172687530518
+[CLEAN C91] type=Scratch area=725.5 perimeter=319.3 bbox=(329,312,39,67) long=63.1 box_short=34.4 box_aspect=1.837 skeleton_width=5.60 skeleton_range=2.00-14.79 skeleton_aspect=11.273 circularity=0.089
+[MEASURE C91] Scratch width=1.309337 mm valid=True
+Scratch: area = 725.5 width_px = 5.599999904632568 width_mm = 1.3093369075159045 ratio = 11.273349545229324
+[CLEAN C92] type=Rejected area=7.5 perimeter=11.4 bbox=(416,311,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.723
+[CLEAN C92] REJECT Scratch: area 7.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C92] REJECT Pit: area 7.5 < 32
+[CLEAN C93] type=Rejected area=2.0 perimeter=6.0 bbox=(38,309,3,2) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C93] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C93] REJECT Pit: area 2.0 < 32
+[CLEAN C94] type=Scratch area=38.5 perimeter=33.9 bbox=(582,306,8,12) long=11.0 box_short=7.0 box_aspect=1.571 skeleton_width=4.00 skeleton_range=2.00-4.39 skeleton_aspect=2.750 circularity=0.421
+[MEASURE C94] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C95] type=Scratch area=45.0 perimeter=35.7 bbox=(79,306,5,16) long=15.0 box_short=4.0 box_aspect=3.750 skeleton_width=4.00 skeleton_range=2.00-4.39 skeleton_aspect=3.750 circularity=0.445
+[MEASURE C95] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C96] type=Rejected area=16.5 perimeter=18.2 bbox=(476,305,7,5) long=6.7 box_short=3.5 box_aspect=1.889 skeleton_width=3.40 skeleton_range=2.00-4.00 skeleton_aspect=1.961 circularity=0.623
+[CLEAN C96] REJECT Scratch: area 16.5 < 20; long_side 6.7 < 10; skeleton_aspect 1.961 < 2.5
+[CLEAN C96] REJECT Pit: area 16.5 < 32
+[CLEAN C97] type=Rejected area=3.5 perimeter=7.4 bbox=(381,303,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C97] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C97] REJECT Pit: area 3.5 < 32
+[CLEAN C98] type=Rejected area=12.5 perimeter=15.1 bbox=(311,302,6,5) long=5.0 box_short=4.0 box_aspect=1.250 skeleton_width=2.40 skeleton_range=2.00-4.39 skeleton_aspect=2.083 circularity=0.692
+[CLEAN C98] REJECT Scratch: area 12.5 < 20; long_side 5.0 < 10; skeleton_aspect 2.083 < 2.5
+[CLEAN C98] REJECT Pit: area 12.5 < 32
+[CLEAN C99] type=Rejected area=6.0 perimeter=10.0 bbox=(271,302,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.754
+[CLEAN C99] REJECT Scratch: area 6.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C99] REJECT Pit: area 6.0 < 32
+[CLEAN C100] type=Scratch area=551.0 perimeter=383.1 bbox=(217,302,25,119) long=117.9 box_short=23.6 box_aspect=5.000 skeleton_width=4.00 skeleton_range=2.00-8.00 skeleton_aspect=29.483 circularity=0.047
+[MEASURE C100] Scratch width=0.370015 mm valid=True
+Scratch: area = 551.0 width_px = 4.0 width_mm = 0.37001473930668677 ratio = 29.483016967773438
+[CLEAN C101] type=Rejected area=3.5 perimeter=7.4 bbox=(101,302,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C101] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C101] REJECT Pit: area 3.5 < 32
+[CLEAN C102] type=Scratch area=25.0 perimeter=38.5 bbox=(542,301,5,18) long=17.3 box_short=3.1 box_aspect=5.622 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=8.637 circularity=0.212
+[MEASURE C102] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C103] type=Rejected area=16.0 perimeter=19.7 bbox=(533,298,5,8) long=7.5 box_short=3.4 box_aspect=2.214 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=2.685 circularity=0.520
+[CLEAN C103] REJECT Scratch: area 16.0 < 20; long_side 7.5 < 10
+[CLEAN C103] REJECT Pit: area 16.0 < 32; circularity 0.520 < 0.55
+[CLEAN C104] type=Rejected area=7.0 perimeter=10.8 bbox=(275,298,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.250 circularity=0.750
+[CLEAN C104] REJECT Scratch: area 7.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C104] REJECT Pit: area 7.0 < 32
+[CLEAN C105] type=Rejected area=14.0 perimeter=24.8 bbox=(188,297,3,12) long=11.0 box_short=2.0 box_aspect=5.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=5.500 circularity=0.285
+[CLEAN C105] REJECT Scratch: area 14.0 < 20
+[CLEAN C105] REJECT Pit: area 14.0 < 32; circularity 0.285 < 0.55; aspect_ratio 5.500 > 5.0
+[CLEAN C106] type=Rejected area=10.0 perimeter=29.7 bbox=(174,296,4,14) long=13.2 box_short=2.2 box_aspect=6.045 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=6.617 circularity=0.143
+[CLEAN C106] REJECT Scratch: area 10.0 < 20
+[CLEAN C106] REJECT Pit: area 10.0 < 32; circularity 0.143 < 0.55; aspect_ratio 6.045 > 5.0
+[CLEAN C107] type=Rejected area=1.0 perimeter=4.0 bbox=(136,295,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C107] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C107] REJECT Pit: area 1.0 < 32
+[CLEAN C108] type=Rejected area=2.0 perimeter=6.0 bbox=(501,293,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C108] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C108] REJECT Pit: area 2.0 < 32
+[CLEAN C109] type=Rejected area=15.5 perimeter=15.1 bbox=(348,292,5,6) long=5.0 box_short=4.0 box_aspect=1.250 skeleton_width=2.80 skeleton_range=2.00-4.39 skeleton_aspect=1.786 circularity=0.858
+[CLEAN C109] REJECT Scratch: area 15.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C109] REJECT Pit: area 15.5 < 32
+[CLEAN C110] type=Scratch area=53.5 perimeter=41.9 bbox=(565,291,7,18) long=17.4 box_short=5.4 box_aspect=3.224 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=4.362 circularity=0.383
+[MEASURE C110] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C111] type=Scratch area=30.0 perimeter=28.5 bbox=(402,291,7,11) long=10.5 box_short=5.4 box_aspect=1.939 skeleton_width=2.80 skeleton_range=2.00-6.00 skeleton_aspect=3.747 circularity=0.465
+[MEASURE C111] Scratch width=0.183922 mm valid=False
+[CLEAN C112] type=Rejected area=3.0 perimeter=6.8 bbox=(143,291,3,3) long=2.8 box_short=1.4 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.414 circularity=0.809
+[CLEAN C112] REJECT Scratch: area 3.0 < 20; long_side 2.8 < 10; skeleton_aspect 1.414 < 2.5
+[CLEAN C112] REJECT Pit: area 3.0 < 32
+[CLEAN C113] type=Rejected area=1.0 perimeter=4.0 bbox=(589,290,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C113] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C113] REJECT Pit: area 1.0 < 32
+[CLEAN C114] type=Rejected area=3.5 perimeter=7.4 bbox=(82,290,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C114] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C114] REJECT Pit: area 3.5 < 32
+[CLEAN C115] type=Rejected area=3.5 perimeter=7.4 bbox=(477,289,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C115] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C115] REJECT Pit: area 3.5 < 32
+[CLEAN C116] type=Pit area=48.0 perimeter=28.5 bbox=(238,289,7,11) long=10.0 box_short=6.0 box_aspect=1.667 skeleton_width=5.60 skeleton_range=2.00-6.39 skeleton_aspect=1.786 circularity=0.743
+[MEASURE C116] Pit diameter=0.536293 mm valid=True
+Pit: area = 48.0 diameter_mm = 0.5362933278083801 circularity = 0.7433786405415648
+[CLEAN C117] type=Rejected area=2.0 perimeter=6.0 bbox=(377,288,3,2) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C117] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C117] REJECT Pit: area 2.0 < 32
+[CLEAN C118] type=Rejected area=5.0 perimeter=8.8 bbox=(113,288,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C118] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C118] REJECT Pit: area 5.0 < 32
+[CLEAN C119] type=Rejected area=5.5 perimeter=9.4 bbox=(52,288,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C119] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C119] REJECT Pit: area 5.5 < 32
+[CLEAN C120] type=Rejected area=16.0 perimeter=40.1 bbox=(39,287,11,14) long=16.3 box_short=4.1 box_aspect=3.958 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=8.146 circularity=0.125
+[CLEAN C120] REJECT Scratch: area 16.0 < 20
+[CLEAN C120] REJECT Pit: area 16.0 < 32; circularity 0.125 < 0.55
+[CLEAN C121] type=Scratch area=178.5 perimeter=100.0 bbox=(17,287,10,44) long=43.0 box_short=9.0 box_aspect=4.778 skeleton_width=4.00 skeleton_range=2.00-9.99 skeleton_aspect=10.750 circularity=0.224
+[MEASURE C121] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C122] type=Rejected area=31.5 perimeter=23.9 bbox=(465,286,6,10) long=9.5 box_short=4.6 box_aspect=2.040 skeleton_width=4.00 skeleton_range=2.80-5.60 skeleton_aspect=2.368 circularity=0.693
+[CLEAN C122] REJECT Scratch: long_side 9.5 < 10; skeleton_aspect 2.368 < 2.5
+[CLEAN C122] REJECT Pit: area 31.5 < 32
+[CLEAN C123] type=Scratch area=119.5 perimeter=93.2 bbox=(282,285,15,38) long=39.1 box_short=9.2 box_aspect=4.265 skeleton_width=4.00 skeleton_range=2.00-7.19 skeleton_aspect=9.779 circularity=0.173
+[MEASURE C123] Scratch width=0.335099 mm valid=True
+Scratch: area = 119.5 width_px = 4.0 width_mm = 0.33509879416746147 ratio = 9.778759956359863
+[CLEAN C124] type=Rejected area=7.0 perimeter=10.8 bbox=(225,285,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.250 circularity=0.750
+[CLEAN C124] REJECT Scratch: area 7.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C124] REJECT Pit: area 7.0 < 32
+[CLEAN C125] type=Scratch area=20.5 perimeter=43.1 bbox=(88,285,6,18) long=17.2 box_short=4.2 box_aspect=4.119 skeleton_width=2.00 skeleton_range=2.00-5.60 skeleton_aspect=8.608 circularity=0.139
+[MEASURE C125] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C126] type=Rejected area=4.0 perimeter=8.8 bbox=(578,283,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.500 circularity=0.645
+[CLEAN C126] REJECT Scratch: area 4.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C126] REJECT Pit: area 4.0 < 32
+[CLEAN C127] type=Rejected area=8.0 perimeter=12.8 bbox=(317,283,6,3) long=5.0 box_short=2.0 box_aspect=2.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=2.500 circularity=0.611
+[CLEAN C127] REJECT Scratch: area 8.0 < 20; long_side 5.0 < 10
+[CLEAN C127] REJECT Pit: area 8.0 < 32
+[CLEAN C128] type=Rejected area=4.0 perimeter=8.0 bbox=(264,283,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.785
+[CLEAN C128] REJECT Scratch: area 4.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C128] REJECT Pit: area 4.0 < 32
+[CLEAN C129] type=Scratch area=42.5 perimeter=37.1 bbox=(557,282,6,16) long=15.3 box_short=4.9 box_aspect=3.143 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=3.831 circularity=0.389
+[MEASURE C129] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C130] type=Rejected area=3.5 perimeter=7.4 bbox=(498,282,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C130] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C130] REJECT Pit: area 3.5 < 32
+[CLEAN C131] type=Rejected area=1.0 perimeter=4.0 bbox=(138,282,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C131] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C131] REJECT Pit: area 1.0 < 32
+[CLEAN C132] type=Rejected area=13.5 perimeter=14.2 bbox=(187,281,5,5) long=4.0 box_short=4.0 box_aspect=1.000 skeleton_width=3.40 skeleton_range=2.00-4.39 skeleton_aspect=1.176 circularity=0.836
+[CLEAN C132] REJECT Scratch: area 13.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.176 < 2.5
+[CLEAN C132] REJECT Pit: area 13.5 < 32
+[CLEAN C133] type=Rejected area=1.0 perimeter=4.0 bbox=(153,281,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C133] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C133] REJECT Pit: area 1.0 < 32
+[CLEAN C134] type=Rejected area=23.0 perimeter=19.7 bbox=(545,280,5,8) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=1.750 circularity=0.748
+[CLEAN C134] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C134] REJECT Pit: area 23.0 < 32
+[CLEAN C135] type=Rejected area=7.0 perimeter=10.8 bbox=(330,280,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.429 circularity=0.750
+[CLEAN C135] REJECT Scratch: area 7.0 < 20; long_side 4.0 < 10; skeleton_aspect 1.429 < 2.5
+[CLEAN C135] REJECT Pit: area 7.0 < 32
+[CLEAN C136] type=Rejected area=3.0 perimeter=6.8 bbox=(268,280,3,3) long=2.8 box_short=1.4 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.414 circularity=0.809
+[CLEAN C136] REJECT Scratch: area 3.0 < 20; long_side 2.8 < 10; skeleton_aspect 1.414 < 2.5
+[CLEAN C136] REJECT Pit: area 3.0 < 32
+[CLEAN C137] type=Rejected area=5.5 perimeter=9.4 bbox=(279,279,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C137] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C137] REJECT Pit: area 5.5 < 32
+[CLEAN C138] type=Rejected area=5.5 perimeter=9.4 bbox=(130,278,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C138] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C138] REJECT Pit: area 5.5 < 32
+[CLEAN C139] type=Rejected area=23.0 perimeter=22.5 bbox=(387,276,6,9) long=8.2 box_short=4.5 box_aspect=1.812 skeleton_width=2.80 skeleton_range=2.00-4.39 skeleton_aspect=2.929 circularity=0.572
+[CLEAN C139] REJECT Scratch: long_side 8.2 < 10
+[CLEAN C139] REJECT Pit: area 23.0 < 32
+[CLEAN C140] type=Rejected area=1.0 perimeter=4.0 bbox=(471,273,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C140] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C140] REJECT Pit: area 1.0 < 32
+[CLEAN C141] type=Scratch area=41.0 perimeter=29.3 bbox=(30,272,8,11) long=11.7 box_short=5.1 box_aspect=2.267 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=2.915 circularity=0.600
+[MEASURE C141] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C142] type=Scratch area=59.5 perimeter=64.7 bbox=(480,271,9,28) long=27.4 box_short=6.2 box_aspect=4.402 skeleton_width=2.80 skeleton_range=2.00-4.39 skeleton_aspect=9.802 circularity=0.178
+[MEASURE C142] Scratch width=0.326096 mm valid=True
+Scratch: area = 59.5 width_px = 2.799999952316284 width_mm = 0.32609647918786444 ratio = 9.802259203404345
+[CLEAN C143] type=Scratch area=46.5 perimeter=53.9 bbox=(365,271,11,19) long=18.2 box_short=9.3 box_aspect=1.960 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=9.099 circularity=0.201
+[MEASURE C143] Scratch width=0.328302 mm valid=True
+Scratch: area = 46.5 width_px = 2.0 width_mm = 0.32830150099198546 ratio = 9.099071502685547
+[CLEAN C144] type=Scratch area=555.5 perimeter=298.8 bbox=(242,271,22,107) long=106.4 box_short=20.8 box_aspect=5.124 skeleton_width=4.00 skeleton_range=2.00-8.79 skeleton_aspect=26.595 circularity=0.078
+[MEASURE C144] Scratch width=0.514699 mm valid=True
+Scratch: area = 555.5 width_px = 4.0 width_mm = 0.5146992747024669 ratio = 26.594772338867188
+[CLEAN C145] type=Rejected area=5.5 perimeter=9.4 bbox=(229,271,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C145] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C145] REJECT Pit: area 5.5 < 32
+[CLEAN C146] type=Scratch area=49.5 perimeter=76.7 bbox=(193,271,9,32) long=31.0 box_short=6.9 box_aspect=4.506 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=15.518 circularity=0.106
+[MEASURE C146] Scratch width=0.225018 mm valid=False
+[CLEAN C147] type=Rejected area=1.0 perimeter=4.0 bbox=(95,270,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C147] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C147] REJECT Pit: area 1.0 < 32
+[CLEAN C148] type=Rejected area=28.0 perimeter=23.3 bbox=(518,269,9,7) long=7.9 box_short=5.7 box_aspect=1.394 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=1.972 circularity=0.647
+[CLEAN C148] REJECT Scratch: long_side 7.9 < 10; skeleton_aspect 1.972 < 2.5
+[CLEAN C148] REJECT Pit: area 28.0 < 32
+[CLEAN C149] type=Scratch area=201.0 perimeter=159.1 bbox=(442,268,10,73) long=72.2 box_short=7.3 box_aspect=9.889 skeleton_width=4.00 skeleton_range=2.00-8.00 skeleton_aspect=18.043 circularity=0.100
+[MEASURE C149] Scratch width=0.407820 mm valid=True
+Scratch: area = 201.0 width_px = 4.0 width_mm = 0.4078196773212113 ratio = 18.042919158935547
+[CLEAN C150] type=Scratch area=46.5 perimeter=37.1 bbox=(283,268,9,13) long=11.9 box_short=6.5 box_aspect=1.815 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=2.971 circularity=0.425
+[MEASURE C150] Scratch width=0.236002 mm valid=False
+[CLEAN C151] type=Rejected area=1.0 perimeter=4.0 bbox=(580,266,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C151] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C151] REJECT Pit: area 1.0 < 32
+[CLEAN C152] type=Rejected area=7.0 perimeter=10.8 bbox=(542,265,5,3) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.429 circularity=0.750
+[CLEAN C152] REJECT Scratch: area 7.0 < 20; long_side 4.0 < 10; skeleton_aspect 1.429 < 2.5
+[CLEAN C152] REJECT Pit: area 7.0 < 32
+[CLEAN C153] type=Rejected area=1.0 perimeter=4.0 bbox=(402,265,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C153] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C153] REJECT Pit: area 1.0 < 32
+[CLEAN C154] type=Pit area=71.0 perimeter=38.5 bbox=(505,264,8,15) long=14.0 box_short=7.0 box_aspect=2.000 skeleton_width=6.00 skeleton_range=2.00-6.39 skeleton_aspect=2.333 circularity=0.602
+[MEASURE C154] Pit 不可测: 凹点中心超出中央有效测量区域
+[CLEAN C155] type=Rejected area=14.5 perimeter=16.2 bbox=(464,263,5,6) long=5.0 box_short=4.0 box_aspect=1.250 skeleton_width=3.00 skeleton_range=2.00-4.39 skeleton_aspect=1.667 circularity=0.691
+[CLEAN C155] REJECT Scratch: area 14.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C155] REJECT Pit: area 14.5 < 32
+[CLEAN C156] type=Rejected area=10.0 perimeter=12.8 bbox=(379,262,4,5) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.429 circularity=0.764
+[CLEAN C156] REJECT Scratch: area 10.0 < 20; long_side 4.0 < 10; skeleton_aspect 1.429 < 2.5
+[CLEAN C156] REJECT Pit: area 10.0 < 32
+[CLEAN C157] type=Rejected area=14.0 perimeter=17.7 bbox=(104,262,5,7) long=7.1 box_short=3.3 box_aspect=2.111 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=2.520 circularity=0.564
+[CLEAN C157] REJECT Scratch: area 14.0 < 20; long_side 7.1 < 10
+[CLEAN C157] REJECT Pit: area 14.0 < 32
+[CLEAN C158] type=Rejected area=11.5 perimeter=13.4 bbox=(437,260,5,4) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.803
+[CLEAN C158] REJECT Scratch: area 11.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C158] REJECT Pit: area 11.5 < 32
+[CLEAN C159] type=Pit area=49.5 perimeter=30.7 bbox=(354,260,7,13) long=12.4 box_short=5.5 box_aspect=2.250 skeleton_width=5.60 skeleton_range=2.00-6.00 skeleton_aspect=2.206 circularity=0.659
+[MEASURE C159] Pit diameter=0.614581 mm valid=True
+Pit: area = 49.5 diameter_mm = 0.614580512046814 circularity = 0.658792557004659
+[CLEAN C160] type=Rejected area=5.0 perimeter=8.8 bbox=(321,260,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C160] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C160] REJECT Pit: area 5.0 < 32
+[CLEAN C161] type=Rejected area=2.0 perimeter=6.0 bbox=(290,260,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C161] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C161] REJECT Pit: area 2.0 < 32
+[CLEAN C162] type=Rejected area=5.0 perimeter=8.8 bbox=(460,258,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C162] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C162] REJECT Pit: area 5.0 < 32
+[CLEAN C163] type=Scratch area=3611.5 perimeter=1418.1 bbox=(348,258,259,163) long=258.0 box_short=162.0 box_aspect=1.593 skeleton_width=5.60 skeleton_range=2.00-18.00 skeleton_aspect=46.071 circularity=0.023
+[MEASURE C163] Scratch width=1.117676 mm valid=True
+Scratch: area = 3611.5 width_px = 5.599999904632568 width_mm = 1.1176758566412033 ratio = 46.07142935602034
+[CLEAN C164] type=Rejected area=3.5 perimeter=7.4 bbox=(537,257,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C164] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C164] REJECT Pit: area 3.5 < 32
+[CLEAN C165] type=Rejected area=8.0 perimeter=16.5 bbox=(528,257,6,6) long=7.1 box_short=2.1 box_aspect=3.333 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=3.536 circularity=0.370
+[CLEAN C165] REJECT Scratch: area 8.0 < 20; long_side 7.1 < 10
+[CLEAN C165] REJECT Pit: area 8.0 < 32; circularity 0.370 < 0.55
+[CLEAN C166] type=Scratch area=22.0 perimeter=42.8 bbox=(199,257,3,21) long=20.0 box_short=2.0 box_aspect=10.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=10.000 circularity=0.151
+[MEASURE C166] Scratch width=0.145068 mm valid=False
+[CLEAN C167] type=Rejected area=20.5 perimeter=19.1 bbox=(186,257,5,8) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=3.40 skeleton_range=2.00-5.60 skeleton_aspect=2.059 circularity=0.708
+[CLEAN C167] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 2.059 < 2.5
+[CLEAN C167] REJECT Pit: area 20.5 < 32
+[CLEAN C168] type=Scratch area=24.5 perimeter=31.9 bbox=(326,256,7,13) long=12.3 box_short=5.4 box_aspect=2.300 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=6.172 circularity=0.303
+[MEASURE C168] Scratch width=0.311190 mm valid=True
+Scratch: area = 24.5 width_px = 2.0 width_mm = 0.3111899378196815 ratio = 6.171548366546631
+[CLEAN C169] type=Rejected area=19.0 perimeter=17.7 bbox=(409,255,6,6) long=5.0 box_short=5.0 box_aspect=1.000 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=1.250 circularity=0.766
+[CLEAN C169] REJECT Scratch: area 19.0 < 20; long_side 5.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C169] REJECT Pit: area 19.0 < 32
+[CLEAN C170] type=Rejected area=1.0 perimeter=4.0 bbox=(194,254,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C170] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C170] REJECT Pit: area 1.0 < 32
+[CLEAN C171] type=Rejected area=8.5 perimeter=16.2 bbox=(547,253,4,7) long=6.5 box_short=2.4 box_aspect=2.750 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=3.236 circularity=0.405
+[CLEAN C171] REJECT Scratch: area 8.5 < 20; long_side 6.5 < 10
+[CLEAN C171] REJECT Pit: area 8.5 < 32; circularity 0.405 < 0.55
+[CLEAN C172] type=Rejected area=11.0 perimeter=13.7 bbox=(36,253,6,4) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.741
+[CLEAN C172] REJECT Scratch: area 11.0 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C172] REJECT Pit: area 11.0 < 32
+[CLEAN C173] type=Rejected area=1.0 perimeter=4.0 bbox=(521,252,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C173] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C173] REJECT Pit: area 1.0 < 32
+[CLEAN C174] type=Scratch area=267.5 perimeter=162.2 bbox=(327,252,21,62) long=61.8 box_short=15.1 box_aspect=4.100 skeleton_width=4.00 skeleton_range=2.00-8.00 skeleton_aspect=15.453 circularity=0.128
+[MEASURE C174] Scratch width=0.412977 mm valid=True
+Scratch: area = 267.5 width_px = 4.0 width_mm = 0.41297743389662805 ratio = 15.453292846679688
+[CLEAN C175] type=Rejected area=2.0 perimeter=6.0 bbox=(251,252,3,2) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C175] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C175] REJECT Pit: area 2.0 < 32
+[CLEAN C176] type=Rejected area=5.5 perimeter=11.4 bbox=(472,251,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=2.000 circularity=0.530
+[CLEAN C176] REJECT Scratch: area 5.5 < 20; long_side 4.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C176] REJECT Pit: area 5.5 < 32; circularity 0.530 < 0.55
+[CLEAN C177] type=Rejected area=22.5 perimeter=20.2 bbox=(151,251,4,9) long=8.0 box_short=3.0 box_aspect=2.667 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=2.000 circularity=0.690
+[CLEAN C177] REJECT Scratch: long_side 8.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C177] REJECT Pit: area 22.5 < 32
+[CLEAN C178] type=Rejected area=5.5 perimeter=10.2 bbox=(500,250,4,4) long=4.0 box_short=2.2 box_aspect=1.800 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=2.012 circularity=0.659
+[CLEAN C178] REJECT Scratch: area 5.5 < 20; long_side 4.0 < 10; skeleton_aspect 2.012 < 2.5
+[CLEAN C178] REJECT Pit: area 5.5 < 32
+[CLEAN C179] type=Rejected area=0.0 perimeter=12.0 bbox=(606,249,1,7) long=6.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=3.000 circularity=0.000
+[CLEAN C179] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长
+[CLEAN C179] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C180] type=Rejected area=23.5 perimeter=20.2 bbox=(273,249,8,5) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=1.750 circularity=0.721
+[CLEAN C180] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C180] REJECT Pit: area 23.5 < 32
+[CLEAN C181] type=Scratch area=79.0 perimeter=77.8 bbox=(562,248,13,32) long=32.6 box_short=8.4 box_aspect=3.872 skeleton_width=2.00 skeleton_range=2.00-6.00 skeleton_aspect=16.286 circularity=0.164
+[MEASURE C181] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C182] type=Pit area=59.0 perimeter=31.3 bbox=(134,247,9,11) long=10.0 box_short=8.0 box_aspect=1.250 skeleton_width=5.60 skeleton_range=2.00-7.19 skeleton_aspect=1.786 circularity=0.756
+[MEASURE C182] Pit diameter=0.650740 mm valid=True
+Pit: area = 59.0 diameter_mm = 0.6507400274276733 circularity = 0.7561237430598449
+[CLEAN C183] type=Rejected area=2.0 perimeter=6.0 bbox=(120,246,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C183] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C183] REJECT Pit: area 2.0 < 32
+[CLEAN C184] type=Rejected area=7.5 perimeter=10.2 bbox=(511,244,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.071 circularity=0.898
+[CLEAN C184] REJECT Scratch: area 7.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.071 < 2.5
+[CLEAN C184] REJECT Pit: area 7.5 < 32
+[CLEAN C185] type=Scratch area=75.5 perimeter=49.6 bbox=(487,243,11,19) long=18.3 box_short=9.5 box_aspect=1.933 skeleton_width=4.00 skeleton_range=2.00-7.19 skeleton_aspect=4.585 circularity=0.386
+[MEASURE C185] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C186] type=Rejected area=2.0 perimeter=6.0 bbox=(261,243,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C186] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C186] REJECT Pit: area 2.0 < 32
+[CLEAN C187] type=Rejected area=1.0 perimeter=4.0 bbox=(564,241,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C187] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C187] REJECT Pit: area 1.0 < 32
+[CLEAN C188] type=Rejected area=1.0 perimeter=4.0 bbox=(351,241,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C188] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C188] REJECT Pit: area 1.0 < 32
+[CLEAN C189] type=Scratch area=119.0 perimeter=59.3 bbox=(236,241,8,25) long=24.0 box_short=7.0 box_aspect=3.429 skeleton_width=6.00 skeleton_range=2.00-7.19 skeleton_aspect=4.000 circularity=0.425
+[MEASURE C189] Scratch width=0.405931 mm valid=True
+Scratch: area = 119.0 width_px = 6.0 width_mm = 0.4059309415641392 ratio = 4.0
+[CLEAN C190] type=Rejected area=1.0 perimeter=4.0 bbox=(112,241,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C190] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C190] REJECT Pit: area 1.0 < 32
+[CLEAN C191] type=Rejected area=2.0 perimeter=6.0 bbox=(267,240,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C191] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C191] REJECT Pit: area 2.0 < 32
+[CLEAN C192] type=Rejected area=5.5 perimeter=9.4 bbox=(222,239,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C192] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C192] REJECT Pit: area 5.5 < 32
+[CLEAN C193] type=Rejected area=1.0 perimeter=4.0 bbox=(571,238,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C193] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C193] REJECT Pit: area 1.0 < 32
+[CLEAN C194] type=Rejected area=1.0 perimeter=4.0 bbox=(114,235,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C194] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C194] REJECT Pit: area 1.0 < 32
+[CLEAN C195] type=Scratch area=63.0 perimeter=101.8 bbox=(551,234,11,44) long=44.0 box_short=4.6 box_aspect=9.468 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=22.004 circularity=0.076
+[MEASURE C195] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C196] type=Scratch area=273.0 perimeter=231.6 bbox=(204,234,20,71) long=69.4 box_short=17.7 box_aspect=3.918 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=17.341 circularity=0.064
+[MEASURE C196] Scratch width=0.479606 mm valid=True
+Scratch: area = 273.0 width_px = 4.0 width_mm = 0.47960628611461253 ratio = 17.34129524230957
+[CLEAN C197] type=Rejected area=1.0 perimeter=4.0 bbox=(549,233,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C197] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C197] REJECT Pit: area 1.0 < 32
+[CLEAN C198] type=Scratch area=625.0 perimeter=533.0 bbox=(289,233,31,151) long=149.5 box_short=23.6 box_aspect=6.340 skeleton_width=4.00 skeleton_range=2.00-7.19 skeleton_aspect=37.377 circularity=0.028
+[MEASURE C198] Scratch width=0.459200 mm valid=True
+Scratch: area = 625.0 width_px = 4.0 width_mm = 0.4591997959641927 ratio = 37.37667465209961
+[CLEAN C199] type=Rejected area=1.0 perimeter=4.0 bbox=(39,231,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C199] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C199] REJECT Pit: area 1.0 < 32
+[CLEAN C200] type=Scratch area=78.0 perimeter=65.0 bbox=(415,230,13,22) long=19.3 box_short=12.9 box_aspect=1.500 skeleton_width=4.00 skeleton_range=2.00-6.39 skeleton_aspect=4.837 circularity=0.232
+[MEASURE C200] Scratch width=0.363909 mm valid=True
+Scratch: area = 78.0 width_px = 4.0 width_mm = 0.3639091697391875 ratio = 4.8373541831970215
+[CLEAN C201] type=Rejected area=3.0 perimeter=6.8 bbox=(320,229,3,3) long=2.8 box_short=1.4 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.414 circularity=0.809
+[CLEAN C201] REJECT Scratch: area 3.0 < 20; long_side 2.8 < 10; skeleton_aspect 1.414 < 2.5
+[CLEAN C201] REJECT Pit: area 3.0 < 32
+[CLEAN C202] type=Rejected area=7.0 perimeter=10.8 bbox=(291,227,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.250 circularity=0.750
+[CLEAN C202] REJECT Scratch: area 7.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C202] REJECT Pit: area 7.0 < 32
+[CLEAN C203] type=Rejected area=18.5 perimeter=18.2 bbox=(229,227,4,8) long=7.0 box_short=3.0 box_aspect=2.333 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=1.750 circularity=0.699
+[CLEAN C203] REJECT Scratch: area 18.5 < 20; long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C203] REJECT Pit: area 18.5 < 32
+[CLEAN C204] type=Scratch area=89.5 perimeter=63.6 bbox=(576,226,13,23) long=22.7 box_short=11.1 box_aspect=2.056 skeleton_width=4.00 skeleton_range=2.00-7.19 skeleton_aspect=5.682 circularity=0.278
+[MEASURE C204] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C205] type=Rejected area=7.5 perimeter=12.2 bbox=(32,226,4,5) long=4.9 box_short=2.2 box_aspect=2.200 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=2.050 circularity=0.629
+[CLEAN C205] REJECT Scratch: area 7.5 < 20; long_side 4.9 < 10; skeleton_aspect 2.050 < 2.5
+[CLEAN C205] REJECT Pit: area 7.5 < 32
+[CLEAN C206] type=Rejected area=21.0 perimeter=19.7 bbox=(194,225,8,5) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=3.40 skeleton_range=2.00-4.39 skeleton_aspect=2.059 circularity=0.683
+[CLEAN C206] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 2.059 < 2.5
+[CLEAN C206] REJECT Pit: area 21.0 < 32
+[CLEAN C207] type=Rejected area=1.0 perimeter=4.0 bbox=(415,221,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C207] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C207] REJECT Pit: area 1.0 < 32
+[CLEAN C208] type=Rejected area=10.5 perimeter=15.4 bbox=(562,220,3,7) long=6.0 box_short=2.0 box_aspect=3.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=3.000 circularity=0.555
+[CLEAN C208] REJECT Scratch: area 10.5 < 20; long_side 6.0 < 10
+[CLEAN C208] REJECT Pit: area 10.5 < 32
+[CLEAN C209] type=Rejected area=3.0 perimeter=8.0 bbox=(432,220,4,2) long=3.0 box_short=1.0 box_aspect=3.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.500 circularity=0.589
+[CLEAN C209] REJECT Scratch: area 3.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C209] REJECT Pit: area 3.0 < 32
+[CLEAN C210] type=Scratch area=103.5 perimeter=68.4 bbox=(325,220,16,22) long=21.4 box_short=13.3 box_aspect=1.617 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=5.356 circularity=0.278
+[MEASURE C210] Scratch width=0.285914 mm valid=True
+Scratch: area = 103.5 width_px = 4.0 width_mm = 0.28591366499640813 ratio = 5.355929851531982
+[CLEAN C211] type=Rejected area=8.0 perimeter=13.7 bbox=(306,220,4,6) long=5.7 box_short=2.2 box_aspect=2.571 skeleton_width=2.80 skeleton_range=2.00-2.80 skeleton_aspect=2.033 circularity=0.539
+[CLEAN C211] REJECT Scratch: area 8.0 < 20; long_side 5.7 < 10; skeleton_aspect 2.033 < 2.5
+[CLEAN C211] REJECT Pit: area 8.0 < 32; circularity 0.539 < 0.55
+[CLEAN C212] type=Rejected area=76.5 perimeter=51.2 bbox=(461,218,13,16) long=13.0 box_short=11.9 box_aspect=1.093 skeleton_width=5.60 skeleton_range=2.00-7.19 skeleton_aspect=2.328 circularity=0.367
+[CLEAN C212] REJECT Scratch: skeleton_aspect 2.328 < 2.5
+[CLEAN C212] REJECT Pit: circularity 0.367 < 0.55
+[CLEAN C213] type=Rejected area=14.0 perimeter=15.7 bbox=(314,218,4,7) long=6.0 box_short=3.0 box_aspect=2.000 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=2.143 circularity=0.718
+[CLEAN C213] REJECT Scratch: area 14.0 < 20; long_side 6.0 < 10; skeleton_aspect 2.143 < 2.5
+[CLEAN C213] REJECT Pit: area 14.0 < 32
+[CLEAN C214] type=Rejected area=7.5 perimeter=11.4 bbox=(170,217,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C214] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C214] REJECT Pit: area 7.5 < 32
+[CLEAN C215] type=Scratch area=66.0 perimeter=51.8 bbox=(443,216,15,14) long=14.0 box_short=12.2 box_aspect=1.143 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=3.183 circularity=0.309
+[MEASURE C215] Scratch width=0.410142 mm valid=True
+Scratch: area = 66.0 width_px = 4.393799781799316 width_mm = 0.41014232076696605 ratio = 3.1832390504235404
+[CLEAN C216] type=Rejected area=11.5 perimeter=14.2 bbox=(524,214,6,4) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.712
+[CLEAN C216] REJECT Scratch: area 11.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C216] REJECT Pit: area 11.5 < 32
+[CLEAN C217] type=Rejected area=1.0 perimeter=4.0 bbox=(566,213,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C217] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C217] REJECT Pit: area 1.0 < 32
+[CLEAN C218] type=Scratch area=598.0 perimeter=203.9 bbox=(0,212,22,67) long=66.0 box_short=21.0 box_aspect=3.143 skeleton_width=4.00 skeleton_range=2.00-20.38 skeleton_aspect=16.500 circularity=0.181
+[MEASURE C218] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C219] type=Rejected area=25.5 perimeter=19.1 bbox=(496,211,6,7) long=6.0 box_short=5.0 box_aspect=1.200 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=1.366 circularity=0.881
+[CLEAN C219] REJECT Scratch: long_side 6.0 < 10; skeleton_aspect 1.366 < 2.5
+[CLEAN C219] REJECT Pit: area 25.5 < 32
+[CLEAN C220] type=Scratch area=30.5 perimeter=37.1 bbox=(573,210,5,17) long=16.2 box_short=3.4 box_aspect=4.794 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=5.793 circularity=0.279
+[MEASURE C220] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C221] type=Scratch area=69.0 perimeter=49.7 bbox=(215,210,7,21) long=20.0 box_short=6.0 box_aspect=3.333 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=5.000 circularity=0.352
+[MEASURE C221] Scratch width=0.374639 mm valid=True
+Scratch: area = 69.0 width_px = 4.0 width_mm = 0.3746394450572261 ratio = 5.0
+[CLEAN C222] type=Rejected area=3.0 perimeter=16.8 bbox=(25,210,3,8) long=7.2 box_short=1.2 box_aspect=6.286 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=3.617 circularity=0.133
+[CLEAN C222] REJECT Scratch: area 3.0 < 20; long_side 7.2 < 10
+[CLEAN C222] REJECT Pit: area 3.0 < 32; circularity 0.133 < 0.55; aspect_ratio 6.286 > 5.0
+[CLEAN C223] type=Rejected area=24.0 perimeter=18.5 bbox=(255,209,6,7) long=6.0 box_short=5.0 box_aspect=1.200 skeleton_width=4.39 skeleton_range=2.80-5.60 skeleton_aspect=1.366 circularity=0.883
+[CLEAN C223] REJECT Scratch: long_side 6.0 < 10; skeleton_aspect 1.366 < 2.5
+[CLEAN C223] REJECT Pit: area 24.0 < 32
+[CLEAN C224] type=Rejected area=2.0 perimeter=6.0 bbox=(45,209,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C224] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C224] REJECT Pit: area 2.0 < 32
+[CLEAN C225] type=Pit area=57.5 perimeter=33.1 bbox=(478,208,7,13) long=12.0 box_short=6.0 box_aspect=2.000 skeleton_width=6.00 skeleton_range=2.00-6.00 skeleton_aspect=2.000 circularity=0.661
+[MEASURE C225] Pit diameter=0.658278 mm valid=True
+Pit: area = 57.5 diameter_mm = 0.6582784056663513 circularity = 0.66066496414508
+[CLEAN C226] type=Rejected area=4.0 perimeter=8.0 bbox=(320,208,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.785
+[CLEAN C226] REJECT Scratch: area 4.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C226] REJECT Pit: area 4.0 < 32
+[CLEAN C227] type=Rejected area=6.5 perimeter=10.2 bbox=(470,206,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.80 skeleton_range=2.00-2.80 skeleton_aspect=1.071 circularity=0.779
+[CLEAN C227] REJECT Scratch: area 6.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.071 < 2.5
+[CLEAN C227] REJECT Pit: area 6.5 < 32
+[CLEAN C228] type=Rejected area=1.0 perimeter=4.0 bbox=(485,205,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C228] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C228] REJECT Pit: area 1.0 < 32
+[CLEAN C229] type=Rejected area=14.5 perimeter=20.2 bbox=(428,204,4,9) long=8.2 box_short=2.6 box_aspect=3.125 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=2.936 circularity=0.445
+[CLEAN C229] REJECT Scratch: area 14.5 < 20; long_side 8.2 < 10
+[CLEAN C229] REJECT Pit: area 14.5 < 32; circularity 0.445 < 0.55
+[CLEAN C230] type=Rejected area=11.5 perimeter=27.1 bbox=(180,204,5,12) long=11.4 box_short=3.1 box_aspect=3.679 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=5.687 circularity=0.197
+[CLEAN C230] REJECT Scratch: area 11.5 < 20
+[CLEAN C230] REJECT Pit: area 11.5 < 32; circularity 0.197 < 0.55
+[CLEAN C231] type=Rejected area=3.5 perimeter=7.4 bbox=(459,202,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C231] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C231] REJECT Pit: area 3.5 < 32
+[CLEAN C232] type=Rejected area=21.5 perimeter=19.1 bbox=(304,202,5,8) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=3.40 skeleton_range=2.00-5.60 skeleton_aspect=2.059 circularity=0.743
+[CLEAN C232] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 2.059 < 2.5
+[CLEAN C232] REJECT Pit: area 21.5 < 32
+[CLEAN C233] type=Rejected area=14.0 perimeter=40.5 bbox=(188,202,5,18) long=17.0 box_short=4.0 box_aspect=4.250 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=8.500 circularity=0.107
+[CLEAN C233] REJECT Scratch: area 14.0 < 20
+[CLEAN C233] REJECT Pit: area 14.0 < 32; circularity 0.107 < 0.55
+[CLEAN C234] type=Scratch area=50.5 perimeter=54.7 bbox=(147,202,6,24) long=23.0 box_short=5.0 box_aspect=4.600 skeleton_width=2.00 skeleton_range=2.00-6.00 skeleton_aspect=11.500 circularity=0.212
+[MEASURE C234] Scratch width=0.345041 mm valid=True
+Scratch: area = 50.5 width_px = 2.0 width_mm = 0.3450406696837165 ratio = 11.5
+[CLEAN C235] type=Rejected area=17.5 perimeter=16.2 bbox=(197,200,5,6) long=5.0 box_short=4.0 box_aspect=1.250 skeleton_width=2.80 skeleton_range=2.00-5.60 skeleton_aspect=1.786 circularity=0.834
+[CLEAN C235] REJECT Scratch: area 17.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C235] REJECT Pit: area 17.5 < 32
+[CLEAN C236] type=Rejected area=10.0 perimeter=16.8 bbox=(560,198,7,4) long=6.0 box_short=3.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=3.000 circularity=0.444
+[CLEAN C236] REJECT Scratch: area 10.0 < 20; long_side 6.0 < 10
+[CLEAN C236] REJECT Pit: area 10.0 < 32; circularity 0.444 < 0.55
+[CLEAN C237] type=Rejected area=26.0 perimeter=20.8 bbox=(294,198,5,8) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=1.750 circularity=0.753
+[CLEAN C237] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C237] REJECT Pit: area 26.0 < 32
+[CLEAN C238] type=Rejected area=3.0 perimeter=6.8 bbox=(454,197,3,3) long=2.8 box_short=1.4 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.414 circularity=0.809
+[CLEAN C238] REJECT Scratch: area 3.0 < 20; long_side 2.8 < 10; skeleton_aspect 1.414 < 2.5
+[CLEAN C238] REJECT Pit: area 3.0 < 32
+[CLEAN C239] type=Scratch area=25.0 perimeter=45.3 bbox=(281,197,7,19) long=18.2 box_short=4.4 box_aspect=4.161 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=9.122 circularity=0.153
+[MEASURE C239] Scratch width=0.260968 mm valid=True
+Scratch: area = 25.0 width_px = 2.0 width_mm = 0.2609678259931015 ratio = 9.121678352355957
+[CLEAN C240] type=Rejected area=1.0 perimeter=4.0 bbox=(292,195,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C240] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C240] REJECT Pit: area 1.0 < 32
+[CLEAN C241] type=Scratch area=38.0 perimeter=59.0 bbox=(534,194,13,18) long=16.5 box_short=10.7 box_aspect=1.542 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=8.273 circularity=0.137
+[MEASURE C241] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C242] type=Rejected area=7.5 perimeter=11.4 bbox=(32,192,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C242] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C242] REJECT Pit: area 7.5 < 32
+[CLEAN C243] type=Rejected area=4.0 perimeter=10.0 bbox=(499,191,2,5) long=4.0 box_short=1.0 box_aspect=4.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=2.000 circularity=0.503
+[CLEAN C243] REJECT Scratch: area 4.0 < 20; long_side 4.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C243] REJECT Pit: area 4.0 < 32; circularity 0.503 < 0.55
+[CLEAN C244] type=Rejected area=3.5 perimeter=7.4 bbox=(491,189,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C244] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C244] REJECT Pit: area 3.5 < 32
+[CLEAN C245] type=Rejected area=20.0 perimeter=19.7 bbox=(263,188,5,8) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=4.00 skeleton_range=2.00-4.39 skeleton_aspect=1.750 circularity=0.650
+[CLEAN C245] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C245] REJECT Pit: area 20.0 < 32
+[CLEAN C246] type=Rejected area=4.0 perimeter=8.0 bbox=(35,188,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.785
+[CLEAN C246] REJECT Scratch: area 4.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C246] REJECT Pit: area 4.0 < 32
+[CLEAN C247] type=Scratch area=55.5 perimeter=80.9 bbox=(205,186,13,32) long=31.6 box_short=8.5 box_aspect=3.731 skeleton_width=2.00 skeleton_range=2.00-5.60 skeleton_aspect=15.782 circularity=0.107
+[MEASURE C247] Scratch width=0.272745 mm valid=True
+Scratch: area = 55.5 width_px = 2.0 width_mm = 0.272744743727572 ratio = 15.781688690185547
+[CLEAN C248] type=Scratch area=3292.0 perimeter=1000.0 bbox=(22,183,153,238) long=263.4 box_short=120.9 box_aspect=2.179 skeleton_width=8.00 skeleton_range=2.00-20.00 skeleton_aspect=32.928 circularity=0.041
+[MEASURE C248] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C249] type=Scratch area=182.5 perimeter=122.0 bbox=(237,182,14,50) long=49.1 box_short=11.9 box_aspect=4.108 skeleton_width=4.00 skeleton_range=2.00-6.39 skeleton_aspect=12.264 circularity=0.154
+[MEASURE C249] Scratch width=0.519290 mm valid=True
+Scratch: area = 182.5 width_px = 4.0 width_mm = 0.5192902459818853 ratio = 12.263834953308105
+[CLEAN C250] type=Rejected area=1.0 perimeter=4.0 bbox=(451,176,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C250] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C250] REJECT Pit: area 1.0 < 32
+[CLEAN C251] type=Scratch area=84.5 perimeter=69.1 bbox=(322,175,7,31) long=30.3 box_short=5.3 box_aspect=5.667 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=7.563 circularity=0.223
+[MEASURE C251] Scratch width=0.261139 mm valid=True
+Scratch: area = 84.5 width_px = 4.0 width_mm = 0.2611394221674909 ratio = 7.563475608825684
+[CLEAN C252] type=Scratch area=87.0 perimeter=90.6 bbox=(413,171,11,36) long=35.1 box_short=8.9 box_aspect=3.932 skeleton_width=2.40 skeleton_range=2.00-4.39 skeleton_aspect=14.623 circularity=0.133
+[MEASURE C252] Scratch width=0.171685 mm valid=False
+[CLEAN C253] type=Rejected area=26.0 perimeter=20.5 bbox=(198,171,7,7) long=6.0 box_short=6.0 box_aspect=1.000 skeleton_width=4.20 skeleton_range=2.00-6.00 skeleton_aspect=1.430 circularity=0.779
+[CLEAN C253] REJECT Scratch: long_side 6.0 < 10; skeleton_aspect 1.430 < 2.5
+[CLEAN C253] REJECT Pit: area 26.0 < 32
+[CLEAN C254] type=Rejected area=10.5 perimeter=14.2 bbox=(480,166,4,6) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.650
+[CLEAN C254] REJECT Scratch: area 10.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C254] REJECT Pit: area 10.5 < 32
+[CLEAN C255] type=Rejected area=21.0 perimeter=17.7 bbox=(316,165,6,6) long=5.0 box_short=5.0 box_aspect=1.000 skeleton_width=4.20 skeleton_range=2.00-5.60 skeleton_aspect=1.191 circularity=0.846
+[CLEAN C255] REJECT Scratch: long_side 5.0 < 10; skeleton_aspect 1.191 < 2.5
+[CLEAN C255] REJECT Pit: area 21.0 < 32
+[CLEAN C256] type=Scratch area=47.5 perimeter=31.9 bbox=(225,164,6,14) long=13.0 box_short=5.0 box_aspect=2.600 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=2.959 circularity=0.587
+[MEASURE C256] Scratch width=0.269006 mm valid=True
+Scratch: area = 47.5 width_px = 4.393799781799316 width_mm = 0.269006169243686 ratio = 2.958714699256582
+[CLEAN C257] type=Rejected area=1.0 perimeter=4.0 bbox=(534,157,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C257] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C257] REJECT Pit: area 1.0 < 32
+[CLEAN C258] type=Rejected area=9.0 perimeter=20.0 bbox=(261,152,2,10) long=9.0 box_short=1.0 box_aspect=9.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=4.500 circularity=0.283
+[CLEAN C258] REJECT Scratch: area 9.0 < 20; long_side 9.0 < 10
+[CLEAN C258] REJECT Pit: area 9.0 < 32; circularity 0.283 < 0.55; aspect_ratio 9.000 > 5.0
+[CLEAN C259] type=Scratch area=128.5 perimeter=100.0 bbox=(299,151,11,40) long=39.0 box_short=9.0 box_aspect=4.361 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=9.762 circularity=0.161
+[MEASURE C259] Scratch width=0.359763 mm valid=True
+Scratch: area = 128.5 width_px = 4.0 width_mm = 0.3597627358497642 ratio = 9.762389183044434
+[CLEAN C260] type=Rejected area=12.5 perimeter=14.2 bbox=(212,151,4,6) long=5.0 box_short=3.0 box_aspect=1.667 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.774
+[CLEAN C260] REJECT Scratch: area 12.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C260] REJECT Pit: area 12.5 < 32
+[CLEAN C261] type=Rejected area=6.0 perimeter=10.8 bbox=(162,149,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=2.000 circularity=0.643
+[CLEAN C261] REJECT Scratch: area 6.0 < 20; long_side 4.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C261] REJECT Pit: area 6.0 < 32
+[CLEAN C262] type=Scratch area=28.5 perimeter=31.4 bbox=(573,148,4,14) long=13.0 box_short=3.0 box_aspect=4.333 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=3.250 circularity=0.363
+[MEASURE C262] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C263] type=Rejected area=14.5 perimeter=21.4 bbox=(451,145,4,9) long=8.0 box_short=3.0 box_aspect=2.667 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=4.000 circularity=0.397
+[CLEAN C263] REJECT Scratch: area 14.5 < 20; long_side 8.0 < 10
+[CLEAN C263] REJECT Pit: area 14.5 < 32; circularity 0.397 < 0.55
+[CLEAN C264] type=Rejected area=3.5 perimeter=7.4 bbox=(296,135,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C264] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C264] REJECT Pit: area 3.5 < 32
+[CLEAN C265] type=Rejected area=1.0 perimeter=4.0 bbox=(47,135,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C265] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C265] REJECT Pit: area 1.0 < 32
+[CLEAN C266] type=Rejected area=2.0 perimeter=6.0 bbox=(208,134,3,2) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C266] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C266] REJECT Pit: area 2.0 < 32
+[CLEAN C267] type=Rejected area=17.0 perimeter=15.7 bbox=(238,131,6,5) long=5.0 box_short=4.0 box_aspect=1.250 skeleton_width=3.40 skeleton_range=2.00-5.60 skeleton_aspect=1.471 circularity=0.871
+[CLEAN C267] REJECT Scratch: area 17.0 < 20; long_side 5.0 < 10; skeleton_aspect 1.471 < 2.5
+[CLEAN C267] REJECT Pit: area 17.0 < 32
+[CLEAN C268] type=Scratch area=232.0 perimeter=103.9 bbox=(18,131,17,43) long=44.5 box_short=9.9 box_aspect=4.488 skeleton_width=6.00 skeleton_range=2.00-8.00 skeleton_aspect=7.420 circularity=0.270
+[MEASURE C268] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C269] type=Rejected area=3.0 perimeter=16.8 bbox=(549,128,3,8) long=7.2 box_short=1.2 box_aspect=6.286 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=3.617 circularity=0.133
+[CLEAN C269] REJECT Scratch: area 3.0 < 20; long_side 7.2 < 10
+[CLEAN C269] REJECT Pit: area 3.0 < 32; circularity 0.133 < 0.55; aspect_ratio 6.286 > 5.0
+[CLEAN C270] type=Rejected area=9.5 perimeter=13.4 bbox=(451,128,3,6) long=5.0 box_short=2.0 box_aspect=2.500 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.786 circularity=0.663
+[CLEAN C270] REJECT Scratch: area 9.5 < 20; long_side 5.0 < 10; skeleton_aspect 1.786 < 2.5
+[CLEAN C270] REJECT Pit: area 9.5 < 32
+[CLEAN C271] type=Scratch area=67.0 perimeter=88.1 bbox=(189,128,8,39) long=38.0 box_short=6.2 box_aspect=6.090 skeleton_width=2.80 skeleton_range=2.00-6.00 skeleton_aspect=13.567 circularity=0.108
+[MEASURE C271] Scratch width=0.279755 mm valid=True
+Scratch: area = 67.0 width_px = 2.799999952316284 width_mm = 0.2797554464731461 ratio = 13.567277594417803
+[CLEAN C272] type=Scratch area=532.5 perimeter=194.5 bbox=(0,128,16,83) long=82.0 box_short=15.0 box_aspect=5.467 skeleton_width=7.19 skeleton_range=2.00-10.00 skeleton_aspect=11.399 circularity=0.177
+[MEASURE C272] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C273] type=Scratch area=37.0 perimeter=72.8 bbox=(582,127,3,36) long=35.0 box_short=2.0 box_aspect=17.500 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=17.500 circularity=0.088
+[MEASURE C273] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C274] type=Rejected area=5.0 perimeter=8.8 bbox=(307,126,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C274] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C274] REJECT Pit: area 5.0 < 32
+[CLEAN C275] type=Scratch area=98.0 perimeter=64.1 bbox=(321,124,8,28) long=27.3 box_short=5.7 box_aspect=4.768 skeleton_width=4.00 skeleton_range=2.00-6.00 skeleton_aspect=6.830 circularity=0.299
+[MEASURE C275] Scratch width=0.298421 mm valid=True
+Scratch: area = 98.0 width_px = 4.0 width_mm = 0.298421341349258 ratio = 6.830491542816162
+[CLEAN C276] type=Rejected area=7.5 perimeter=11.4 bbox=(231,120,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C276] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C276] REJECT Pit: area 7.5 < 32
+[CLEAN C277] type=Rejected area=8.0 perimeter=12.8 bbox=(9,117,4,5) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=2.000 circularity=0.611
+[CLEAN C277] REJECT Scratch: area 8.0 < 20; long_side 4.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C277] REJECT Pit: area 8.0 < 32
+[CLEAN C278] type=Rejected area=21.0 perimeter=19.7 bbox=(330,114,5,8) long=7.0 box_short=4.0 box_aspect=1.750 skeleton_width=4.00 skeleton_range=2.00-4.39 skeleton_aspect=1.750 circularity=0.683
+[CLEAN C278] REJECT Scratch: long_side 7.0 < 10; skeleton_aspect 1.750 < 2.5
+[CLEAN C278] REJECT Pit: area 21.0 < 32
+[CLEAN C279] type=Rejected area=2.0 perimeter=6.0 bbox=(211,113,3,2) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C279] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C279] REJECT Pit: area 2.0 < 32
+[CLEAN C280] type=Rejected area=7.5 perimeter=11.4 bbox=(450,110,3,5) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C280] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C280] REJECT Pit: area 7.5 < 32
+[CLEAN C281] type=Rejected area=3.0 perimeter=8.0 bbox=(583,109,2,4) long=3.0 box_short=1.0 box_aspect=3.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.500 circularity=0.589
+[CLEAN C281] REJECT Scratch: area 3.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C281] REJECT Pit: area 3.0 < 32
+[CLEAN C282] type=Scratch area=62.5 perimeter=119.1 bbox=(602,106,5,58) long=57.0 box_short=4.0 box_aspect=14.250 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=28.500 circularity=0.055
+[MEASURE C282] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C283] type=Scratch area=26.0 perimeter=35.7 bbox=(218,106,5,16) long=15.1 box_short=3.3 box_aspect=4.550 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=7.557 circularity=0.257
+[MEASURE C283] Scratch width=0.219089 mm valid=False
+[CLEAN C284] type=Rejected area=1.0 perimeter=4.0 bbox=(259,105,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C284] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C284] REJECT Pit: area 1.0 < 32
+[CLEAN C285] type=Rejected area=9.5 perimeter=12.2 bbox=(320,103,4,5) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=2.80 skeleton_range=2.00-4.00 skeleton_aspect=1.429 circularity=0.796
+[CLEAN C285] REJECT Scratch: area 9.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.429 < 2.5
+[CLEAN C285] REJECT Pit: area 9.5 < 32
+[CLEAN C286] type=Rejected area=6.0 perimeter=14.0 bbox=(187,103,2,7) long=6.0 box_short=1.0 box_aspect=6.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=3.000 circularity=0.385
+[CLEAN C286] REJECT Scratch: area 6.0 < 20; long_side 6.0 < 10
+[CLEAN C286] REJECT Pit: area 6.0 < 32; circularity 0.385 < 0.55; aspect_ratio 6.000 > 5.0
+[CLEAN C287] type=Rejected area=11.5 perimeter=13.4 bbox=(203,102,4,5) long=4.0 box_short=3.0 box_aspect=1.333 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=1.000 circularity=0.803
+[CLEAN C287] REJECT Scratch: area 11.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C287] REJECT Pit: area 11.5 < 32
+[CLEAN C288] type=Rejected area=5.5 perimeter=9.4 bbox=(208,97,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C288] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C288] REJECT Pit: area 5.5 < 32
+[CLEAN C289] type=Rejected area=13.0 perimeter=14.8 bbox=(325,92,5,5) long=4.0 box_short=4.0 box_aspect=1.000 skeleton_width=3.40 skeleton_range=2.00-4.00 skeleton_aspect=1.176 circularity=0.743
+[CLEAN C289] REJECT Scratch: area 13.0 < 20; long_side 4.0 < 10; skeleton_aspect 1.176 < 2.5
+[CLEAN C289] REJECT Pit: area 13.0 < 32
+[CLEAN C290] type=Rejected area=5.0 perimeter=8.8 bbox=(257,90,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C290] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C290] REJECT Pit: area 5.0 < 32
+[CLEAN C291] type=Rejected area=5.0 perimeter=8.8 bbox=(582,87,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C291] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C291] REJECT Pit: area 5.0 < 32
+[CLEAN C292] type=Rejected area=7.5 perimeter=11.4 bbox=(304,87,4,4) long=3.0 box_short=3.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.723
+[CLEAN C292] REJECT Scratch: area 7.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C292] REJECT Pit: area 7.5 < 32
+[CLEAN C293] type=Rejected area=26.0 perimeter=19.7 bbox=(290,87,7,6) long=6.0 box_short=5.0 box_aspect=1.200 skeleton_width=4.20 skeleton_range=2.00-6.00 skeleton_aspect=1.430 circularity=0.846
+[CLEAN C293] REJECT Scratch: long_side 6.0 < 10; skeleton_aspect 1.430 < 2.5
+[CLEAN C293] REJECT Pit: area 26.0 < 32
+[CLEAN C294] type=Rejected area=3.5 perimeter=7.4 bbox=(213,85,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C294] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C294] REJECT Pit: area 3.5 < 32
+[CLEAN C295] type=Rejected area=10.0 perimeter=22.0 bbox=(449,84,2,11) long=10.0 box_short=1.0 box_aspect=10.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=5.000 circularity=0.260
+[CLEAN C295] REJECT Scratch: area 10.0 < 20
+[CLEAN C295] REJECT Pit: area 10.0 < 32; circularity 0.260 < 0.55; aspect_ratio 10.000 > 5.0
+[CLEAN C296] type=Pit area=38.0 perimeter=25.3 bbox=(193,84,7,10) long=9.7 box_short=5.3 box_aspect=1.818 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=2.208 circularity=0.745
+[MEASURE C296] Pit diameter=0.494600 mm valid=True
+Pit: area = 38.0 diameter_mm = 0.4945998787879944 circularity = 0.745215566239071
+[CLEAN C297] type=Rejected area=7.0 perimeter=9.7 bbox=(206,77,4,4) long=2.8 box_short=2.8 box_aspect=1.000 skeleton_width=2.80 skeleton_range=2.80-2.80 skeleton_aspect=1.010 circularity=0.943
+[CLEAN C297] REJECT Scratch: area 7.0 < 20; long_side 2.8 < 10; skeleton_aspect 1.010 < 2.5
+[CLEAN C297] REJECT Pit: area 7.0 < 32
+[CLEAN C298] type=Scratch area=38.0 perimeter=67.7 bbox=(548,75,4,33) long=32.0 box_short=2.7 box_aspect=12.018 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=16.006 circularity=0.104
+[MEASURE C298] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C299] type=Rejected area=1.0 perimeter=4.0 bbox=(344,74,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C299] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C299] REJECT Pit: area 1.0 < 32
+[CLEAN C300] type=Rejected area=1.0 perimeter=4.0 bbox=(321,73,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C300] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C300] REJECT Pit: area 1.0 < 32
+[CLEAN C301] type=Scratch area=97.0 perimeter=84.8 bbox=(0,73,4,41) long=40.0 box_short=3.0 box_aspect=13.333 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=10.000 circularity=0.169
+[MEASURE C301] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C302] type=Rejected area=5.0 perimeter=8.8 bbox=(448,69,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C302] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C302] REJECT Pit: area 5.0 < 32
+[CLEAN C303] type=Rejected area=5.0 perimeter=8.8 bbox=(157,67,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C303] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C303] REJECT Pit: area 5.0 < 32
+[CLEAN C304] type=Pit area=35.5 perimeter=24.7 bbox=(256,56,9,8) long=8.9 box_short=5.4 box_aspect=1.667 skeleton_width=4.39 skeleton_range=2.00-6.39 skeleton_aspect=2.036 circularity=0.730
+[MEASURE C304] Pit diameter=0.447657 mm valid=True
+Pit: area = 35.5 diameter_mm = 0.4476574957370758 circularity = 0.7295632986259843
+[CLEAN C305] type=Rejected area=5.0 perimeter=8.8 bbox=(156,51,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.40 skeleton_range=2.00-2.80 skeleton_aspect=1.250 circularity=0.806
+[CLEAN C305] REJECT Scratch: area 5.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.250 < 2.5
+[CLEAN C305] REJECT Pit: area 5.0 < 32
+[CLEAN C306] type=Rejected area=5.5 perimeter=9.4 bbox=(331,49,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C306] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C306] REJECT Pit: area 5.5 < 32
+[CLEAN C307] type=Rejected area=24.5 perimeter=19.1 bbox=(207,44,7,6) long=6.0 box_short=5.0 box_aspect=1.200 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=1.366 circularity=0.846
+[CLEAN C307] REJECT Scratch: long_side 6.0 < 10; skeleton_aspect 1.366 < 2.5
+[CLEAN C307] REJECT Pit: area 24.5 < 32
+[CLEAN C308] type=Rejected area=16.0 perimeter=33.7 bbox=(36,44,6,14) long=13.1 box_short=3.6 box_aspect=3.667 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=6.562 circularity=0.177
+[CLEAN C308] REJECT Scratch: area 16.0 < 20
+[CLEAN C308] REJECT Pit: area 16.0 < 32; circularity 0.177 < 0.55
+[CLEAN C309] type=Rejected area=31.0 perimeter=25.3 bbox=(318,38,7,10) long=10.1 box_short=4.4 box_aspect=2.286 skeleton_width=4.20 skeleton_range=2.00-5.60 skeleton_aspect=2.411 circularity=0.608
+[CLEAN C309] REJECT Scratch: skeleton_aspect 2.411 < 2.5
+[CLEAN C309] REJECT Pit: area 31.0 < 32
+[CLEAN C310] type=Rejected area=3.5 perimeter=7.4 bbox=(305,37,3,3) long=2.0 box_short=2.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=1.000 circularity=0.800
+[CLEAN C310] REJECT Scratch: area 3.5 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C310] REJECT Pit: area 3.5 < 32
+[CLEAN C311] type=Rejected area=4.0 perimeter=10.0 bbox=(164,37,2,5) long=4.0 box_short=1.0 box_aspect=4.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=2.000 circularity=0.503
+[CLEAN C311] REJECT Scratch: area 4.0 < 20; long_side 4.0 < 10; skeleton_aspect 2.000 < 2.5
+[CLEAN C311] REJECT Pit: area 4.0 < 32; circularity 0.503 < 0.55
+[CLEAN C312] type=Rejected area=8.5 perimeter=34.2 bbox=(270,31,5,15) long=14.3 box_short=2.3 box_aspect=6.214 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=7.151 circularity=0.091
+[CLEAN C312] REJECT Scratch: area 8.5 < 20
+[CLEAN C312] REJECT Pit: area 8.5 < 32; circularity 0.091 < 0.55; aspect_ratio 6.214 > 5.0
+[CLEAN C313] type=Rejected area=2.0 perimeter=6.0 bbox=(445,29,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C313] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C313] REJECT Pit: area 2.0 < 32
+[CLEAN C314] type=Scratch area=178.0 perimeter=89.3 bbox=(187,28,7,42) long=41.0 box_short=6.0 box_aspect=6.839 skeleton_width=6.00 skeleton_range=2.00-6.39 skeleton_aspect=6.835 circularity=0.280
+[MEASURE C314] Scratch width=0.387276 mm valid=True
+Scratch: area = 178.0 width_px = 6.0 width_mm = 0.38727610906557514 ratio = 6.834927876790364
+[CLEAN C315] type=Scratch area=98.0 perimeter=116.3 bbox=(289,27,11,48) long=47.2 box_short=9.0 box_aspect=5.221 skeleton_width=2.00 skeleton_range=2.00-5.60 skeleton_aspect=23.605 circularity=0.091
+[MEASURE C315] Scratch width=0.359852 mm valid=True
+Scratch: area = 98.0 width_px = 2.0 width_mm = 0.35985177217865716 ratio = 23.605283737182617
+[CLEAN C316] type=Rejected area=26.5 perimeter=21.9 bbox=(152,24,6,9) long=8.2 box_short=4.9 box_aspect=1.700 skeleton_width=4.00 skeleton_range=2.00-4.39 skeleton_aspect=2.062 circularity=0.694
+[CLEAN C316] REJECT Scratch: long_side 8.2 < 10; skeleton_aspect 2.062 < 2.5
+[CLEAN C316] REJECT Pit: area 26.5 < 32
+[CLEAN C317] type=Scratch area=36.0 perimeter=151.7 bbox=(603,23,4,75) long=74.0 box_short=3.0 box_aspect=24.667 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=37.000 circularity=0.020
+[MEASURE C317] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C318] type=Rejected area=7.5 perimeter=11.4 bbox=(429,22,5,3) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C318] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C318] REJECT Pit: area 7.5 < 32
+[CLEAN C319] type=Rejected area=2.0 perimeter=6.0 bbox=(384,22,2,3) long=2.0 box_short=1.0 box_aspect=2.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.698
+[CLEAN C319] REJECT Scratch: area 2.0 < 20; long_side 2.0 < 10; skeleton_aspect 1.000 < 2.5
+[CLEAN C319] REJECT Pit: area 2.0 < 32
+[CLEAN C320] type=Rejected area=1.0 perimeter=4.0 bbox=(460,21,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C320] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C320] REJECT Pit: area 1.0 < 32
+[CLEAN C321] type=Scratch area=25.5 perimeter=29.1 bbox=(368,16,13,5) long=12.0 box_short=4.0 box_aspect=3.000 skeleton_width=2.00 skeleton_range=2.00-4.39 skeleton_aspect=6.000 circularity=0.379
+[MEASURE C321] Scratch width=0.260532 mm valid=True
+Scratch: area = 25.5 width_px = 2.0 width_mm = 0.26053210338217647 ratio = 6.0
+[CLEAN C322] type=Scratch area=49.0 perimeter=36.8 bbox=(280,15,5,16) long=15.0 box_short=4.0 box_aspect=3.750 skeleton_width=4.00 skeleton_range=2.00-5.60 skeleton_aspect=3.750 circularity=0.454
+[MEASURE C322] Scratch width=0.198980 mm valid=False
+[CLEAN C323] type=Scratch area=389.5 perimeter=232.0 bbox=(223,15,19,89) long=88.0 box_short=14.2 box_aspect=6.215 skeleton_width=4.00 skeleton_range=2.00-8.00 skeleton_aspect=21.996 circularity=0.091
+[MEASURE C323] Scratch width=0.368824 mm valid=True
+Scratch: area = 389.5 width_px = 4.0 width_mm = 0.36882366896075364 ratio = 21.99607276916504
+[CLEAN C324] type=Rejected area=13.5 perimeter=15.1 bbox=(45,15,6,5) long=5.8 box_short=3.3 box_aspect=1.750 skeleton_width=3.40 skeleton_range=2.00-4.39 skeleton_aspect=1.713 circularity=0.747
+[CLEAN C324] REJECT Scratch: area 13.5 < 20; long_side 5.8 < 10; skeleton_aspect 1.713 < 2.5
+[CLEAN C324] REJECT Pit: area 13.5 < 32
+[CLEAN C325] type=Rejected area=15.5 perimeter=17.1 bbox=(396,14,7,5) long=6.7 box_short=3.6 box_aspect=1.875 skeleton_width=2.80 skeleton_range=2.00-4.39 skeleton_aspect=2.396 circularity=0.668
+[CLEAN C325] REJECT Scratch: area 15.5 < 20; long_side 6.7 < 10; skeleton_aspect 2.396 < 2.5
+[CLEAN C325] REJECT Pit: area 15.5 < 32
+[CLEAN C326] type=Rejected area=16.0 perimeter=16.8 bbox=(308,13,4,7) long=6.0 box_short=3.0 box_aspect=2.000 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.710
+[CLEAN C326] REJECT Scratch: area 16.0 < 20; long_side 6.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C326] REJECT Pit: area 16.0 < 32
+[CLEAN C327] type=Rejected area=12.5 perimeter=17.4 bbox=(163,9,3,8) long=7.0 box_short=2.0 box_aspect=3.500 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=2.917 circularity=0.518
+[CLEAN C327] REJECT Scratch: area 12.5 < 20; long_side 7.0 < 10
+[CLEAN C327] REJECT Pit: area 12.5 < 32; circularity 0.518 < 0.55
+[CLEAN C328] type=Rejected area=3.0 perimeter=8.0 bbox=(75,7,2,4) long=3.0 box_short=1.0 box_aspect=3.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.500 circularity=0.589
+[CLEAN C328] REJECT Scratch: area 3.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C328] REJECT Pit: area 3.0 < 32
+[CLEAN C329] type=Rejected area=0.0 perimeter=4.0 bbox=(606,6,1,3) long=2.0 box_short=0.0 box_aspect=inf skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=1.000 circularity=0.000
+[CLEAN C329] REJECT Scratch: area 0.0 < 20; 旋转包围框存在零边长; skeleton_aspect 1.000 < 2.5
+[CLEAN C329] REJECT Pit: area 0.0 < 32; 旋转包围框存在零边长
+[CLEAN C330] type=Scratch area=143.0 perimeter=135.5 bbox=(544,0,13,58) long=56.7 box_short=7.7 box_aspect=7.348 skeleton_width=2.00 skeleton_range=2.00-8.00 skeleton_aspect=28.374 circularity=0.098
+[MEASURE C330] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C331] type=Rejected area=30.5 perimeter=22.2 bbox=(465,0,7,7) long=6.0 box_short=6.0 box_aspect=1.000 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=1.366 circularity=0.775
+[CLEAN C331] REJECT Scratch: long_side 6.0 < 10; skeleton_aspect 1.366 < 2.5
+[CLEAN C331] REJECT Pit: area 30.5 < 32
+[CLEAN C332] type=Pit area=58.0 perimeter=33.7 bbox=(356,0,11,9) long=10.0 box_short=8.0 box_aspect=1.250 skeleton_width=4.39 skeleton_range=2.00-8.00 skeleton_aspect=2.276 circularity=0.643
+[MEASURE C332] Pit diameter=0.642982 mm valid=True
+Pit: area = 58.0 diameter_mm = 0.6429823637008667 circularity = 0.643414458605782
+[CLEAN C333] type=Rejected area=22.5 perimeter=22.2 bbox=(331,0,10,4) long=9.0 box_short=3.0 box_aspect=3.000 skeleton_width=4.00 skeleton_range=2.00-4.00 skeleton_aspect=2.250 circularity=0.572
+[CLEAN C333] REJECT Scratch: long_side 9.0 < 10; skeleton_aspect 2.250 < 2.5
+[CLEAN C333] REJECT Pit: area 22.5 < 32
+[CLEAN C334] type=Rejected area=1.0 perimeter=4.0 bbox=(318,0,2,2) long=1.0 box_short=1.0 box_aspect=1.000 skeleton_width=2.00 skeleton_range=2.00-2.00 skeleton_aspect=0.500 circularity=0.785
+[CLEAN C334] REJECT Scratch: area 1.0 < 20; long_side 1.0 < 10; skeleton_aspect 0.500 < 2.5
+[CLEAN C334] REJECT Pit: area 1.0 < 32
+[CLEAN C335] type=Rejected area=7.5 perimeter=11.4 bbox=(220,0,5,3) long=4.0 box_short=2.0 box_aspect=2.000 skeleton_width=2.40 skeleton_range=2.00-4.00 skeleton_aspect=1.667 circularity=0.723
+[CLEAN C335] REJECT Scratch: area 7.5 < 20; long_side 4.0 < 10; skeleton_aspect 1.667 < 2.5
+[CLEAN C335] REJECT Pit: area 7.5 < 32
+[CLEAN C336] type=Scratch area=51.5 perimeter=47.9 bbox=(203,0,6,22) long=21.0 box_short=5.0 box_aspect=4.200 skeleton_width=2.80 skeleton_range=2.00-6.00 skeleton_aspect=7.500 circularity=0.282
+[MEASURE C336] Scratch width=0.326708 mm valid=True
+Scratch: area = 51.5 width_px = 2.799999952316284 width_mm = 0.3267076205564819 ratio = 7.500000127724241
+[CLEAN C337] type=Scratch area=43.0 perimeter=41.3 bbox=(185,0,7,18) long=17.0 box_short=6.0 box_aspect=2.833 skeleton_width=2.00 skeleton_range=2.00-5.60 skeleton_aspect=8.500 circularity=0.317
+[MEASURE C337] Scratch width=0.334726 mm valid=True
+Scratch: area = 43.0 width_px = 2.0 width_mm = 0.33472576651365754 ratio = 8.5
+[CLEAN C338] type=Scratch area=1432.5 perimeter=461.0 bbox=(168,0,22,197) long=196.2 box_short=13.9 box_aspect=14.081 skeleton_width=8.00 skeleton_range=2.00-14.00 skeleton_aspect=24.529 circularity=0.085
+[MEASURE C338] Scratch width=0.725239 mm valid=True
+Scratch: area = 1432.5 width_px = 8.0 width_mm = 0.7252389244612383 ratio = 24.529024124145508
+[CLEAN C339] type=Rejected area=6.0 perimeter=10.0 bbox=(160,0,3,4) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.754
+[CLEAN C339] REJECT Scratch: area 6.0 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C339] REJECT Pit: area 6.0 < 32
+[CLEAN C340] type=Pit area=33.0 perimeter=23.7 bbox=(52,0,9,6) long=8.0 box_short=5.0 box_aspect=1.600 skeleton_width=4.39 skeleton_range=2.00-6.00 skeleton_aspect=1.821 circularity=0.741
+[MEASURE C340] Pit 不可测: 凹点中心超出中央有效测量区域
+[CLEAN C341] type=Rejected area=5.5 perimeter=9.4 bbox=(43,0,4,3) long=3.0 box_short=2.0 box_aspect=1.500 skeleton_width=2.00 skeleton_range=2.00-4.00 skeleton_aspect=1.500 circularity=0.780
+[CLEAN C341] REJECT Scratch: area 5.5 < 20; long_side 3.0 < 10; skeleton_aspect 1.500 < 2.5
+[CLEAN C341] REJECT Pit: area 5.5 < 32
+[CLEAN C342] type=Scratch area=190.5 perimeter=79.6 bbox=(28,0,10,35) long=34.3 box_short=7.6 box_aspect=4.527 skeleton_width=7.19 skeleton_range=2.00-8.00 skeleton_aspect=4.765 circularity=0.378
+[MEASURE C342] Scratch 不可测: 划痕最大宽度点超出中央有效测量区域
+[CLEAN C343] type=Rejected area=7.5 perimeter=45.1 bbox=(15,0,5,21) long=20.2 box_short=2.2 box_aspect=9.190 skeleton_width=2.00 skeleton_range=2.00-2.80 skeleton_aspect=10.102 circularity=0.046
+[CLEAN C343] REJECT Scratch: area 7.5 < 20
+[CLEAN C343] REJECT Pit: area 7.5 < 32; circularity 0.046 < 0.55; aspect_ratio 9.190 > 5.0
+[CLEAN C344] type=Pit area=41.5 perimeter=27.1 bbox=(2,0,10,7) long=9.0 box_short=6.0 box_aspect=1.500 skeleton_width=4.20 skeleton_range=2.00-6.39 skeleton_aspect=2.144 circularity=0.712
+[MEASURE C344] Pit 不可测: 凹点中心超出中央有效测量区域
+[DEBUG] 阈值轮廓: 889 清理后轮廓: 345
+[DEBUG] 颜色: 红色=Scratch 绿色=Pit 黄色=Rejected
+[DEBUG] 调试图片目录: D:\Code\Py\钢轴项目\debug\_picture\run_20260929_194251_157
+[PIPELINE] 图片和日志保存目录: D:\Code\Py\钢轴项目\debug\_picture\run_20260929_194251_157
+[SUMMARY] Raw=889 Clean=345 形状拒绝=243 不可测=36 尺寸不足=11 Scratch=46 Pit=9
+[PIPELINE] 检测完成
