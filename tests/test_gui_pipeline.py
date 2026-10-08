@@ -127,11 +127,11 @@ class AsyncGuiTests(unittest.TestCase):
             error.assert_not_called()
         self.assertIn("[MEASURE C", self.window.output_state.logs)
         self.assertEqual(self.window.output_state.result_image.shape, image.shape)
-        self.assertEqual(len(self.window.output_state.intermediate_images), 7)
-        self.assertEqual(len(self.window.output_state.debug_images), 3)
+        self.assertEqual(len(self.window.output_state.intermediate_images), 9)
+        self.assertEqual(len(self.window.output_state.debug_images), 4)
         self.assertEqual(self.window.logs_view.toPlainText(), self.window.output_state.logs)
-        self.assertEqual(len(self.window.intermediate_page.image_views), 7)
-        self.assertEqual(len(self.window.debug_page.image_views), 3)
+        self.assertEqual(len(self.window.intermediate_page.image_views), 9)
+        self.assertEqual(len(self.window.debug_page.image_views), 4)
         np.testing.assert_array_equal(image, original)
 
     def test_close_during_run_defers_without_destroying_thread(self):

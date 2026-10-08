@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+#.\.venv\Scripts\python.exe -m gui
 from config import (
     DEBUG_ALL_CONTOURS,
     IMAGE_PATH,
@@ -8,14 +8,20 @@ from config import (
     PIT_COLOR,
     RESULT_PATH,
     SCRATCH_COLOR,
+    STAIN_COLOR,
     TEXT_COLOR,
+    pixel_scale,
 )
 from debug_utils import (
     finish_debug_run,
     record_clean_contour,
+    record_stain_contour,
     start_debug_run,
 )
-from detector import detect_pit, detect_scratch, measure_scratch_width
+from detector import (
+    detect_pit, detect_scratch, detect_stain, measure_scratch_width,
+    stain_rejection_reason, touches_detection_boundary,
+)
 from measurement import (
     DEFAULT_SHAFT_MASK_PATH,
     calibrate_shaft_mask,
@@ -25,7 +31,7 @@ from measurement import (
     print_calibration,
     prompt_diameter_mm,
 )
-from preprocess import preprocess_image
+from preprocess import create_detection_area, preprocess_image
 
 
 def read_image(path):
@@ -46,7 +52,7 @@ def write_image(path, image):
     encoded.tofile(str(path))
 
 
-def draw_detection(result, detection, measurement, roi_x, roi_y):
+def draw_detection(result, detection, measurement, roi_x, roi_y, label=None):
     defect_type = detection["type"]
     center_x, center_y = detection["center"]
     draw_x = int(center_x + roi_x)
@@ -60,12 +66,13 @@ def draw_detection(result, detection, measurement, roi_x, roi_y):
         print(
             "Scratch:",
             "area =", detection["area"],
-            "width_px =", detection["width_px"],
+            "width_px =", measurement.width_px,
+            "skeleton_median_px =", detection["width_px"],
             "width_mm =", measurement.width_mm,
             "ratio =", detection["aspect_ratio"],
         )
         size_mm = measurement.width_mm
-    else:
+    elif defect_type == "Pit":
         cv2.circle(
             result,
             (draw_x, draw_y),
@@ -80,17 +87,33 @@ def draw_detection(result, detection, measurement, roi_x, roi_y):
             "circularity =", detection["circularity"],
         )
         size_mm = measurement.diameter_mm
+    elif defect_type == "Stain":
+        outline = detection["contour"].copy()
+        outline[:, 0, 0] += roi_x
+        outline[:, 0, 1] += roi_y
+        cv2.drawContours(result, [outline], -1, STAIN_COLOR, 2)
+        size_mm = measurement.diameter_mm
+        print(
+            "Stain:", "area =", detection["area"],
+            "span_mm =", size_mm,
+        )
+    else:
+        raise ValueError(f"未知缺陷类型: {defect_type}")
 
-    text = f"{defect_type}: {size_mm:.2f} mm"
+    text = (
+        f"{label}: {size_mm:.2f} mm"
+        if defect_type == "Stain" and label is not None
+        else f"{defect_type}: {size_mm:.2f} mm"
+    )
 
     cv2.putText(
         result,
         text,
         (draw_x, draw_y - 10),
         cv2.FONT_HERSHEY_SIMPLEX,
-        0.6,
-        TEXT_COLOR,
-        2,
+        0.42 if defect_type == "Stain" else 0.6,
+        STAIN_COLOR if defect_type == "Stain" else TEXT_COLOR,
+        1 if defect_type == "Stain" else 2,
     )
 
 
@@ -122,11 +145,15 @@ def main():
     diameter_mm = prompt_diameter_mm()
     calibration = calibrate_shaft_mask(shaft_mask, diameter_mm)
     print_calibration(calibration)
+    scale = pixel_scale(calibration.diameter_px / diameter_mm)
+    detection_area = create_detection_area(shaft_mask.shape, calibration)
+    print(f"[SCALE] px/mm={scale.px_per_mm:.4f} min_width_px={scale.min_width_px:.2f}")
 
     crop = image[roi_y:roi_y + roi_h, roi_x:roi_x + roi_w]
-    processed = preprocess_image(crop)
+    processed = preprocess_image(crop, scale, detection_area)
     mask = processed["mask"]
     clean = processed["clean"]
+    stain_mask = processed["stain_mask"]
 
     raw_contours, _ = cv2.findContours(
         mask,
@@ -138,6 +165,9 @@ def main():
         cv2.RETR_EXTERNAL,
         cv2.CHAIN_APPROX_SIMPLE,
     )
+    stain_contours, _ = cv2.findContours(
+        stain_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE,
+    )
 
     debug_context = None
     if DEBUG_ALL_CONTOURS:
@@ -145,10 +175,19 @@ def main():
 
     for contour_id, contour in enumerate(contours):
         width_info = measure_scratch_width(contour)
-        detection = detect_scratch(contour, width_info=width_info)
+        border_rejected = touches_detection_boundary(contour, detection_area)
+        detection = None if border_rejected else detect_scratch(contour, scale, width_info=width_info)
 
-        if detection is None:
-            detection = detect_pit(contour)
+        if detection is None and not border_rejected:
+            detection = detect_pit(contour, scale)
+
+        physical_measurement = None
+        if detection is not None:
+            physical_measurement = (
+                measure_scratch_contour(contour, calibration)
+                if detection["type"] == "Scratch"
+                else measure_pit_contour(contour, calibration)
+            )
 
         if debug_context is not None:
             record_clean_contour(
@@ -157,23 +196,18 @@ def main():
                 contour,
                 detection,
                 width_info,
+                rejection_reason="触及 ROI 有效检测区边界，轮廓可能被截断" if border_rejected else None,
+                measurement=physical_measurement,
+                scale=scale,
             )
 
         if detection is None:
             continue
 
         if detection["type"] == "Scratch":
-            physical_measurement = measure_scratch_contour(
-                contour,
-                calibration,
-            )
             size_name = "width"
             size_mm = physical_measurement.width_mm
         else:
-            physical_measurement = measure_pit_contour(
-                contour,
-                calibration,
-            )
             size_name = "diameter"
             size_mm = physical_measurement.diameter_mm
 
@@ -201,11 +235,42 @@ def main():
             roi_y,
         )
 
+    for contour_id, contour in enumerate(stain_contours):
+        border_rejected = touches_detection_boundary(contour, detection_area)
+        detection = None if border_rejected else detect_stain(contour, stain_mask.shape, scale)
+        physical_measurement = (
+            measure_pit_contour(contour, calibration)
+            if detection is not None else None
+        )
+        if debug_context is not None:
+            record_stain_contour(
+                debug_context, contour_id, contour, detection, physical_measurement,
+                rejection_reason=(
+                    "触及 ROI 有效检测区边界，轮廓可能被截断"
+                    if border_rejected else stain_rejection_reason(contour, stain_mask.shape, scale)
+                ) if detection is None else None,
+            )
+        if detection is None:
+            continue
+        if not physical_measurement.measurable:
+            print(f"[MEASURE S{contour_id}] Stain 不可测: {physical_measurement.reason}")
+            continue
+        print(
+            f"[MEASURE S{contour_id}] Stain span={physical_measurement.diameter_mm:.6f} mm "
+            f"valid={physical_measurement.valid}"
+        )
+        if physical_measurement.valid:
+            draw_detection(
+                result, detection, physical_measurement, roi_x, roi_y,
+                label=f"S{contour_id}",
+            )
+
     if debug_context is not None:
         finish_debug_run(
             debug_context,
             len(raw_contours),
             len(contours),
+            len(stain_contours),
         )
 
     cv2.imshow("Gray", processed["gray"])

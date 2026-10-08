@@ -59,8 +59,11 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("[CLEAN C", result.logs)
         self.assertIn("[MEASURE C", result.logs)
         self.assertIn("[SUMMARY]", result.logs)
-        self.assertEqual(len(result.intermediate_images), 7)
-        self.assertEqual(len(result.debug_images), 3)
+        self.assertEqual(len(result.intermediate_images), 9)
+        self.assertIn("Detection Area", result.intermediate_images)
+        self.assertEqual(len(result.debug_images), 4)
+        self.assertIn("Stain Mask", result.intermediate_images)
+        self.assertIn("Stain Contours", result.debug_images)
         self.assertIsNone(result.run_directory)
 
     def test_invalid_inputs_rejected_before_any_output(self):
@@ -78,17 +81,17 @@ class PipelineTests(unittest.TestCase):
             self.assertNotEqual(first.run_directory, second.run_directory)
             self.assertEqual(second.debug_images, {})
             self.assertEqual((first.run_directory / "pipeline.log").read_text(encoding="utf-8"), first.logs)
-            for name in ("result.jpg", "mask.jpg", "shaft_mask.jpg", "debug_clean_contours.jpg", "04_enhanced.png"):
+            for name in ("result.jpg", "mask.jpg", "shaft_mask.jpg", "debug_clean_contours.jpg", "debug_stain_contours.jpg", "04_enhanced.png"):
                 self.assertTrue((first.run_directory / name).is_file())
             self.assertEqual(cli.read_image(first.run_directory / "result.jpg").shape, sample_image().shape)
 
     def test_other_thread_stdout_not_added_to_run_logs(self):
         original = pipeline.preprocess_image
-        def preprocessing(image):
+        def preprocessing(image, *args):
             other = threading.Thread(target=lambda: print("UNRELATED_OTHER_THREAD"))
             other.start()
             other.join()
-            return original(image)
+            return original(image, *args)
         with redirect_stdout(StringIO()) as terminal, patch.object(pipeline, "preprocess_image", side_effect=preprocessing):
             result = pipeline.run_pipeline(sample_image(), (40, 30, 400, 260), 30, save_outputs=False)
         self.assertIn("UNRELATED_OTHER_THREAD", terminal.getvalue())

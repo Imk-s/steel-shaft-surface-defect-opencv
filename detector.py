@@ -5,12 +5,13 @@ import numpy as np
 
 from config import (
     PIT_MAX_ASPECT_RATIO,
-    PIT_MIN_AREA,
     PIT_MIN_CIRCULARITY,
-    SCRATCH_MAX_WIDTH,
-    SCRATCH_MIN_AREA,
+    SCRATCH_MAX_MERGE_RATIO,
     SCRATCH_MIN_ASPECT_RATIO,
-    SCRATCH_MIN_LENGTH,
+    SCRATCH_MIN_BOX_ASPECT_RATIO,
+    STAIN_BOTTOM_MARGIN_RATIO,
+    STAIN_SIDE_MARGIN_RATIO,
+    STAIN_TOP_MARGIN_RATIO,
 )
 
 
@@ -71,8 +72,32 @@ def measure_scratch_width(contour, padding=2):
     }
 
 
-def detect_scratch(contour, width_info=None):
-    """检测划痕；宽度使用骨架距离估计，外接矩形仅估计长度。"""
+def touches_roi_bottom(contour, roi_height):
+    """触及 ROI 下边界的轮廓可能混入钢轴底缘或背景，不能完整测量。"""
+    _, y, _, height = cv2.boundingRect(contour)
+    return y + height >= roi_height
+
+
+def touches_detection_boundary(contour, detection_area):
+    """被有效区裁断的候选不能当作完整缺陷测量。"""
+    x, y, width, height = cv2.boundingRect(contour)
+    if cv2.countNonZero(detection_area[y:y + height, x:x + width]) == 0:
+        return True
+    return (
+        detection_area[y, x] == 0
+        or detection_area[y + height - 1, x + width - 1] == 0
+        or x == 0 or y == 0
+        or x + width == detection_area.shape[1]
+        or y + height == detection_area.shape[0]
+        or detection_area[y, x - 1] == 0
+        or detection_area[y - 1, x] == 0
+        or detection_area[y + height, x] == 0
+        or detection_area[y, x + width] == 0
+    )
+
+
+def detect_scratch(contour, scale, width_info=None):
+    """检测划痕；骨架测宽，外接矩形只校验整体是否细长。"""
     area = cv2.contourArea(contour)
     rect = cv2.minAreaRect(contour)
     (cx, cy), (rw, rh), _ = rect
@@ -87,14 +112,20 @@ def detect_scratch(contour, width_info=None):
         return None
 
     long_side = max(rw, rh)
+    short_side = min(rw, rh)
     skeleton_width = width_info["width"]
     aspect_ratio = long_side / skeleton_width
+    box_aspect_ratio = long_side / short_side
+    merge_ratio = area / (long_side * skeleton_width)
 
     if not (
-        area >= SCRATCH_MIN_AREA
-        and long_side >= SCRATCH_MIN_LENGTH
-        and skeleton_width <= SCRATCH_MAX_WIDTH
+        area >= scale.scratch_min_area_px
+        and long_side >= scale.scratch_min_length_px
+        and skeleton_width <= scale.scratch_max_width_px
+        and width_info["max_width"] <= scale.scratch_max_width_px
         and aspect_ratio >= SCRATCH_MIN_ASPECT_RATIO
+        and box_aspect_ratio >= SCRATCH_MIN_BOX_ASPECT_RATIO
+        and merge_ratio <= SCRATCH_MAX_MERGE_RATIO
     ):
         return None
 
@@ -112,7 +143,7 @@ def detect_scratch(contour, width_info=None):
     }
 
 
-def detect_pit(contour):
+def detect_pit(contour, scale):
     """检测凹点，命中时返回凹点参数。"""
     area = cv2.contourArea(contour)
     perimeter = cv2.arcLength(contour, True)
@@ -130,7 +161,7 @@ def detect_pit(contour):
     circularity = 4 * math.pi * area / (perimeter * perimeter)
 
     if not (
-        area >= PIT_MIN_AREA
+        area >= scale.pit_min_area_px
         and circularity >= PIT_MIN_CIRCULARITY
         and aspect_ratio <= PIT_MAX_ASPECT_RATIO
     ):
@@ -144,4 +175,35 @@ def detect_pit(contour):
         "radius": radius,
         "area": area,
         "circularity": circularity,
+    }
+
+
+def stain_rejection_reason(contour, image_shape, scale):
+    """面积过小或触及候选区域边界时，无法可靠确定片状缺陷范围。"""
+    height, width = image_shape[:2]
+    area = cv2.contourArea(contour)
+    minimum = scale.stain_min_area_px
+    if area < minimum:
+        return f"area {area:.1f} < {minimum:.1f}"
+
+    x, y, box_width, box_height = cv2.boundingRect(contour)
+    top = int(height * STAIN_TOP_MARGIN_RATIO)
+    bottom = int(height * (1 - STAIN_BOTTOM_MARGIN_RATIO))
+    side = int(width * STAIN_SIDE_MARGIN_RATIO)
+    if y <= top or y + box_height >= bottom or x <= side or x + box_width >= width - side:
+        return "触及污渍检测区边界，轮廓可能被截断或混入钢轴边缘/背景"
+    return None
+
+
+def detect_stain(contour, image_shape, scale):
+    """片状锈斑/污渍不套用划痕细长或凹点圆度条件。"""
+    if stain_rejection_reason(contour, image_shape, scale) is not None:
+        return None
+    (center_x, center_y), radius = cv2.minEnclosingCircle(contour)
+    return {
+        "type": "Stain",
+        "center": (center_x, center_y),
+        "contour": contour,
+        "area": cv2.contourArea(contour),
+        "size_px": 2 * radius,
     }

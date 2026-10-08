@@ -12,8 +12,7 @@ from config import (
     MEASURABLE_RADIUS_RATIO,
     MIN_DEFECT_SIZE_MM,
     PROJECT_ROOT,
-    SCRATCH_BOUNDARY_STEP_PX,
-    SCRATCH_PCA_RADIUS_PX,
+    SCRATCH_PCA_RADIUS_MM,
 )
 
 
@@ -417,7 +416,7 @@ def _maximum_distance_skeleton_point(skeleton, distance_map):
 def _estimate_skeleton_direction(
     skeleton,
     point_xy,
-    neighborhood_radius=SCRATCH_PCA_RADIUS_PX,
+    neighborhood_radius,
 ):
     points_yx = np.argwhere(skeleton > 0)
     points_xy = points_yx[:, ::-1].astype(np.float64)
@@ -437,39 +436,6 @@ def _estimate_skeleton_direction(
     tangent /= np.linalg.norm(tangent)
     normal = np.array([-tangent[1], tangent[0]], dtype=np.float64)
     return tangent, normal
-
-
-def _trace_mask_boundary(
-    mask,
-    point_xy,
-    direction_xy,
-    step_px=SCRATCH_BOUNDARY_STEP_PX,
-):
-    """从骨架点沿指定方向步进，返回前景到背景的中间边界点。"""
-    if step_px <= 0:
-        raise ValueError("step_px 必须大于 0")
-
-    direction = np.asarray(direction_xy, dtype=np.float64)
-    direction /= np.linalg.norm(direction)
-    max_distance = float(np.hypot(mask.shape[0], mask.shape[1]) + 2)
-    previous = np.asarray(point_xy, dtype=np.float64)
-
-    for distance in np.arange(step_px, max_distance, step_px):
-        current = np.asarray(point_xy, dtype=np.float64) + direction * distance
-        pixel_x = int(round(current[0]))
-        pixel_y = int(round(current[1]))
-        inside = (
-            0 <= pixel_x < mask.shape[1]
-            and 0 <= pixel_y < mask.shape[0]
-            and mask[pixel_y, pixel_x] > 0
-        )
-
-        if not inside:
-            return (previous + current) / 2.0
-
-        previous = current
-
-    raise ValueError("沿法线未找到划痕边界")
 
 
 def measure_scratch_contour(
@@ -495,16 +461,7 @@ def measure_scratch_contour(
         tangent, normal = _estimate_skeleton_direction(
             skeleton,
             max_point_local,
-        )
-        boundary_a_local = _trace_mask_boundary(
-            mask,
-            max_point_local,
-            normal,
-        )
-        boundary_b_local = _trace_mask_boundary(
-            mask,
-            max_point_local,
-            -normal,
+            neighborhood_radius=SCRATCH_PCA_RADIUS_MM / calibration.mm_per_px,
         )
     except ValueError as error:
         return ScratchMeasurement(
@@ -514,8 +471,10 @@ def measure_scratch_contour(
 
     offset = np.array([offset_x, offset_y], dtype=np.float64)
     max_point = max_point_local + offset
-    boundary_a = boundary_a_local + offset
-    boundary_b = boundary_b_local + offset
+    # 最宽骨架点的内切圆半径就是中心线到边缘的距离。沿局部法线
+    # 取 2*r 的宽度，不再让追边界误穿过分叉/粘连纹理。
+    boundary_a = max_point - max_radius * normal
+    boundary_b = max_point + max_radius * normal
 
     if not is_x_measurable(max_point[0], calibration):
         return ScratchMeasurement(
